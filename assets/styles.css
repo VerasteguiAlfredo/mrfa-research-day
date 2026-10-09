@@ -175,6 +175,7 @@ dialog::backdrop { background: rgba(7,26,54,.65); }
 .foot-logo { color: var(--ink); flex: none; }
 .foot p { margin: .15rem 0; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .foot-logo { filter: invert(1); } }
+:root[data-theme="dark"] .foot-logo { filter: invert(1); }
 .initials img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 25%; }
 .initials.sm { width: 2rem; height: 2rem; font-size: .75rem; }
 .who-row { display: flex; align-items: center; gap: .5rem; }
@@ -196,6 +197,7 @@ dialog::backdrop { background: rgba(7,26,54,.65); }
 .talks > li.is-full:last-child { border-radius: 0 0 11px 11px; }
 .talks > li.is-full .talk-title { color: var(--navy); }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .talks > li.is-full .talk-title { color: var(--ink); } }
+:root[data-theme="dark"] .talks > li.is-full .talk-title { color: var(--ink); }
 .talk.live { background: var(--sunset-soft); }
 .speaker.is-full { background: var(--full-bg); border-color: color-mix(in srgb, var(--full-bar) 35%, var(--line)); box-shadow: inset 4px 0 0 var(--full-bar); }
 .speaker.is-full .initials { box-shadow: 0 0 0 2px var(--full-bar); }
@@ -207,3 +209,12 @@ dialog::backdrop { background: rgba(7,26,54,.65); }
 .qa-card .btn { margin-top: .75rem; }
 .qr svg { display: block; width: 112px; height: 112px; }
 .qr-large svg { width: min(72vw, 280px); height: auto; aspect-ratio: 1; }
+
+/* Theme button */
+:root[data-theme="light"] { color-scheme: light; }
+.theme-btn { margin-left: auto; align-self: center; flex: none; display: inline-flex; align-items: center; gap: .35rem; font: 600 .85rem var(--body); color: var(--muted); background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: .4rem .7rem; min-height: 36px; cursor: pointer; }
+.theme-btn .ic { width: 1rem; height: 1rem; display: none; }
+.theme-btn[data-mode="auto"] .ic-auto, .theme-btn[data-mode="light"] .ic-light, .theme-btn[data-mode="dark"] .ic-dark { display: block; }
+.abs-right { display: flex; align-items: center; gap: .75rem; }
+.abs-bar .theme-btn { background: transparent; color: #fff; border-color: rgba(255,255,255,.4); }
+@media (max-width: 30rem) { .abs-bar .theme-label { display: none; } .abs-bar .theme-btn { padding: .45rem; } .abs-back { white-space: nowrap; } }

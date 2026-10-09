@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Familjen+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="preload" as="image" href="assets/img/campus-facade-sm.jpg" media="(max-width: 700px)">
   <link rel="preload" as="image" href="assets/img/campus-facade.jpg" media="(min-width: 701px)">
+  <script src="assets/theme.js"></script>
   <link rel="stylesheet" href="assets/styles.css">
   <link rel="icon" href="assets/img/mayo-clinic-logo.svg" type="image/svg+xml">
 </head>
@@ -45,6 +46,12 @@
       <a href="#speakers">Speakers</a>
       <a href="#posters" id="tab-posters" hidden>Posters</a>
       <a href="#info">Info</a>
+      <button type="button" class="theme-btn" id="theme-btn" aria-label="Theme">
+        <svg class="ic ic-auto" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="7" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M10 3a7 7 0 0 1 0 14z" fill="currentColor"/></svg>
+        <svg class="ic ic-light" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="3.6" fill="currentColor"/><g stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M10 1.8v2.2M10 16v2.2M1.8 10h2.2M16 10h2.2M4.2 4.2l1.6 1.6M14.2 14.2l1.6 1.6M4.2 15.8l1.6-1.6M14.2 5.8l1.6-1.6"/></g></svg>
+        <svg class="ic ic-dark" viewBox="0 0 20 20" aria-hidden="true"><path d="M15.5 12.6A6.5 6.5 0 0 1 7.4 4.5a6.5 6.5 0 1 0 8.1 8.1z" fill="currentColor"/></svg>
+        <span class="theme-label">Auto</span>
+      </button>
     </div>
   </nav>
 
