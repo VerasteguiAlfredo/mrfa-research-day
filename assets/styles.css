@@ -103,7 +103,7 @@ a { color: var(--blue); }
 
 .talks { list-style: none; margin: 0; padding: 0; background: var(--surface); border: 1px solid var(--line); border-top: 0; border-radius: 0 0 12px 12px; }
 .talks > li + li { border-top: 1px solid var(--line); }
-.talk > summary { list-style: none; cursor: pointer; display: grid; grid-template-columns: 2.4rem 1fr 1.2rem; gap: .75rem; padding: .9rem 1rem; align-items: start; }
+.talk > summary { list-style: none; cursor: pointer; display: grid; grid-template-columns: 4rem 1fr 1.2rem; gap: .75rem; padding: .9rem 1rem; align-items: start; }
 .talk > summary::-webkit-details-marker { display: none; }
 .talk > summary:hover .talk-title { color: var(--blue); }
 .ord { font-family: var(--display); font-weight: 700; font-size: 1.15rem; color: var(--blue); font-variant-numeric: tabular-nums; line-height: 1.3; }
@@ -117,7 +117,7 @@ a { color: var(--blue); }
 .talk[open] .chev { transform: rotate(180deg); }
 @media (prefers-reduced-motion: reduce) { .chev { transition: none; } }
 .talk.live { background: var(--sunset-soft); }
-.talk-detail { padding: 0 1rem 1.1rem 4.15rem; }
+.talk-detail { padding: 0 1rem 1.1rem 5.75rem; }
 .talk-detail dl { margin: 0 0 .9rem; display: grid; grid-template-columns: auto 1fr; gap: .3rem .9rem; font-size: .95rem; }
 .talk-detail dt { color: var(--muted); }
 .talk-detail dd { margin: 0; }
@@ -178,3 +178,12 @@ dialog::backdrop { background: rgba(7,26,54,.65); }
 .initials img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 25%; }
 .initials.sm { width: 2rem; height: 2rem; font-size: .75rem; }
 .who-row { display: flex; align-items: center; gap: .5rem; }
+.tagline { margin: .75rem 0 0; font-family: var(--display); font-size: 1.15rem; color: #d3e3f7; text-shadow: 0 1px 8px rgba(7,26,54,.6); }
+.tagline[hidden] { display: none; }
+.ord small { white-space: nowrap; }
+.slot.break, .slot.plenary, .slot.posters { margin-bottom: .75rem; }
+.slot.session { margin-top: 1.5rem; margin-bottom: 2rem; }
+.slot.break .slot-head, .slot.plenary .slot-head, .slot.posters .slot-head { flex-wrap: nowrap; padding: .7rem 1rem; align-items: center; }
+.slot.break .slot-title, .slot.plenary .slot-title, .slot.posters .slot-title { font-size: 1.05rem; font-weight: 600; }
+.slot.posters .slot-head { background: color-mix(in srgb, var(--sunset) 22%, var(--surface)); }
+.slot.now.break .slot-head, .slot.now.plenary .slot-head, .slot.now.posters .slot-head { box-shadow: inset 4px 0 0 var(--sunset); }

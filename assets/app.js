@@ -52,6 +52,7 @@
     const place = [e.location, e.room].filter(Boolean).join(", ");
     $("event-place").innerHTML = e.mapUrl ? `<a href="${esc(e.mapUrl)}" style="color:inherit">${esc(place)}</a>` : esc(place);
     $("event-intro").textContent = e.intro || "";
+    if (e.tagline) { $("tagline").textContent = e.tagline; $("tagline").hidden = false; }
     if (e.notice) { $("event-notice").textContent = e.notice; $("event-notice").hidden = false; }
     if ((data.posters || []).length) { $("posters").hidden = false; $("tab-posters").hidden = false; }
     $("foot-host").textContent = `${e.name} ${e.edition || ""}, ${e.host || ""}`.trim();
@@ -111,6 +112,7 @@
       </summary>
       <div class="talk-detail">
         <dl>
+          ${t.minutes ? `<dt>Time</dt><dd>${fmt(t.start)}, ${esc(t.minutes)} minutes</dd>` : ""}
           <dt>Presenter</dt><dd class="who-row">${avatar(t, "sm")}${esc(t.presenter)}</dd>
           ${t.pi ? `<dt>PI / lab</dt><dd>${esc(t.pi)}</dd>` : ""}
           ${t.coauthors ? `<dt>Co-authors</dt><dd>${esc(t.coauthors)}</dd>` : ""}
