@@ -44,7 +44,7 @@
 
   function render() {
     const e = data.event;
-    document.title = `${e.name} ${e.edition || ""}`.trim();
+    document.title = e.fullName || `${e.name} ${e.edition || ""}`.trim();
     $("host").textContent = e.host || "";
     $("event-name").innerHTML = `${esc(e.name)}${e.edition ? ` <span class="yr">${esc(e.edition)}</span>` : ""}`;
     $("event-date").textContent = e.dateLabel || e.date;
@@ -62,15 +62,15 @@
     $("run").innerHTML = (data.agenda || []).map((s, i) => {
       const talks = (s.talks || []).map((id) => talksById[id]).filter(Boolean);
       const when = s.start ? `${fmt(s.start)}${s.end ? ` – ${fmt(s.end)}` : ""}` : esc(s.timeLabel || "");
-      const meta = [s.moderator ? `Moderator: ${esc(s.moderator)}` : "", esc(s.who || "")].filter(Boolean).join("<br>");
+      const meta = [s.moderator ? `<span class="who-row">${s.moderatorPhoto ? avatar({ presenter: s.moderator, photo: s.moderatorPhoto }, "sm") : ""}Moderator: ${esc(s.moderator)}</span>` : "", esc(s.who || "")].filter(Boolean).join("<br>");
       const counts = talks.length ? `${talks.filter((t) => /full/i.test(t.format)).length} full talks, ${talks.filter((t) => /rapid/i.test(t.format)).length} rapid-fire` : "";
       return `<li class="slot ${esc(s.type || "")}" data-start="${esc(s.start || "")}" data-end="${esc(s.end || "")}">
         <div class="slot-head">
           <span class="slot-title">${esc(s.title)}<span class="now-label" hidden>Now</span></span>
           <span class="slot-when">${when}</span>
+          ${meta ? `<div class="slot-meta">${meta}</div>` : ""}
         </div>
         ${talks.length ? `<ul class="talks" aria-label="${esc(s.title)}: ${counts}">${talks.map(talkHTML).join("")}</ul>` : ""}
-        ${meta ? `<div class="slot-meta">${meta}</div>` : ""}
       </li>`;
     }).join("");
 

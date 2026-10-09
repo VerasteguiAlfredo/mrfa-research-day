@@ -1,19 +1,20 @@
 {
   "event": {
-    "name": "Dean of Research Retreat",
+    "name": "MRFA Research Day",
     "edition": "2026",
-    "host": "Mayo Clinic Research Fellows Association",
-    "date": "",
-    "dateLabel": "Date to be announced",
-    "timeLabel": "Times to be announced",
+    "host": "Mayo Clinic Research Fellow Association",
+    "date": "2026-10-29",
+    "dateLabel": "Thursday, October 29, 2026",
+    "timeLabel": "8:00 AM – 3:00 PM",
     "location": "Mayo Clinic in Florida",
     "room": "",
     "campus": "Jacksonville, Florida",
     "mapUrl": "",
     "contactEmail": "",
-    "intro": "Oral presentations from research fellows across Mayo Clinic in Florida. Two sessions, each with four full talks and seven rapid-fire talks. Tap any talk to see the authors and send a question to the moderator.",
+    "intro": "A day of research from fellows across Mayo Clinic in Florida. Two sessions, each with four full talks and seven rapid-fire talks. Tap any talk to see the authors and send a question to the moderator.",
     "defaultQuestionUrl": "",
-    "notice": ""
+    "notice": "",
+    "fullName": "Mayo Clinic Research Fellow Association (MRFA) Research Day"
   },
   "agenda": [
     {
@@ -35,7 +36,8 @@
         "s1-09",
         "s1-10",
         "s1-11"
-      ]
+      ],
+      "moderatorPhoto": "assets/img/speakers/castaneda-regina.jpg"
     },
     {
       "start": "",
@@ -56,7 +58,8 @@
         "s2-09",
         "s2-10",
         "s2-11"
-      ]
+      ],
+      "moderatorPhoto": "assets/img/speakers/castaneda-regina.jpg"
     }
   ],
   "talks": [

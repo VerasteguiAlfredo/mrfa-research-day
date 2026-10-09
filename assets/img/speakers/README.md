@@ -1,6 +1,7 @@
 # Speaker portraits
 
 Upload one photo per presenter with exactly these file names (lowercase, .jpg).
+Any size is fine: ask Claude to crop and compress new uploads to 400×400.
 A missing photo just shows the presenter's initials.
 
 victor-bodart-santos.jpg, jie-hu.jpg, wenhui-qiao.jpg, diego-sanchez-calderin.jpg,
