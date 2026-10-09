@@ -1,0 +1,70 @@
+{
+  "event": {
+    "name": "MRFA Research Day",
+    "edition": "2026",
+    "host": "Mayo Clinic Research Fellows Association",
+    "date": "2026-11-20",
+    "dateLabel": "Friday, November 20, 2026",
+    "timeLabel": "8:00 AM – 3:30 PM",
+    "location": "Venue to be confirmed",
+    "room": "Room to be confirmed",
+    "campus": "Jacksonville, Florida",
+    "mapUrl": "",
+    "contactEmail": "",
+    "intro": "A day of short talks and posters from research fellows across basic, translational, and clinical science. Tap any talk to see who is presenting and to send a question to the moderator.",
+    "defaultQuestionUrl": "",
+    "notice": "Draft: the program below uses placeholder names until the committee confirms speakers."
+  },
+
+  "agenda": [
+    { "start": "08:00", "end": "08:30", "type": "break", "title": "Check-in, poster setup and breakfast" },
+    { "start": "08:30", "end": "08:45", "type": "plenary", "title": "Welcome and opening remarks", "who": "MRFA leadership" },
+
+    { "start": "08:45", "end": "10:00", "type": "session", "title": "Session 1: Basic sciences", "moderator": "Moderator to be confirmed",
+      "talks": ["b1", "b2", "b3"] },
+
+    { "start": "10:00", "end": "10:20", "type": "break", "title": "Coffee break" },
+
+    { "start": "10:20", "end": "11:35", "type": "session", "title": "Session 2: Translational sciences", "moderator": "Moderator to be confirmed",
+      "talks": ["t1", "t2", "t3"] },
+
+    { "start": "11:35", "end": "12:45", "type": "posters", "title": "Lunch and poster session", "who": "Judges visit posters during this block" },
+
+    { "start": "12:45", "end": "13:15", "type": "plenary", "title": "Keynote", "who": "Speaker to be confirmed" },
+
+    { "start": "13:15", "end": "14:45", "type": "session", "title": "Session 3: Clinical sciences", "moderator": "Moderator to be confirmed",
+      "talks": ["c1", "c2", "c3", "c4"] },
+
+    { "start": "14:45", "end": "15:30", "type": "plenary", "title": "Awards and closing remarks", "who": "MRFA leadership" }
+  ],
+
+  "talks": [
+    { "id": "b1", "start": "08:45", "presenter": "Presenter name", "lab": "PI / lab", "department": "Department", "category": "Basic Sciences", "title": "Talk title to be confirmed", "questionUrl": "" },
+    { "id": "b2", "start": "09:10", "presenter": "Presenter name", "lab": "PI / lab", "department": "Department", "category": "Basic Sciences", "title": "Talk title to be confirmed", "questionUrl": "" },
+    { "id": "b3", "start": "09:35", "presenter": "Presenter name", "lab": "PI / lab", "department": "Department", "category": "Basic Sciences", "title": "Talk title to be confirmed", "questionUrl": "" },
+
+    { "id": "t1", "start": "10:20", "presenter": "Presenter name", "lab": "PI / lab", "department": "Department", "category": "Translational Sciences", "title": "Talk title to be confirmed", "questionUrl": "" },
+    { "id": "t2", "start": "10:45", "presenter": "Presenter name", "lab": "PI / lab", "department": "Department", "category": "Translational Sciences", "title": "Talk title to be confirmed", "questionUrl": "" },
+    { "id": "t3", "start": "11:10", "presenter": "Presenter name", "lab": "PI / lab", "department": "Department", "category": "Translational Sciences", "title": "Talk title to be confirmed", "questionUrl": "" },
+
+    { "id": "c1", "start": "13:15", "presenter": "Presenter name", "lab": "PI / lab", "department": "Department", "category": "Clinical Sciences", "title": "Talk title to be confirmed", "questionUrl": "" },
+    { "id": "c2", "start": "13:37", "presenter": "Presenter name", "lab": "PI / lab", "department": "Department", "category": "Clinical Sciences", "title": "Talk title to be confirmed", "questionUrl": "" },
+    { "id": "c3", "start": "13:59", "presenter": "Presenter name", "lab": "PI / lab", "department": "Department", "category": "Clinical Sciences", "title": "Talk title to be confirmed", "questionUrl": "" },
+    { "id": "c4", "start": "14:21", "presenter": "Presenter name", "lab": "PI / lab", "department": "Department", "category": "Clinical Sciences", "title": "Talk title to be confirmed", "questionUrl": "" }
+  ],
+
+  "posters": [
+    { "number": "P1", "presenter": "Presenter name", "category": "Basic Sciences", "title": "Poster title to be confirmed" },
+    { "number": "P2", "presenter": "Presenter name", "category": "Translational Sciences", "title": "Poster title to be confirmed" },
+    { "number": "P3", "presenter": "Presenter name", "category": "Clinical Sciences", "title": "Poster title to be confirmed" }
+  ],
+
+  "judges": [],
+
+  "info": [
+    { "q": "How do I ask a question?", "a": "Open the talk in the program and tap “Ask a question.” The moderator reads questions from the form during Q&A." },
+    { "q": "Parking", "a": "Parking details will be posted here." },
+    { "q": "Poster setup", "a": "Posters go up during check-in, 8:00–8:30 AM. Your poster number is listed in the Posters section." },
+    { "q": "Contact", "a": "Questions about the day? Contact the MRFA organizing committee." }
+  ]
+}

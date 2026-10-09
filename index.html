@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>MRFA Research Day</title>
+  <meta name="description" content="Program, speakers, posters and live Q&A for MRFA Research Day.">
+  <meta name="theme-color" content="#0f3a38">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Familjen+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230f3a38'/%3E%3Ccircle cx='16' cy='16' r='6' fill='%23f2c14e'/%3E%3C/svg%3E">
+</head>
+<body>
+  <a class="skip" href="#program">Skip to the program</a>
+
+  <header class="masthead">
+    <div class="wrap">
+      <p class="host" id="host"></p>
+      <h1 id="event-name">MRFA Research Day</h1>
+      <dl class="facts">
+        <div><dt>Date</dt><dd id="event-date">—</dd></div>
+        <div><dt>Time</dt><dd id="event-time">—</dd></div>
+        <div><dt>Where</dt><dd id="event-place">—</dd></div>
+      </dl>
+      <p class="intro" id="event-intro"></p>
+      <p class="notice" id="event-notice" hidden></p>
+    </div>
+  </header>
+
+  <aside class="nowbar" id="nowbar" hidden aria-live="polite">
+    <div class="wrap nowbar-inner">
+      <div class="now-slot"><span class="now-tag">Now</span><span id="now-text"></span></div>
+      <div class="next-slot"><span class="next-tag">Next</span><span id="next-text"></span></div>
+    </div>
+  </aside>
+
+  <nav class="tabs" aria-label="Sections">
+    <div class="wrap tabs-inner">
+      <a href="#program">Program</a>
+      <a href="#speakers">Speakers</a>
+      <a href="#posters">Posters</a>
+      <a href="#info">Info</a>
+    </div>
+  </nav>
+
+  <main>
+    <section id="program" class="wrap block" aria-labelledby="h-program">
+      <h2 id="h-program">Program</h2>
+      <ol class="run" id="run"></ol>
+    </section>
+
+    <section id="speakers" class="wrap block" aria-labelledby="h-speakers">
+      <h2 id="h-speakers">Speakers</h2>
+      <div class="filters" id="talk-filters" role="group" aria-label="Filter by category"></div>
+      <ul class="speakers" id="speaker-list"></ul>
+    </section>
+
+    <section id="posters" class="wrap block" aria-labelledby="h-posters">
+      <h2 id="h-posters">Posters</h2>
+      <label class="search">
+        <span class="sr">Search posters</span>
+        <input type="search" id="poster-search" placeholder="Search by name, title or number" autocomplete="off">
+      </label>
+      <ul class="posters" id="poster-list"></ul>
+      <p class="empty" id="poster-empty" hidden>No posters match that search. Try a last name or a poster number like P12.</p>
+    </section>
+
+    <section id="info" class="wrap block" aria-labelledby="h-info">
+      <h2 id="h-info">Info</h2>
+      <div id="judges-wrap" hidden>
+        <h3>Judges</h3>
+        <ul class="judges" id="judge-list"></ul>
+      </div>
+      <dl class="faq" id="faq"></dl>
+      <div class="share">
+        <div class="share-text">
+          <h3>Share this page</h3>
+          <p>Point a phone camera at the code to open the program.</p>
+        </div>
+        <div class="qr" id="site-qr" aria-label="QR code for this page"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap foot">
+    <p id="foot-host"></p>
+    <p class="updated" id="updated"></p>
+  </footer>
+
+  <dialog id="qr-dialog" aria-labelledby="qr-title">
+    <form method="dialog" class="qr-dialog-inner">
+      <h3 id="qr-title">Scan to ask a question</h3>
+      <p id="qr-sub"></p>
+      <div class="qr qr-large" id="qr-big"></div>
+      <button class="btn" value="close">Close</button>
+    </form>
+  </dialog>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
