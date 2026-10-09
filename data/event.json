@@ -231,7 +231,7 @@
       "questionUrl": "",
       "photo": "assets/img/speakers/alfredo-verastegui.jpg",
       "minutes": 5,
-      "abstract": false
+      "abstract": true
     },
     {
       "id": "s1-10",

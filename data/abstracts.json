@@ -642,5 +642,50 @@
     ]
    }
   ]
+ },
+ "s1-09": {
+  "affiliations": [
+   "Division of Radiology, Mayo Clinic Florida, Jacksonville, FL, USA",
+   "Division of General Internal Medicine, Mayo Clinic Florida, Jacksonville, FL, USA",
+   "Division of Endocrinology, Mayo Clinic Florida, Jacksonville, FL, USA",
+   "Precision Medicine for Obesity Program, Division of Gastroenterology and Hepatology, Mayo Clinic, Rochester, MN, USA",
+   "Division of Cardiology, Cardiovascular Disease, Mayo Clinic Florida, Jacksonville, FL, USA"
+  ],
+  "authorAffil": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   3
+  ],
+  "category": "Clinical Sciences",
+  "keywords": "",
+  "sections": [
+   {
+    "h": "Background",
+    "p": [
+     "Glucagon-like peptide-1 receptor agonists (GLP-1 RAs), including semaglutide and tirzepatide, are widely used for weight management and have shown cardiovascular risk reduction in patients with obesity and type 2 diabetes. However, their effects on cardiac structure and function in patients with obesity and heart failure with reduced ejection fraction (HFrEF) remain poorly characterized, and it is unclear whether any benefits are driven by weight loss itself."
+    ]
+   },
+   {
+    "h": "Methods",
+    "p": [
+     "A propensity score-matched retrospective cohort study using Mayo Clinic data (2018–2024). Adults with obesity and HFrEF receiving semaglutide or tirzepatide for weight management for at least 12 months (GLP-1+) were matched 1:2 to HFrEF controls without GLP-1 RA exposure (GLP-1−) on age, sex, BMI, type 2 diabetes (exact), and baseline comorbidities (hypertension, atrial fibrillation, CAD, CKD, dyslipidemia, pulmonary hypertension, depression, anxiety, stroke/TIA, hypothyroidism) using nearest-neighbor matching with a 0.25 SD caliper. Echocardiographic parameters were extracted at baseline, year 1, and year 2. Longitudinal changes were evaluated using linear mixed-effects models adjusted for baseline values, comorbidities, and baseline use of guideline-directed medical therapies (ARNI, SGLT-2 inhibitors, MRAs), with Benjamini–Hochberg FDR correction. Results are reported as between-group differences (95% CI)."
+    ]
+   },
+   {
+    "h": "Results",
+    "p": [
+     "We matched 146 GLP-1+ patients to 237 GLP-1− controls; baseline characteristics were similar (mean age 61 vs 62 years; 67.1% vs 72.6% male; BMI 34.3 ± 5.5 vs 34.9 ± 9.0 kg/m²). At year 1, GLP-1+ patients had significantly greater total body weight loss than controls (−5.1 ± 8.6% vs −0.8 ± 7.8%; p<0.001). Compared to controls, GLP-1+ patients showed significantly greater improvements in LV function and remodeling: LV ejection fraction +4.1% (1.4 to 6.8), q=0.016; LV end-diastolic diameter −3.2 mm (−4.8 to −1.6), q=0.001; LV end-systolic diameter −4.0 mm (−6.1 to −2.0), q=0.001; and LV mass index −11.2 g/m² (−17.9 to −4.5), q=0.007; all surviving FDR correction. After additional adjustment for weight change, improvements in LV end-diastolic diameter (q=0.038), LV end-systolic diameter (q=0.024), and LV mass index (q=0.009) remained significant, while the LVEF difference was attenuated (q=0.115). No significant differences were observed in diastolic parameters. Exploratory 2-year analyses showed progressive remodeling with continued improvements in LVEF (+5.9% [2.5 to 9.3]) and LV mass index (−14.6 g/m² [−23.2 to −6.1])."
+    ]
+   },
+   {
+    "h": "Conclusions",
+    "p": [
+     "In patients with obesity and HFrEF, semaglutide or tirzepatide was associated with significant improvements in LV systolic function and reverse remodeling over 1–2 years versus matched controls. Structural remodeling persisted after adjustment for weight loss and background GDMT, suggesting partially weight-independent cardioprotective effects, while the LVEF improvement was attenuated after accounting for weight change."
+    ]
+   }
+  ]
  }
 }
