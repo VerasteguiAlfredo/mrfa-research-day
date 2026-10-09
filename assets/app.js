@@ -34,6 +34,8 @@
   function questionUrl(t) { return t.questionUrl || data.event.defaultQuestionUrl || ""; }
 
   // Exactly matches the dropdown option in the Q&A form, e.g. "I-4 Diego Sanchez-Calderin".
+  const fullName = (t) => t.degrees ? `${t.presenter}, ${t.degrees}` : t.presenter;
+  const roleLine = (t) => [t.role, t.department].filter(Boolean).join(", ");
   const pickLabel = (t) => `${t.session === 1 ? "I" : "II"}-${t.order} ${String(t.presenter).replace(/,.*$/, "").trim()}`;
   function actionsHTML(t) {
     const url = questionUrl(t);
@@ -115,14 +117,14 @@
         <span>
           ${t.format ? `<span class="fmt ${fmtClass(t.format)}">${esc(t.format)}</span>` : ""}
           <span class="talk-title">${esc(t.title)}</span>
-          <span class="talk-who">${esc(t.presenter)}</span>
+          <span class="talk-who">${esc(fullName(t))}</span>
         </span>
         <svg class="chev" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 8l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </summary>
       <div class="talk-detail">
         <dl>
           ${t.minutes ? `<dt>Time</dt><dd>${fmt(t.start)}, ${esc(t.minutes)} minutes</dd>` : ""}
-          <dt>Presenter</dt><dd class="who-row">${avatar(t, "sm")}${esc(t.presenter)}</dd>
+          <dt>Presenter</dt><dd class="who-row">${avatar(t, "sm")}<span>${esc(fullName(t))}${roleLine(t) ? `<br><small class="role">${esc(roleLine(t))}</small>` : ""}</span></dd>
           ${t.pi ? `<dt>PI / lab</dt><dd>${esc(t.pi)}</dd>` : ""}
           ${t.coauthors ? `<dt>Co-authors</dt><dd>${esc(t.coauthors)}</dd>` : ""}
         </dl>
@@ -137,8 +139,8 @@
     $("speaker-list").innerHTML = list.map((t) => `<li class="speaker${fmtClass(t.format) === "full" ? " is-full" : ""}">
       ${avatar(t)}
       <div>
-        <h3>${esc(t.presenter)}</h3>
-        <p class="aff">${t.pi ? `PI: ${esc(t.pi)}` : ""}</p>
+        <h3>${esc(fullName(t))}</h3>
+        <p class="aff">${esc(roleLine(t))}${t.pi ? `<br>PI: ${esc(t.pi)}` : ""}</p>
         <p class="ttl">${esc(t.title)}</p>
         <p class="when"><a href="#talk-${esc(t.id)}" data-open="${esc(t.id)}">Session ${esc(t.session)}, talk ${esc(t.order)}${t.start ? ` at ${fmt(t.start)}` : ""}</a>, ${esc(t.format || "")}</p>
         ${actionsHTML(t)}

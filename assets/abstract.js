@@ -29,7 +29,7 @@
 
     // Authors: presenter (underlined) followed by co-authors, without repeating the presenter.
     const coNames = t.coauthors && t.coauthors.includes(";") ? t.coauthors.split(/;\s*/) : splitNames(t.coauthors);
-    const names = [t.presenter, ...coNames.filter((n) => clean(n) !== clean(t.presenter))];
+    const names = [t.degrees ? `${t.presenter}, ${t.degrees}` : t.presenter, ...coNames.filter((n) => clean(n) !== clean(t.presenter))];
     const multi = a && a.affiliations && a.affiliations.length > 1;
     const authorsHTML = names.map((n, k) => {
       const sup = multi && a.authorAffil ? `<sup>${a.authorAffil[k] || ""}</sup>` : "";
@@ -60,7 +60,7 @@
 
       <div class="abs-presenter">
         <div class="initials" aria-hidden="true"><span>${esc(initials(t.presenter))}</span>${photo}</div>
-        <div><strong>${esc(t.presenter)}</strong><span class="small">Presenting ${t.start ? `at ${fmt(t.start)}` : ""} in Kinne Auditorium</span></div>
+        <div><strong>${esc(t.degrees ? `${t.presenter}, ${t.degrees}` : t.presenter)}</strong>${[t.role, t.department].filter(Boolean).length ? `<span class="small role">${esc([t.role, t.department].filter(Boolean).join(", "))}</span>` : ""}<span class="small">Presenting ${t.start ? `at ${fmt(t.start)}` : ""} in Kinne Auditorium</span></div>
       </div>
 
       <article class="abs-body">${body}

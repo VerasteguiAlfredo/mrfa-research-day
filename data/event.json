@@ -111,7 +111,10 @@
       "questionUrl": "",
       "photo": "assets/img/speakers/victor-bodart-santos.jpg",
       "minutes": 10,
-      "abstract": true
+      "abstract": true,
+      "degrees": "PhD",
+      "role": "",
+      "department": "Department of Neuroscience"
     },
     {
       "id": "s1-02",
@@ -126,7 +129,10 @@
       "questionUrl": "",
       "photo": "assets/img/speakers/jie-hu.jpg",
       "minutes": 5,
-      "abstract": true
+      "abstract": true,
+      "degrees": "MD, PhD",
+      "role": "",
+      "department": "Division of Gastroenterology and Hepatology"
     },
     {
       "id": "s1-03",
@@ -141,7 +147,10 @@
       "questionUrl": "",
       "photo": "assets/img/speakers/wenhui-qiao.jpg",
       "minutes": 5,
-      "abstract": true
+      "abstract": true,
+      "degrees": "PhD",
+      "role": "",
+      "department": "Department of Neuroscience"
     },
     {
       "id": "s1-04",
@@ -156,7 +165,10 @@
       "questionUrl": "",
       "photo": "assets/img/speakers/diego-sanchez-calderin.jpg",
       "minutes": 10,
-      "abstract": true
+      "abstract": true,
+      "degrees": "MD",
+      "role": "Research Trainee",
+      "department": "Division of Vascular and Endovascular Surgery"
     },
     {
       "id": "s1-05",
@@ -171,7 +183,10 @@
       "questionUrl": "",
       "photo": "assets/img/speakers/maya-learmonth.jpg",
       "minutes": 5,
-      "abstract": true
+      "abstract": true,
+      "degrees": "",
+      "role": "Predoctoral Researcher",
+      "department": "Division of Nephrology"
     },
     {
       "id": "s1-06",
@@ -186,7 +201,10 @@
       "questionUrl": "",
       "photo": "assets/img/speakers/thomas-sears.jpg",
       "minutes": 5,
-      "abstract": true
+      "abstract": true,
+      "degrees": "PhD",
+      "role": "",
+      "department": "Department of Laboratory Medicine and Pathology"
     },
     {
       "id": "s1-07",
@@ -201,7 +219,10 @@
       "questionUrl": "",
       "photo": "assets/img/speakers/fiorela-martinez.jpg",
       "minutes": 10,
-      "abstract": true
+      "abstract": true,
+      "degrees": "MD",
+      "role": "Research Trainee",
+      "department": "Department of Pain Medicine"
     },
     {
       "id": "s1-08",
@@ -216,7 +237,10 @@
       "questionUrl": "",
       "photo": "assets/img/speakers/andres-monge-ferrin.jpg",
       "minutes": 5,
-      "abstract": true
+      "abstract": true,
+      "degrees": "MD",
+      "role": "Research Trainee",
+      "department": "Department of Physical Medicine and Rehabilitation"
     },
     {
       "presenter": "Ahmed Saad",
@@ -231,7 +255,10 @@
       "order": 9,
       "start": "10:10",
       "minutes": 5,
-      "abstract": true
+      "abstract": true,
+      "degrees": "MD",
+      "role": "Research Trainee",
+      "department": "Department of Neurology"
     },
     {
       "id": "s1-10",
@@ -246,7 +273,10 @@
       "questionUrl": "",
       "photo": "assets/img/speakers/paola-suarez-meade.jpg",
       "minutes": 10,
-      "abstract": true
+      "abstract": true,
+      "degrees": "MD",
+      "role": "Research Associate",
+      "department": "Department of Neurosurgery"
     },
     {
       "id": "s1-11",
@@ -261,7 +291,10 @@
       "questionUrl": "",
       "photo": "assets/img/speakers/jaime-i-castillo-silva.jpg",
       "minutes": 5,
-      "abstract": false
+      "abstract": false,
+      "degrees": "MD",
+      "role": "Research Fellow",
+      "department": "Women's Health"
     },
     {
       "id": "s2-01",
@@ -269,14 +302,17 @@
       "order": 1,
       "start": "12:00",
       "format": "Full oral",
-      "presenter": "Grace Samtani, PhD",
+      "presenter": "Grace Samtani",
       "pi": "Seiko Ikezu",
       "title": "Therapeutic potential of antisense oligonucleotide targeting of Tau Tubulin Kinase 1 in models of Alzheimer's disease",
       "coauthors": "Justice Ellison, Jasmine Newington, Alejandro Preciado, Mariam Stein, Prakruthi Vadakattu, Christine Hong, Fredrik Kamme, Tsuneya Ikezu, Seiko Ikezu",
       "questionUrl": "",
       "photo": "assets/img/speakers/grace-samtani.jpg",
       "minutes": 10,
-      "abstract": true
+      "abstract": true,
+      "degrees": "PhD",
+      "role": "",
+      "department": "Department of Neuroscience"
     },
     {
       "id": "s2-02",
@@ -284,14 +320,17 @@
       "order": 2,
       "start": "12:10",
       "format": "Rapid-fire",
-      "presenter": "Diego Sepulveda, MD",
+      "presenter": "Diego Sepulveda",
       "pi": "Maria D. Hurtado Andrade",
       "title": "What Patients Want: Are Weight-Loss Goals Realistic Relative to the Strategies Patients Are Willing to Adopt?",
       "coauthors": "Alexia R. Maier, Pamela K. Bennett, Regina Castaneda, Tina Taaffe, Alvaro Cornejo Cobo, Kirsten E. Frederiksen, Andres Acosta, Maria D. Hurtado Andrade",
       "questionUrl": "",
       "photo": "assets/img/speakers/diego-sepulveda.jpg",
       "minutes": 5,
-      "abstract": true
+      "abstract": true,
+      "degrees": "MD",
+      "role": "Research Trainee",
+      "department": "Division of Endocrinology, Diabetes, and Metabolism"
     },
     {
       "id": "s2-03",
@@ -306,7 +345,10 @@
       "questionUrl": "",
       "photo": "assets/img/speakers/ayaka-tatsumoto.jpg",
       "minutes": 5,
-      "abstract": true
+      "abstract": true,
+      "degrees": "PhD",
+      "role": "",
+      "department": "Department of Neuroscience"
     },
     {
       "id": "s2-04",
@@ -321,7 +363,10 @@
       "questionUrl": "",
       "photo": "assets/img/speakers/aarti-desai.jpg",
       "minutes": 10,
-      "abstract": true
+      "abstract": true,
+      "degrees": "MBBS",
+      "role": "Research Fellow",
+      "department": "Division of Heart Failure and Transplantation"
     },
     {
       "id": "s2-05",
@@ -336,7 +381,10 @@
       "questionUrl": "",
       "photo": "assets/img/speakers/srabasti-sengupta.jpg",
       "minutes": 5,
-      "abstract": true
+      "abstract": true,
+      "degrees": "PhD, MS",
+      "role": "",
+      "department": "Department of Molecular Medicine"
     },
     {
       "id": "s2-06",
@@ -351,7 +399,10 @@
       "questionUrl": "",
       "photo": "assets/img/speakers/rijan-kafle.jpg",
       "minutes": 5,
-      "abstract": true
+      "abstract": true,
+      "degrees": "",
+      "role": "Research Trainee",
+      "department": "Department of Critical Care Medicine"
     },
     {
       "id": "s2-07",
@@ -366,7 +417,10 @@
       "questionUrl": "",
       "photo": "assets/img/speakers/yugant-khand.jpg",
       "minutes": 10,
-      "abstract": true
+      "abstract": true,
+      "degrees": "MBBS",
+      "role": "Research Trainee",
+      "department": "Department of Neurology"
     },
     {
       "id": "s2-08",
@@ -374,14 +428,17 @@
       "order": 8,
       "start": "12:50",
       "format": "Rapid-fire",
-      "presenter": "Alexis J. Magana, MD",
+      "presenter": "Alexis J. Magana",
       "pi": "Joan M. Irizarry Alvarado",
       "title": "The Predictive Value of SHAPE Test in Predicting Perioperative Major Adverse Cardiac Events: A Single-Center Retrospective Analysis",
       "coauthors": "Tachy V. Hernandez Romero, Zulma Sosa Carcamo, Ridwan Ahmad, Rafael A. Landeros Centeno, Juan C. Cardenas Rosales, Joan M. Irizarry Alvarado",
       "questionUrl": "",
       "photo": "assets/img/speakers/alexis-j-magana.jpg",
       "minutes": 5,
-      "abstract": true
+      "abstract": true,
+      "degrees": "MD",
+      "role": "Research Trainee",
+      "department": "Division of General Internal Medicine"
     },
     {
       "id": "s2-09",
@@ -389,14 +446,17 @@
       "order": 9,
       "start": "12:55",
       "format": "Rapid-fire",
-      "presenter": "Ekin Inal, MD",
+      "presenter": "Ekin Inal",
       "pi": "Houssam Farres",
       "title": "MAP Score and Abdominal Aortic Calcium Score Capture Distinct Operative and Renal Risk in Partial Nephrectomy: A Single-Center Retrospective Study",
       "coauthors": "Young Erben, Nathalia Melo-Gonzalez, Neda Qosja, David Thiel, Christopher Jacobs, Houssam Farres",
       "questionUrl": "",
       "photo": "assets/img/speakers/ekin-inal.jpg",
       "minutes": 5,
-      "abstract": true
+      "abstract": true,
+      "degrees": "MD",
+      "role": "Research Trainee",
+      "department": "Division of Vascular and Endovascular Surgery"
     },
     {
       "id": "s2-10",
@@ -404,14 +464,17 @@
       "order": 10,
       "start": "13:00",
       "format": "Full oral",
-      "presenter": "Alfredo Verastegui, MD",
+      "presenter": "Alfredo Verastegui",
       "pi": "Maria Daniela Hurtado Andrade, MD, PhD",
       "title": "Cardiac Structural Recovery with GLP-1 Receptor Agonist Therapy in Heart Failure: A Multicenter Propensity-Matched Study",
       "coauthors": "Regina Castaneda, MD; Diego Sepulveda, MD; Andres Acosta, MD, PhD; Demilade A. Adedinsewo, MBChB; Maria Daniela Hurtado Andrade, MD, PhD",
       "questionUrl": "",
       "photo": "assets/img/speakers/alfredo-verastegui.jpg",
       "minutes": 10,
-      "abstract": true
+      "abstract": true,
+      "degrees": "MD",
+      "role": "",
+      "department": "Division of Radiology"
     },
     {
       "id": "s2-11",
@@ -419,14 +482,17 @@
       "order": 11,
       "start": "13:10",
       "format": "Rapid-fire",
-      "presenter": "Fan Wang, PhD",
+      "presenter": "Fan Wang",
       "pi": "Janice L. Krieger",
       "title": "Information That Sparks Dialogue: Supporting Clinical Trial Communication Through an AI-Enabled Portal",
       "coauthors": "Andrew H. Maxim, Courtny Franco, Rashi Ghosh, Christopher You, Trevor Kauer, Stephen Anton, Elizabeth Flood-Grady, Trudy Gaillard, Thomas J. George, Benjamin Lok, Carolyn Tucker, Melissa Vilaro, Tuo Lin, Fern Webb, Diana Wilkie, Danyell Wilson-Howard, Olveen Carrasquillo, Janice L. Krieger",
       "questionUrl": "",
       "photo": "assets/img/speakers/fan-wang.jpg",
       "minutes": 5,
-      "abstract": true
+      "abstract": true,
+      "degrees": "PhD",
+      "role": "",
+      "department": "Department of Quantitative Health Sciences"
     }
   ],
   "posters": [],

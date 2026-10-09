@@ -1,7 +1,7 @@
 {
  "s1-01": {
   "affiliations": [
-   "Neuroscience, Mayo Clinic, Jacksonville, Florida"
+   "Department of Neuroscience, Mayo Clinic, Jacksonville, Florida"
   ],
   "category": "Basic Sciences",
   "keywords": "Alzheimer’s disease, extracellular vesicles, microglia, microtubule-associated protein tau, mitochondria",
@@ -67,7 +67,7 @@
  },
  "s1-03": {
   "affiliations": [
-   "Neuroscience, Mayo Clinic, Jacksonville, Florida"
+   "Department of Neuroscience, Mayo Clinic, Jacksonville, Florida"
   ],
   "category": "Basic Sciences",
   "keywords": "Aging; APOE; Microglia; Astrocyte; Multi-omics",
@@ -133,7 +133,7 @@
  },
  "s1-05": {
   "affiliations": [
-   "Nephrology, Mayo Clinic, Jacksonville, Florida"
+   "Division of Nephrology, Mayo Clinic, Jacksonville, Florida"
   ],
   "category": "Translational Sciences",
   "keywords": "mesenchymal stem cells, chronic kidney disease, senescence, inflammation",
@@ -152,7 +152,7 @@
  },
  "s1-06": {
   "affiliations": [
-   "Laboratory Medicine and Pathology, Mayo Clinic, Jacksonville, Florida"
+   "Department of Laboratory Medicine and Pathology, Mayo Clinic, Jacksonville, Florida"
   ],
   "category": "Translational Sciences",
   "keywords": "Glioma; Neuro-oncology; Cancer epigenetics; Pharmacology",
@@ -185,7 +185,7 @@
  },
  "s1-07": {
   "affiliations": [
-   "Pain Medicine Department, Mayo Clinic, Jacksonville, Florida"
+   "Department of Pain Medicine, Mayo Clinic, Jacksonville, Florida"
   ],
   "category": "Clinical Sciences",
   "keywords": "Childhood Trauma, Interdisciplinary Pain Rehabilitation, Health-Related Quality of Life, Psychological Distress, Trauma-Informed Care",
@@ -218,7 +218,7 @@
  },
  "s1-08": {
   "affiliations": [
-   "Physical Medicine and Rehabilitation, Mayo Clinic, Jacksonville, Florida"
+   "Department of Physical Medicine and Rehabilitation, Mayo Clinic, Jacksonville, Florida"
   ],
   "category": "Clinical Sciences",
   "keywords": "Spinal cord injury; Wheelchair propulsion; Arthritis; Pain; Musculoskeletal Health",
@@ -284,7 +284,7 @@
  },
  "s1-10": {
   "affiliations": [
-   "Neurosurgery, Mayo Clinic, Jacksonville, Florida"
+   "Department of Neurosurgery, Mayo Clinic, Jacksonville, Florida"
   ],
   "category": "Translational Sciences",
   "keywords": "Glioblastoma; Tumor microenvironment; Invasion; Extracellular Matrix; Spatial Transcriptomics; Multiomics",
@@ -299,7 +299,7 @@
  },
  "s2-01": {
   "affiliations": [
-   "Neurosciences, Mayo Clinic, Jacksonville, Florida"
+   "Department of Neuroscience, Mayo Clinic, Jacksonville, Florida"
   ],
   "category": "Translational Sciences",
   "keywords": "Alzheimer's; therapeutic; tau; pathology; neuroscience",
@@ -404,7 +404,7 @@
  },
  "s2-04": {
   "affiliations": [
-   "Division of Heart Failure and Transplantation, Mayo Clinic, Florida, Mayo Clinic, Jacksonville, Florida"
+   "Division of Heart Failure and Transplantation, Mayo Clinic, Jacksonville, Florida"
   ],
   "category": "Clinical Sciences",
   "keywords": "lactate, lactic acid clearance, cardiogenic shock, Impella 5.5, heart failure, mechanical circulatory support",
@@ -438,7 +438,7 @@
  },
  "s2-05": {
   "affiliations": [
-   "Molecular Medicine, Mayo Clinic, Jacksonville, Florida"
+   "Department of Molecular Medicine, Mayo Clinic, Jacksonville, Florida"
   ],
   "category": "Translational Sciences",
   "keywords": "Glioblastoma, Immunotherapy, Metabolism, CAR-T cells, Solid tumors",
@@ -471,7 +471,7 @@
  },
  "s2-06": {
   "affiliations": [
-   "Department of Critical Care, Mayo Clinic, Jacksonville, Florida"
+   "Department of Critical Care Medicine, Mayo Clinic, Jacksonville, Florida"
   ],
   "category": "Clinical Sciences",
   "keywords": "Extracorporeal Membrane Oxygenation (ECMO) Lung Transplantation ,Acute Kidney Injury, Renal Replacement Therapy, Critical Care Outcomes",
