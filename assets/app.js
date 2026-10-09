@@ -53,29 +53,33 @@
     $("event-place").innerHTML = e.mapUrl ? `<a href="${esc(e.mapUrl)}" style="color:inherit">${esc(place)}</a>` : esc(place);
     $("event-intro").textContent = e.intro || "";
     if (e.notice) { $("event-notice").textContent = e.notice; $("event-notice").hidden = false; }
-    $("foot-host").textContent = `${e.name} ${e.edition || ""} · ${e.host || ""}`.trim();
+    if ((data.posters || []).length) { $("posters").hidden = false; $("tab-posters").hidden = false; }
+    $("foot-host").textContent = `${e.name} ${e.edition || ""}, ${e.host || ""}`.trim();
 
     (data.talks || []).forEach((t) => (talksById[t.id] = t));
 
     // Program
     $("run").innerHTML = (data.agenda || []).map((s, i) => {
       const talks = (s.talks || []).map((id) => talksById[id]).filter(Boolean);
-      const meta = s.moderator ? `Moderator: ${esc(s.moderator)}` : esc(s.who || "");
-      return `<li class="slot ${esc(s.type || "")}" data-i="${i}" data-start="${esc(s.start)}" data-end="${esc(s.end)}">
-        <div class="time">${fmt(s.start)}<small>${fmt(s.end)}</small></div>
-        <div class="slot-body">
-          <div class="slot-title">${esc(s.title)}<span class="now-label" hidden>Now</span></div>
-          ${meta ? `<div class="slot-meta">${meta}</div>` : ""}
-          ${talks.length ? `<ul class="talks">${talks.map(talkHTML).join("")}</ul>` : ""}
+      const when = s.start ? `${fmt(s.start)}${s.end ? ` – ${fmt(s.end)}` : ""}` : esc(s.timeLabel || "");
+      const meta = [s.moderator ? `Moderator: ${esc(s.moderator)}` : "", esc(s.who || "")].filter(Boolean).join("<br>");
+      const counts = talks.length ? `${talks.filter((t) => /full/i.test(t.format)).length} full talks, ${talks.filter((t) => /rapid/i.test(t.format)).length} rapid-fire` : "";
+      return `<li class="slot ${esc(s.type || "")}" data-start="${esc(s.start || "")}" data-end="${esc(s.end || "")}">
+        <div class="slot-head">
+          <span class="slot-title">${esc(s.title)}<span class="now-label" hidden>Now</span></span>
+          <span class="slot-when">${when}</span>
         </div>
+        ${talks.length ? `<ul class="talks" aria-label="${esc(s.title)}: ${counts}">${talks.map(talkHTML).join("")}</ul>` : ""}
+        ${meta ? `<div class="slot-meta">${meta}</div>` : ""}
       </li>`;
     }).join("");
 
     // Speakers
-    const cats = [...new Set((data.talks || []).map((t) => t.category).filter(Boolean))];
-    $("talk-filters").innerHTML = ["All", ...cats].map((c, i) =>
-      `<button type="button" class="chip" data-cat="${esc(c)}" aria-pressed="${i === 0}">${esc(c)}</button>`).join("");
-    renderSpeakers("All");
+    const sessions = [...new Set((data.talks || []).map((t) => t.session).filter(Boolean))];
+    const filters = [["all", "All"], ...sessions.map((n) => [`s${n}`, `Session ${n}`]), ["full", "Full oral"], ["rapid", "Rapid-fire"]];
+    $("talk-filters").innerHTML = filters.map(([k, label], i) =>
+      `<button type="button" class="chip" data-f="${k}" aria-pressed="${i === 0}">${esc(label)}</button>`).join("");
+    renderSpeakers("all");
 
     // Posters
     renderPosters("");
@@ -90,34 +94,39 @@
     makeQR($("site-qr"), location.href.split("#")[0].split("?")[0], 112);
   }
 
+  const fmtClass = (f) => (/rapid/i.test(f || "") ? "rapid" : "full");
   function talkHTML(t) {
-    return `<li><details class="talk" id="talk-${esc(t.id)}" data-start="${esc(t.start)}">
+    return `<li><details class="talk" id="talk-${esc(t.id)}" data-start="${esc(t.start || "")}">
       <summary>
-        <span class="talk-time">${fmt(t.start)}</span>
-        <span><span class="talk-title">${esc(t.title)}</span><br><span class="talk-who">${esc(t.presenter)}</span></span>
+        <span class="ord">${esc(t.order)}${t.start ? `<small>${fmt(t.start)}</small>` : ""}</span>
+        <span>
+          ${t.format ? `<span class="fmt ${fmtClass(t.format)}">${esc(t.format)}</span>` : ""}
+          <span class="talk-title">${esc(t.title)}</span>
+          <span class="talk-who">${esc(t.presenter)}</span>
+        </span>
         <svg class="chev" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 8l5 5 5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
       </summary>
       <div class="talk-detail">
         <dl>
           <dt>Presenter</dt><dd>${esc(t.presenter)}</dd>
-          ${t.lab ? `<dt>Lab</dt><dd>${esc(t.lab)}</dd>` : ""}
-          ${t.department ? `<dt>Department</dt><dd>${esc(t.department)}</dd>` : ""}
-          ${t.category ? `<dt>Category</dt><dd>${esc(t.category)}</dd>` : ""}
+          ${t.pi ? `<dt>PI / lab</dt><dd>${esc(t.pi)}</dd>` : ""}
+          ${t.coauthors ? `<dt>Co-authors</dt><dd>${esc(t.coauthors)}</dd>` : ""}
         </dl>
         ${actionsHTML(t)}
       </div>
     </details></li>`;
   }
 
-  function renderSpeakers(cat) {
-    const list = (data.talks || []).filter((t) => cat === "All" || t.category === cat);
+  function renderSpeakers(f) {
+    const list = (data.talks || []).filter((t) =>
+      f === "all" || f === `s${t.session}` || (f === "full" && fmtClass(t.format) === "full") || (f === "rapid" && fmtClass(t.format) === "rapid"));
     $("speaker-list").innerHTML = list.map((t) => `<li class="speaker">
-      <div class="initials" aria-hidden="true">${esc(initials(t.presenter))}</div>
+      <div class="initials" aria-hidden="true">${esc(initials(t.presenter.replace(/,.*$/, "")))}</div>
       <div>
         <h3>${esc(t.presenter)}</h3>
-        <p class="aff">${esc([t.lab, t.department].filter(Boolean).join(", "))}</p>
+        <p class="aff">${t.pi ? `PI: ${esc(t.pi)}` : ""}</p>
         <p class="ttl">${esc(t.title)}</p>
-        <p class="when">${esc(t.category || "")}${t.start ? `, <a href="#talk-${esc(t.id)}" data-open="${esc(t.id)}">${fmt(t.start)}</a>` : ""}</p>
+        <p class="when"><a href="#talk-${esc(t.id)}" data-open="${esc(t.id)}">Session ${esc(t.session)}, talk ${esc(t.order)}${t.start ? ` at ${fmt(t.start)}` : ""}</a>, ${esc(t.format || "")}</p>
         ${actionsHTML(t)}
       </div>
     </li>`).join("");
@@ -147,6 +156,7 @@
     const slots = [...document.querySelectorAll(".slot")];
     let cur = null, next = null;
     slots.forEach((el) => {
+      if (!el.dataset.start || !el.dataset.end) return;
       const s = toMin(el.dataset.start), e = toMin(el.dataset.end);
       const isNow = isDay && min >= s && min < e;
       el.classList.toggle("now", isNow);
@@ -159,7 +169,7 @@
     document.querySelectorAll(".talk").forEach((t) => t.classList.remove("live"));
     let liveTalk = null;
     if (cur) {
-      const talks = [...cur.querySelectorAll(".talk")];
+      const talks = [...cur.querySelectorAll(".talk")].filter((t) => t.dataset.start);
       talks.forEach((t, i) => {
         const s = toMin(t.dataset.start);
         const e = talks[i + 1] ? toMin(talks[i + 1].dataset.start) : toMin(cur.dataset.end);
@@ -170,7 +180,8 @@
     bar.hidden = !isDay || (!cur && !next);
     if (!bar.hidden) {
       const title = (el) => el ? el.querySelector(".slot-title").firstChild.textContent : "";
-      $("now-text").textContent = liveTalk ? liveTalk.querySelector(".talk-who").textContent + ": " + liveTalk.querySelector(".talk-title").textContent : (cur ? title(cur) : "Not started yet");
+      const who = (t) => t.querySelector(".talk-who").textContent + ": " + t.querySelector(".talk-title").textContent;
+      $("now-text").textContent = liveTalk ? who(liveTalk) : (cur ? title(cur) : "Not started yet");
       $("next-text").textContent = next ? `${fmt(next.dataset.start)} ${title(next)}` : "That’s the last item";
     }
   }
@@ -180,7 +191,7 @@
     const chip = ev.target.closest(".chip");
     if (chip) {
       document.querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-pressed", c === chip));
-      renderSpeakers(chip.dataset.cat);
+      renderSpeakers(chip.dataset.f);
       return;
     }
     const qrBtn = ev.target.closest("[data-qr]");

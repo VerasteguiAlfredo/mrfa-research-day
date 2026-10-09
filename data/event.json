@@ -1,70 +1,344 @@
 {
   "event": {
-    "name": "MRFA Research Day",
+    "name": "Dean of Research Retreat",
     "edition": "2026",
     "host": "Mayo Clinic Research Fellows Association",
-    "date": "2026-11-20",
-    "dateLabel": "Friday, November 20, 2026",
-    "timeLabel": "8:00 AM – 3:30 PM",
-    "location": "Venue to be confirmed",
-    "room": "Room to be confirmed",
+    "date": "",
+    "dateLabel": "Date to be announced",
+    "timeLabel": "Times to be announced",
+    "location": "Mayo Clinic in Florida",
+    "room": "",
     "campus": "Jacksonville, Florida",
     "mapUrl": "",
     "contactEmail": "",
-    "intro": "A day of short talks and posters from research fellows across basic, translational, and clinical science. Tap any talk to see who is presenting and to send a question to the moderator.",
+    "intro": "Oral presentations from research fellows across Mayo Clinic in Florida. Two sessions, each with four full talks and seven rapid-fire talks. Tap any talk to see the authors and send a question to the moderator.",
     "defaultQuestionUrl": "",
-    "notice": "Draft: the program below uses placeholder names until the committee confirms speakers."
+    "notice": ""
   },
-
   "agenda": [
-    { "start": "08:00", "end": "08:30", "type": "break", "title": "Check-in, poster setup and breakfast" },
-    { "start": "08:30", "end": "08:45", "type": "plenary", "title": "Welcome and opening remarks", "who": "MRFA leadership" },
-
-    { "start": "08:45", "end": "10:00", "type": "session", "title": "Session 1: Basic sciences", "moderator": "Moderator to be confirmed",
-      "talks": ["b1", "b2", "b3"] },
-
-    { "start": "10:00", "end": "10:20", "type": "break", "title": "Coffee break" },
-
-    { "start": "10:20", "end": "11:35", "type": "session", "title": "Session 2: Translational sciences", "moderator": "Moderator to be confirmed",
-      "talks": ["t1", "t2", "t3"] },
-
-    { "start": "11:35", "end": "12:45", "type": "posters", "title": "Lunch and poster session", "who": "Judges visit posters during this block" },
-
-    { "start": "12:45", "end": "13:15", "type": "plenary", "title": "Keynote", "who": "Speaker to be confirmed" },
-
-    { "start": "13:15", "end": "14:45", "type": "session", "title": "Session 3: Clinical sciences", "moderator": "Moderator to be confirmed",
-      "talks": ["c1", "c2", "c3", "c4"] },
-
-    { "start": "14:45", "end": "15:30", "type": "plenary", "title": "Awards and closing remarks", "who": "MRFA leadership" }
+    {
+      "start": "",
+      "end": "",
+      "timeLabel": "Morning",
+      "type": "session",
+      "title": "Session 1",
+      "moderator": "",
+      "talks": [
+        "s1-01",
+        "s1-02",
+        "s1-03",
+        "s1-04",
+        "s1-05",
+        "s1-06",
+        "s1-07",
+        "s1-08",
+        "s1-09",
+        "s1-10",
+        "s1-11"
+      ]
+    },
+    {
+      "start": "",
+      "end": "",
+      "timeLabel": "To be announced",
+      "type": "session",
+      "title": "Session 2",
+      "moderator": "",
+      "talks": [
+        "s2-01",
+        "s2-02",
+        "s2-03",
+        "s2-04",
+        "s2-05",
+        "s2-06",
+        "s2-07",
+        "s2-08",
+        "s2-09",
+        "s2-10",
+        "s2-11"
+      ]
+    }
   ],
-
   "talks": [
-    { "id": "b1", "start": "08:45", "presenter": "Presenter name", "lab": "PI / lab", "department": "Department", "category": "Basic Sciences", "title": "Talk title to be confirmed", "questionUrl": "" },
-    { "id": "b2", "start": "09:10", "presenter": "Presenter name", "lab": "PI / lab", "department": "Department", "category": "Basic Sciences", "title": "Talk title to be confirmed", "questionUrl": "" },
-    { "id": "b3", "start": "09:35", "presenter": "Presenter name", "lab": "PI / lab", "department": "Department", "category": "Basic Sciences", "title": "Talk title to be confirmed", "questionUrl": "" },
-
-    { "id": "t1", "start": "10:20", "presenter": "Presenter name", "lab": "PI / lab", "department": "Department", "category": "Translational Sciences", "title": "Talk title to be confirmed", "questionUrl": "" },
-    { "id": "t2", "start": "10:45", "presenter": "Presenter name", "lab": "PI / lab", "department": "Department", "category": "Translational Sciences", "title": "Talk title to be confirmed", "questionUrl": "" },
-    { "id": "t3", "start": "11:10", "presenter": "Presenter name", "lab": "PI / lab", "department": "Department", "category": "Translational Sciences", "title": "Talk title to be confirmed", "questionUrl": "" },
-
-    { "id": "c1", "start": "13:15", "presenter": "Presenter name", "lab": "PI / lab", "department": "Department", "category": "Clinical Sciences", "title": "Talk title to be confirmed", "questionUrl": "" },
-    { "id": "c2", "start": "13:37", "presenter": "Presenter name", "lab": "PI / lab", "department": "Department", "category": "Clinical Sciences", "title": "Talk title to be confirmed", "questionUrl": "" },
-    { "id": "c3", "start": "13:59", "presenter": "Presenter name", "lab": "PI / lab", "department": "Department", "category": "Clinical Sciences", "title": "Talk title to be confirmed", "questionUrl": "" },
-    { "id": "c4", "start": "14:21", "presenter": "Presenter name", "lab": "PI / lab", "department": "Department", "category": "Clinical Sciences", "title": "Talk title to be confirmed", "questionUrl": "" }
+    {
+      "id": "s1-01",
+      "session": 1,
+      "order": 1,
+      "start": "",
+      "format": "Full oral",
+      "presenter": "Victor Bodart-Santos",
+      "pi": "Tsuneya Ikezu",
+      "title": "Targeting P2RX7 to Suppress Innate Immune Activation Induced by Extracellular Vesicles Carrying Mitochondrial Cargo in Tauopathy",
+      "coauthors": "Arun Reddy Ravula, Yang You, Mohammad Abdullah, Zhi Ruan, Justice Ellison, Stephanie Radhakishun, Nibedita Basu Ray, Bridgette C. Melvin, Aishe Kurti, Zhewei Liang, Yuta Sakai, Daniel R. O'Brien, Son N. Nguyen, Scott A. Shaffer, Lindsey Fiddes, Oleg Butovsky, Wolfdieter Springer, Seiko Ikezu, Tsuneya Ikezu",
+      "questionUrl": ""
+    },
+    {
+      "id": "s1-02",
+      "session": 1,
+      "order": 2,
+      "start": "",
+      "format": "Rapid-fire",
+      "presenter": "Jie (Helen) Hu",
+      "pi": "Yan Bi",
+      "title": "Development of a Novel KrasFLEx-G12D Mouse Model for Kras-driven Cancer Research",
+      "coauthors": "Muhammad Faheem, Justin R. Clark, Jiale Wang, Bin Wang, Yang Liu, Huijian Ma, Jiahui Zhao, Ying Wang, Baoan Ji, Yan Bi",
+      "questionUrl": ""
+    },
+    {
+      "id": "s1-03",
+      "session": 1,
+      "order": 3,
+      "start": "",
+      "format": "Rapid-fire",
+      "presenter": "Wenhui Qiao",
+      "pi": "Na Zhao",
+      "title": "APOE genotype modulates glial responses and myelin homeostasis during aging",
+      "coauthors": "Tadafumi C. Ikezu, Huan Sun, Yixing Chen, Yuka A. Martens, Shuwen Zhang, Yingxue Ren, Allison Wetmore, Monica Castanedes-Casey, Ligia Bastea, Lindsay B. M. Nevalainen, Whitney I. Davis, Zonghua Li, Ellen L. Bradstock, Gisela Xhafkollari, Peter Storz, Trace A. Christensen, Dennis W. Dickson, Eduardo N. Chini, Junmin Peng, Guojun Bu, Na Zhao",
+      "questionUrl": ""
+    },
+    {
+      "id": "s1-04",
+      "session": 1,
+      "order": 4,
+      "start": "",
+      "format": "Full oral",
+      "presenter": "Diego Sanchez-Calderin",
+      "pi": "Young Erben",
+      "title": "Early Revascularization in Symptomatic Carotid Artery Disease Leads to Better Outcomes: A Ten-Year Multi-Center Cohort Analysis",
+      "coauthors": "James F. Meschia, Gyanendra Kumar, Robert D. Brown Jr, Bernard R. Bendok, Kevin Barrett, W. Chris Fox, David A. Miller, Camilo Polania-Sandoval, Ekin Inal, Camila Esquetini-Vernon, Sukhwinder S. J. Sandhu, Richard D. Beegle, Houssam Farres, Giuseppe Lanzino, Young Erben",
+      "questionUrl": ""
+    },
+    {
+      "id": "s1-05",
+      "session": 1,
+      "order": 5,
+      "start": "",
+      "format": "Rapid-fire",
+      "presenter": "Maya Learmonth",
+      "pi": "LaTonya J. Hickson",
+      "title": "Combining Mesenchymal Stromal Cell-Conditioned Media with Contemporary Pharmacotherapy Modulates Hyperglycemic Kidney Tubular Injury and Geroprotective Signaling In Vitro",
+      "coauthors": "Caroline Zinn, Isabella Rueda, LaTonya J. Hickson",
+      "questionUrl": ""
+    },
+    {
+      "id": "s1-06",
+      "session": 1,
+      "order": 6,
+      "start": "",
+      "format": "Rapid-fire",
+      "presenter": "Thomas Sears",
+      "pi": "Craig Horbinski",
+      "title": "Prolonged Vorasidenib Treatment Accelerates Growth in a Subset of High-Grade IDH-Mutant Glioma Cultures",
+      "coauthors": "Andrew Li, Craig M. Horbinski",
+      "questionUrl": ""
+    },
+    {
+      "id": "s1-07",
+      "session": 1,
+      "order": 7,
+      "start": "",
+      "format": "Full oral",
+      "presenter": "Fiorela Martinez",
+      "pi": "Christine Hunt",
+      "title": "Adverse Childhood Experiences and Functional Outcomes Following Interdisciplinary Pain Rehabilitation: A Retrospective Cohort Study",
+      "coauthors": "Sebastian Encalada, Jordan Hoprich, Johanna Mosquera-Moscoso, Christopher Sletten",
+      "questionUrl": ""
+    },
+    {
+      "id": "s1-08",
+      "session": 1,
+      "order": 8,
+      "start": "",
+      "format": "Rapid-fire",
+      "presenter": "Andres Monge Ferrin",
+      "pi": "Robert Pagan Rosado",
+      "title": "Wheelchair Propulsion Type and Musculoskeletal Burden After Spinal Cord Injury",
+      "coauthors": "Muhammad Albaab Rehmat, Robert Pagan Rosado",
+      "questionUrl": ""
+    },
+    {
+      "id": "s1-09",
+      "session": 1,
+      "order": 9,
+      "start": "",
+      "format": "Rapid-fire",
+      "presenter": "Alfredo Verastegui",
+      "pi": "",
+      "title": "Cardiac Structural Recovery with GLP-1 Receptor Agonist Therapy in Heart Failure: A Multicenter Propensity-Matched Study",
+      "coauthors": "",
+      "questionUrl": ""
+    },
+    {
+      "id": "s1-10",
+      "session": 1,
+      "order": 10,
+      "start": "",
+      "format": "Full oral",
+      "presenter": "Paola Suarez Meade",
+      "pi": "Alfredo Quiñones-Hinojosa (Brain Tumor Stem Cell Lab)",
+      "title": "Single-cell spatial multi-omic mapping of glioblastoma reveals two targetable invasion programs and a margin invasion burden that predicts early progression",
+      "coauthors": "Nicholas Dove, Yi Liu, Asha Nair, Paula Schiapparelli, Aleeshba Basil, Hussien Al Asi, Ian Dryden, Emily Norton, Beatriz Fernanadez-Gil, Brandy Edenfield, Jennifer Kachergus, Heather Kileen, Ji Shi, Mieu Brooks, Vanessa Jones, Aubrey Thompson, Yan Luo, Kaisorn L. Chaichana, Honggan Qin, Z. Akkus, Craig Horbinski, Yan W. Asmann, Alfredo Quinones-Hinojosa",
+      "questionUrl": ""
+    },
+    {
+      "id": "s1-11",
+      "session": 1,
+      "order": 11,
+      "start": "",
+      "format": "Rapid-fire",
+      "presenter": "Jaime I. Castillo Silva",
+      "pi": "Women's Health",
+      "title": "Network Analysis of Perimenopausal Symptoms",
+      "coauthors": "",
+      "questionUrl": ""
+    },
+    {
+      "id": "s2-01",
+      "session": 2,
+      "order": 1,
+      "start": "",
+      "format": "Full oral",
+      "presenter": "Grace Samtani, PhD",
+      "pi": "Seiko Ikezu",
+      "title": "Therapeutic potential of antisense oligonucleotide targeting of Tau Tubulin Kinase 1 in models of Alzheimer's disease",
+      "coauthors": "Justice Ellison, Jasmine Newington, Alejandro Preciado, Mariam Stein, Prakruthi Vadakattu, Christine Hong, Fredrik Kamme, Tsuneya Ikezu, Seiko Ikezu",
+      "questionUrl": ""
+    },
+    {
+      "id": "s2-02",
+      "session": 2,
+      "order": 2,
+      "start": "",
+      "format": "Rapid-fire",
+      "presenter": "Diego Sepulveda, MD",
+      "pi": "Maria D. Hurtado Andrade",
+      "title": "What Patients Want: Are Weight-Loss Goals Realistic Relative to the Strategies Patients Are Willing to Adopt?",
+      "coauthors": "Alexia R. Maier, Pamela K. Bennett, Regina Castaneda, Tina Taaffe, Alvaro Cornejo Cobo, Kirsten E. Frederiksen, Andres Acosta, Maria D. Hurtado Andrade",
+      "questionUrl": ""
+    },
+    {
+      "id": "s2-03",
+      "session": 2,
+      "order": 3,
+      "start": "",
+      "format": "Rapid-fire",
+      "presenter": "Ayaka Tatsumoto",
+      "pi": "Seiko Ikezu",
+      "title": "Humanized MAPT and APP Increase Neuronal Excitability and Accelerate Phosphorylated Tau Propagation in a Novel Entorhinal Cortex Layer II–Targeted Mouse Model of Early Alzheimer's Disease",
+      "coauthors": "Arun Reddy Ravula, Brendan Gibbs, Nibedita Basu Ray, Justice Ellison, Alejandro Longtree-Preciado, Seiko Ikezu, Tsuneya Ikezu",
+      "questionUrl": ""
+    },
+    {
+      "id": "s2-04",
+      "session": 2,
+      "order": 4,
+      "start": "",
+      "format": "Full oral",
+      "presenter": "Aarti Desai",
+      "pi": "Rohan Goswami",
+      "title": "Optimal window for lactic acid clearance after Impella 5.5 placement in patients with cardiogenic shock",
+      "coauthors": "Rebecca Klingbeil, Hans Mautong, Andrea Muniz, Parag Patel, Anna Shapiro, Rohan Goswami",
+      "questionUrl": ""
+    },
+    {
+      "id": "s2-05",
+      "session": 2,
+      "order": 5,
+      "start": "",
+      "format": "Rapid-fire",
+      "presenter": "Srabasti Sengupta",
+      "pi": "Loic Deleyrolle",
+      "title": "Metabolic modulations of CAR T cells to improve anti-tumor efficacy in Glioblastoma",
+      "coauthors": "Adriana Yamaguchi, Anna Nulk, Emma Redmon, Shahin Hamzeh, Trevor Ruiz, Nagheme Thomas, Maryam Rahman, Duane A. Mitchell, Jianping Huang, Loic P. Deleyrolle",
+      "questionUrl": ""
+    },
+    {
+      "id": "s2-06",
+      "session": 2,
+      "order": 6,
+      "start": "",
+      "format": "Rapid-fire",
+      "presenter": "Rijan Kafle",
+      "pi": "Sanjay Chaudhary",
+      "title": "Impact of Extracorporeal Membrane Oxygenation as a Bridge to Lung Transplantation on Perioperative Outcomes, Renal Trajectory and Resource Utilization",
+      "coauthors": "Priyanka Poudel, Katherine Quiza, Suzit Bhusal, Ashlesha Chaudhary, Prasanth Balasubramanian, Remzi Bag, Brad A. White, Aashutosh Chaudhary, Pramod Guru, Sanjay Chaudhary",
+      "questionUrl": ""
+    },
+    {
+      "id": "s2-07",
+      "session": 2,
+      "order": 7,
+      "start": "",
+      "format": "Full oral",
+      "presenter": "Yugant Khand",
+      "pi": "Brin Freund",
+      "title": "Risk of Incident Seizures and Epilepsy After a Diagnosis of Idiopathic Intracranial Hypertension: A Matched Retrospective Cohort Study",
+      "coauthors": "Selim Tarabeah, Ahmed Saad, William Tatum, Brin Freund",
+      "questionUrl": ""
+    },
+    {
+      "id": "s2-08",
+      "session": 2,
+      "order": 8,
+      "start": "",
+      "format": "Rapid-fire",
+      "presenter": "Alexis J. Magana, MD",
+      "pi": "Joan M. Irizarry Alvarado",
+      "title": "The Predictive Value of SHAPE Test in Predicting Perioperative Major Adverse Cardiac Events: A Single-Center Retrospective Analysis",
+      "coauthors": "Tachy V. Hernandez Romero, Zulma Sosa Carcamo, Ridwan Ahmad, Rafael A. Landeros Centeno, Juan C. Cardenas Rosales, Joan M. Irizarry Alvarado",
+      "questionUrl": ""
+    },
+    {
+      "id": "s2-09",
+      "session": 2,
+      "order": 9,
+      "start": "",
+      "format": "Rapid-fire",
+      "presenter": "Ahmed Saad",
+      "pi": "Brin Freund",
+      "title": "Epilepsy as a Marker of Cognitive Decline in Cerebral Amyloid Angiopathy: Evidence from a Large Multi-Institutional Cohort",
+      "coauthors": "Yugant Khand, Sai Krishna Vallamchetla, Anshum Patel, Adrian Safa, Caroline P. Tatit, Gregory S. Day, Michelle P. Lin, Cady K. Block, William O. Tatum IV, Brin Freund",
+      "questionUrl": ""
+    },
+    {
+      "id": "s2-10",
+      "session": 2,
+      "order": 10,
+      "start": "",
+      "format": "Full oral",
+      "presenter": "Ekin Inal, MD",
+      "pi": "Houssam Farres",
+      "title": "MAP Score and Abdominal Aortic Calcium Score Capture Distinct Operative and Renal Risk in Partial Nephrectomy: A Single-Center Retrospective Study",
+      "coauthors": "Young Erben, Nathalia Melo-Gonzalez, Neda Qosja, David Thiel, Christopher Jacobs, Houssam Farres",
+      "questionUrl": ""
+    },
+    {
+      "id": "s2-11",
+      "session": 2,
+      "order": 11,
+      "start": "",
+      "format": "Rapid-fire",
+      "presenter": "Fan Wang, PhD",
+      "pi": "Janice L. Krieger",
+      "title": "Information That Sparks Dialogue: Supporting Clinical Trial Communication Through an AI-Enabled Portal",
+      "coauthors": "Andrew H. Maxim, Courtny Franco, Rashi Ghosh, Christopher You, Trevor Kauer, Stephen Anton, Elizabeth Flood-Grady, Trudy Gaillard, Thomas J. George, Benjamin Lok, Carolyn Tucker, Melissa Vilaro, Tuo Lin, Fern Webb, Diana Wilkie, Danyell Wilson-Howard, Olveen Carrasquillo, Janice L. Krieger",
+      "questionUrl": ""
+    }
   ],
-
-  "posters": [
-    { "number": "P1", "presenter": "Presenter name", "category": "Basic Sciences", "title": "Poster title to be confirmed" },
-    { "number": "P2", "presenter": "Presenter name", "category": "Translational Sciences", "title": "Poster title to be confirmed" },
-    { "number": "P3", "presenter": "Presenter name", "category": "Clinical Sciences", "title": "Poster title to be confirmed" }
-  ],
-
+  "posters": [],
   "judges": [],
-
   "info": [
-    { "q": "How do I ask a question?", "a": "Open the talk in the program and tap “Ask a question.” The moderator reads questions from the form during Q&A." },
-    { "q": "Parking", "a": "Parking details will be posted here." },
-    { "q": "Poster setup", "a": "Posters go up during check-in, 8:00–8:30 AM. Your poster number is listed in the Posters section." },
-    { "q": "Contact", "a": "Questions about the day? Contact the MRFA organizing committee." }
+    {
+      "q": "Formats",
+      "a": "Full oral talks are longer presentations with time for questions. Rapid-fire talks are short summaries of a single finding."
+    },
+    {
+      "q": "How do I ask a question?",
+      "a": "Open a talk in the program and tap “Ask a question.” The moderator reads questions from the form during Q&A."
+    },
+    {
+      "q": "Contact",
+      "a": "Questions about the retreat? Contact the MRFA organizing committee."
+    }
   ]
 }

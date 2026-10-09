@@ -3,29 +3,31 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>MRFA Research Day</title>
-  <meta name="description" content="Program, speakers, posters and live Q&A for MRFA Research Day.">
-  <meta name="theme-color" content="#0f3a38">
+  <title>Dean of Research Retreat 2026</title>
+  <meta name="description" content="Oral presentation program, speakers and live Q&A for the Dean of Research Retreat at Mayo Clinic in Florida.">
+  <meta name="theme-color" content="#0a2d5c">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Familjen+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/img/campus-facade-sm.jpg" media="(max-width: 700px)">
+  <link rel="preload" as="image" href="assets/img/campus-facade.jpg" media="(min-width: 701px)">
   <link rel="stylesheet" href="assets/styles.css">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230f3a38'/%3E%3Ccircle cx='16' cy='16' r='6' fill='%23f2c14e'/%3E%3C/svg%3E">
+  <link rel="icon" href="assets/img/mayo-clinic-logo.svg" type="image/svg+xml">
 </head>
 <body>
   <a class="skip" href="#program">Skip to the program</a>
 
-  <header class="masthead">
-    <div class="wrap">
+  <header class="hero">
+    <div class="hero-shade"></div>
+    <div class="wrap hero-inner">
+      <img class="logo" src="assets/img/mayo-clinic-logo-white.svg" alt="Mayo Clinic" width="64" height="64">
       <p class="host" id="host"></p>
-      <h1 id="event-name">MRFA Research Day</h1>
+      <h1 id="event-name">Dean of Research Retreat</h1>
       <dl class="facts">
         <div><dt>Date</dt><dd id="event-date">—</dd></div>
         <div><dt>Time</dt><dd id="event-time">—</dd></div>
         <div><dt>Where</dt><dd id="event-place">—</dd></div>
       </dl>
-      <p class="intro" id="event-intro"></p>
-      <p class="notice" id="event-notice" hidden></p>
     </div>
   </header>
 
@@ -40,7 +42,7 @@
     <div class="wrap tabs-inner">
       <a href="#program">Program</a>
       <a href="#speakers">Speakers</a>
-      <a href="#posters">Posters</a>
+      <a href="#posters" id="tab-posters" hidden>Posters</a>
       <a href="#info">Info</a>
     </div>
   </nav>
@@ -48,16 +50,18 @@
   <main>
     <section id="program" class="wrap block" aria-labelledby="h-program">
       <h2 id="h-program">Program</h2>
+      <p class="lede" id="event-intro"></p>
+      <p class="notice" id="event-notice" hidden></p>
       <ol class="run" id="run"></ol>
     </section>
 
     <section id="speakers" class="wrap block" aria-labelledby="h-speakers">
       <h2 id="h-speakers">Speakers</h2>
-      <div class="filters" id="talk-filters" role="group" aria-label="Filter by category"></div>
+      <div class="filters" id="talk-filters" role="group" aria-label="Filter speakers"></div>
       <ul class="speakers" id="speaker-list"></ul>
     </section>
 
-    <section id="posters" class="wrap block" aria-labelledby="h-posters">
+    <section id="posters" class="wrap block" aria-labelledby="h-posters" hidden>
       <h2 id="h-posters">Posters</h2>
       <label class="search">
         <span class="sr">Search posters</span>
@@ -66,6 +70,13 @@
       <ul class="posters" id="poster-list"></ul>
       <p class="empty" id="poster-empty" hidden>No posters match that search. Try a last name or a poster number like P12.</p>
     </section>
+
+    <figure class="band" aria-hidden="true">
+      <picture>
+        <source media="(max-width: 700px)" srcset="assets/img/campus-palms-sm.jpg">
+        <img src="assets/img/campus-palms.jpg" alt="" loading="lazy">
+      </picture>
+    </figure>
 
     <section id="info" class="wrap block" aria-labelledby="h-info">
       <h2 id="h-info">Info</h2>
@@ -84,9 +95,14 @@
     </section>
   </main>
 
-  <footer class="wrap foot">
-    <p id="foot-host"></p>
-    <p class="updated" id="updated"></p>
+  <footer class="foot">
+    <div class="wrap foot-inner">
+      <img src="assets/img/mayo-clinic-logo.svg" alt="" width="40" height="40" class="foot-logo">
+      <div>
+        <p id="foot-host"></p>
+        <p class="updated">Program subject to change. Check back on the day for updates.</p>
+      </div>
+    </div>
   </footer>
 
   <dialog id="qr-dialog" aria-labelledby="qr-title">

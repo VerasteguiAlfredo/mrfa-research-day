@@ -2,6 +2,8 @@
 
 Live site: https://verasteguialfredo.github.io/mrfa-research-day/
 
+Photos: Mayo Clinic in Florida campus (assets/img). Logo: assets/img/mayo-clinic-logo*.svg.
+
 ## Editing the event (no coding needed)
 
 Everything on the site comes from one file: **`data/event.json`**.
