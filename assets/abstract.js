@@ -41,6 +41,7 @@
       : `<p class="abs-missing">The abstract for this talk will be posted soon.</p>`;
 
     const q = t.questionUrl || data.event.defaultQuestionUrl || "";
+    const pick = `${roman(t.session)}-${t.order} ${String(t.presenter).replace(/,.*$/, "").trim()}`;
     const prev = talks[i - 1], next = talks[i + 1];
     const navLink = (x, cls, label) => x ? `<a class="${cls}" href="abstract.html?talk=${esc(x.id)}"><small>${label}: Session ${roman(x.session)}, talk ${x.order}</small><span>${esc(clean(x.presenter))}</span></a>` : "";
     const photo = t.photo ? `<img src="${esc(t.photo)}" alt="" onerror="this.remove()">` : "";
@@ -67,7 +68,8 @@
       </article>
 
       <div class="abs-actions">
-        ${q ? `<a class="btn" href="${esc(q)}" target="_blank" rel="noopener">Ask a question</a>
+        ${q ? `<p class="pick">In the form, choose <strong>${esc(pick)}</strong></p>
+               <a class="btn" href="${esc(q)}" target="_blank" rel="noopener">Ask a question</a>
                <button class="btn ghost" type="button" id="show-qr">Show QR code</button>`
             : `<span class="btn" aria-disabled="true">Questions open on the day</span>`}
         <button class="btn ghost" type="button" onclick="window.print()">Print</button>
@@ -76,9 +78,9 @@
 
     const qrBtn = $("show-qr");
     if (qrBtn) qrBtn.addEventListener("click", () => {
-      $("qr-sub").textContent = `${clean(t.presenter)}: Session ${roman(t.session)}, talk ${t.order}`;
-      $("qr-big").innerHTML = "";
-      if (window.QRCode) new QRCode($("qr-big"), { text: q, width: 560, height: 560, correctLevel: QRCode.CorrectLevel.M });
+      $("qr-sub").innerHTML = `Then choose <strong>${esc(pick)}</strong> in the form.`;
+      const qr = qrcode(0, "M"); qr.addData(q); qr.make();
+      $("qr-big").innerHTML = qr.createSvgTag({ cellSize: 4, margin: 0, scalable: true });
       $("qr-dialog").showModal();
     });
   }

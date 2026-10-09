@@ -199,3 +199,11 @@ dialog::backdrop { background: rgba(7,26,54,.65); }
 .talk.live { background: var(--sunset-soft); }
 .speaker.is-full { background: var(--full-bg); border-color: color-mix(in srgb, var(--full-bar) 35%, var(--line)); box-shadow: inset 4px 0 0 var(--full-bar); }
 .speaker.is-full .initials { box-shadow: 0 0 0 2px var(--full-bar); }
+
+.pick { margin: 0 0 .5rem; font-size: .9rem; color: var(--muted); flex-basis: 100%; }
+.pick strong { color: var(--ink); white-space: nowrap; }
+.qa-card { margin-bottom: 1rem; background: var(--blue-tint); border-color: color-mix(in srgb, var(--blue) 30%, var(--line)); }
+.qa-card[hidden] { display: none; }
+.qa-card .btn { margin-top: .75rem; }
+.qr svg { display: block; width: 112px; height: 112px; }
+.qr-large svg { width: min(72vw, 280px); height: auto; aspect-ratio: 1; }

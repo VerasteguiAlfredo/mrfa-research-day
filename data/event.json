@@ -12,7 +12,7 @@
     "mapUrl": "",
     "contactEmail": "",
     "intro": "A day of research from trainees across Mayo Clinic in Florida: two sessions of oral and rapid-fire talks, two poster sessions, and awards to close the day. Tap any talk to see the authors and send a question to the moderator.",
-    "defaultQuestionUrl": "",
+    "defaultQuestionUrl": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=nP9fomM_sk-aitm90DIfmt6hjfGQVi1NnuZVQD2XtwFUOFIwOEFJRU9CNVZFRzZGR0E1REQ1VDJNOS4u",
     "notice": "",
     "fullName": "Mayo Clinic Research Fellow Association (MRFA) Research Day, Florida 2026",
     "tagline": "Discovery, collaboration, impact"
@@ -438,7 +438,7 @@
     },
     {
       "q": "How do I ask a question?",
-      "a": "Open a talk in the program and tap “Ask a question.” The moderator reads questions from the form during the session."
+      "a": "Open a talk and tap “Ask a question,” or scan the Q&A code below. In the form, pick the talk from the list (for example, “I-4 Diego Sanchez-Calderin”), type your question, and submit. The moderator reads questions during the session."
     },
     {
       "q": "Venue",

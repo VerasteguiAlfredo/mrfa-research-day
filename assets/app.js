@@ -33,11 +33,13 @@
 
   function questionUrl(t) { return t.questionUrl || data.event.defaultQuestionUrl || ""; }
 
+  // Exactly matches the dropdown option in the Q&A form, e.g. "I-4 Diego Sanchez-Calderin".
+  const pickLabel = (t) => `${t.session === 1 ? "I" : "II"}-${t.order} ${String(t.presenter).replace(/,.*$/, "").trim()}`;
   function actionsHTML(t) {
     const url = questionUrl(t);
     const abs = t.abstract ? `<a class="btn ghost" href="abstract.html?talk=${esc(t.id)}">Read abstract</a>` : "";
     if (!url) return `<div class="actions">${abs}<span class="btn" aria-disabled="true">Questions open on the day</span></div>`;
-    return `<div class="actions">
+    return `<p class="pick">In the form, choose <strong>${esc(pickLabel(t))}</strong></p><div class="actions">
       <a class="btn" href="${esc(url)}" target="_blank" rel="noopener">Ask a question</a>
       ${abs}
       <button class="btn ghost" type="button" data-qr="${esc(t.id)}">Show QR code</button>
@@ -95,6 +97,11 @@
     $("faq").innerHTML = (data.info || []).map((f) => `<dt>${esc(f.q)}</dt><dd>${esc(f.a)}</dd>`).join("");
     if (e.contactEmail) $("faq").innerHTML += `<dt>Email</dt><dd><a href="mailto:${esc(e.contactEmail)}">${esc(e.contactEmail)}</a></dd>`;
     makeQR($("site-qr"), location.href.split("#")[0].split("?")[0], 112);
+    if (e.defaultQuestionUrl) {
+      $("qa-card").hidden = false;
+      $("qa-open").href = e.defaultQuestionUrl;
+      makeQR($("qa-qr"), e.defaultQuestionUrl, 112);
+    }
   }
 
   // Portrait if assets/img/speakers/<name>.jpg exists, otherwise initials.
@@ -149,9 +156,11 @@
     $("poster-empty").hidden = list.length > 0;
   }
 
-  function makeQR(el, text, size) {
+  function makeQR(el, text) {
     el.innerHTML = "";
-    if (window.QRCode) new QRCode(el, { text, width: size * 2, height: size * 2, correctLevel: QRCode.CorrectLevel.M });
+    if (!window.qrcode || !text) return;
+    const qr = qrcode(0, "M"); qr.addData(text); qr.make();
+    el.innerHTML = qr.createSvgTag({ cellSize: 4, margin: 0, scalable: true });
   }
 
   // Live "now / next"
@@ -204,7 +213,7 @@
     const qrBtn = ev.target.closest("[data-qr]");
     if (qrBtn) {
       const t = talksById[qrBtn.dataset.qr];
-      $("qr-sub").textContent = `${t.presenter}: ${t.title}`;
+      $("qr-sub").innerHTML = `Then choose <strong>${esc(pickLabel(t))}</strong> in the form.`;
       makeQR($("qr-big"), questionUrl(t), 280);
       $("qr-dialog").showModal();
       return;

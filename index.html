@@ -86,6 +86,14 @@
         <ul class="judges" id="judge-list"></ul>
       </div>
       <dl class="faq" id="faq"></dl>
+      <div class="share qa-card" id="qa-card" hidden>
+        <div class="share-text">
+          <h3>Ask a question</h3>
+          <p>Scan to open the Q&amp;A form, pick the talk, and send your question to the moderator.</p>
+          <p><a class="btn" id="qa-open" href="#" target="_blank" rel="noopener">Open the Q&amp;A form</a></p>
+        </div>
+        <div class="qr" id="qa-qr" aria-label="QR code for the Q&amp;A form"></div>
+      </div>
       <div class="share">
         <div class="share-text">
           <h3>Share this page</h3>
@@ -115,7 +123,7 @@
     </form>
   </dialog>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="assets/qrcode-generator.js"></script>
   <script src="assets/app.js"></script>
 </body>
 </html>
