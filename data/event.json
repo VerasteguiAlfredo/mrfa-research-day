@@ -113,7 +113,7 @@
       "minutes": 10,
       "abstract": true,
       "degrees": "PhD",
-      "role": "",
+      "role": "Research Associate",
       "department": "Department of Neuroscience"
     },
     {
@@ -131,7 +131,7 @@
       "minutes": 5,
       "abstract": true,
       "degrees": "MD, PhD",
-      "role": "",
+      "role": "Research Fellow",
       "department": "Division of Gastroenterology and Hepatology"
     },
     {
@@ -149,7 +149,7 @@
       "minutes": 5,
       "abstract": true,
       "degrees": "PhD",
-      "role": "",
+      "role": "Research Associate",
       "department": "Department of Neuroscience"
     },
     {
@@ -185,7 +185,7 @@
       "minutes": 5,
       "abstract": true,
       "degrees": "",
-      "role": "Predoctoral Researcher",
+      "role": "Graduate Student",
       "department": "Division of Nephrology"
     },
     {
@@ -203,7 +203,7 @@
       "minutes": 5,
       "abstract": true,
       "degrees": "PhD",
-      "role": "",
+      "role": "Research Associate",
       "department": "Department of Laboratory Medicine and Pathology"
     },
     {
@@ -294,7 +294,7 @@
       "abstract": false,
       "degrees": "MD",
       "role": "Research Fellow",
-      "department": "Women's Health"
+      "department": "Women's Health and Internal Medicine"
     },
     {
       "id": "s2-01",
@@ -311,7 +311,7 @@
       "minutes": 10,
       "abstract": true,
       "degrees": "PhD",
-      "role": "",
+      "role": "Research Fellow",
       "department": "Department of Neuroscience"
     },
     {
@@ -347,7 +347,7 @@
       "minutes": 5,
       "abstract": true,
       "degrees": "PhD",
-      "role": "",
+      "role": "Research Fellow",
       "department": "Department of Neuroscience"
     },
     {
@@ -383,7 +383,7 @@
       "minutes": 5,
       "abstract": true,
       "degrees": "PhD, MS",
-      "role": "",
+      "role": "Research Fellow",
       "department": "Department of Molecular Medicine"
     },
     {
@@ -400,7 +400,7 @@
       "photo": "assets/img/speakers/rijan-kafle.jpg",
       "minutes": 5,
       "abstract": true,
-      "degrees": "",
+      "degrees": "MBBS",
       "role": "Research Trainee",
       "department": "Department of Critical Care Medicine"
     },
@@ -473,8 +473,8 @@
       "minutes": 10,
       "abstract": true,
       "degrees": "MD",
-      "role": "",
-      "department": "Division of Radiology"
+      "role": "Research Fellow",
+      "department": "Divisions of Radiology and Surgery"
     },
     {
       "id": "s2-11",
@@ -491,7 +491,7 @@
       "minutes": 5,
       "abstract": true,
       "degrees": "PhD",
-      "role": "",
+      "role": "Research Associate",
       "department": "Department of Quantitative Health Sciences"
     }
   ],
