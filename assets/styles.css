@@ -187,3 +187,15 @@ dialog::backdrop { background: rgba(7,26,54,.65); }
 .slot.break .slot-title, .slot.plenary .slot-title, .slot.posters .slot-title { font-size: 1.05rem; font-weight: 600; }
 .slot.posters .slot-head { background: color-mix(in srgb, var(--sunset) 22%, var(--surface)); }
 .slot.now.break .slot-head, .slot.now.plenary .slot-head, .slot.now.posters .slot-head { box-shadow: inset 4px 0 0 var(--sunset); }
+
+/* Full oral highlight */
+:root { --full-bg: #e3eefc; --full-bar: #0157b8; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --full-bg: #16305a; --full-bar: #5aa2f0; } }
+:root[data-theme="dark"] { --full-bg: #16305a; --full-bar: #5aa2f0; }
+.talks > li.is-full { background: var(--full-bg); box-shadow: inset 4px 0 0 var(--full-bar); }
+.talks > li.is-full:last-child { border-radius: 0 0 11px 11px; }
+.talks > li.is-full .talk-title { color: var(--navy); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .talks > li.is-full .talk-title { color: var(--ink); } }
+.talk.live { background: var(--sunset-soft); }
+.speaker.is-full { background: var(--full-bg); border-color: color-mix(in srgb, var(--full-bar) 35%, var(--line)); box-shadow: inset 4px 0 0 var(--full-bar); }
+.speaker.is-full .initials { box-shadow: 0 0 0 2px var(--full-bar); }

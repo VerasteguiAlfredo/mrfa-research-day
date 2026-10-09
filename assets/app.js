@@ -102,7 +102,7 @@
     t.photo ? `<img src="${esc(t.photo)}" alt="" loading="lazy" onerror="this.remove()">` : ""}</div>`;
   const fmtClass = (f) => (/rapid/i.test(f || "") ? "rapid" : "full");
   function talkHTML(t) {
-    return `<li><details class="talk" id="talk-${esc(t.id)}" data-start="${esc(t.start || "")}">
+    return `<li class="${fmtClass(t.format) === "full" ? "is-full" : ""}"><details class="talk" id="talk-${esc(t.id)}" data-start="${esc(t.start || "")}">
       <summary>
         <span class="ord">${esc(t.order)}${t.start ? `<small>${fmt(t.start)}</small>` : ""}</span>
         <span>
@@ -127,7 +127,7 @@
   function renderSpeakers(f) {
     const list = (data.talks || []).filter((t) =>
       f === "all" || f === `s${t.session}` || (f === "full" && fmtClass(t.format) === "full") || (f === "rapid" && fmtClass(t.format) === "rapid"));
-    $("speaker-list").innerHTML = list.map((t) => `<li class="speaker">
+    $("speaker-list").innerHTML = list.map((t) => `<li class="speaker${fmtClass(t.format) === "full" ? " is-full" : ""}">
       ${avatar(t)}
       <div>
         <h3>${esc(t.presenter)}</h3>
