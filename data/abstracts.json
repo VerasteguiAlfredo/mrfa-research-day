@@ -249,6 +249,39 @@
    }
   ]
  },
+ "s1-09": {
+  "affiliations": [
+   "Department of Neurology, Mayo Clinic, Jacksonville, Florida"
+  ],
+  "category": "Clinical Sciences",
+  "keywords": "cerebral amyloid angiopathy, seizures, epilepsy, cognitive decline, intracerebral hemorrhage",
+  "sections": [
+   {
+    "h": "Introduction",
+    "p": [
+     "Cerebral amyloid angiopathy (CAA) is an amyloid mediated cortical and leptomeningeal small-vessel disease that commonly presents with lobar intracerebral hemorrhage, cognitive impairment, and transient neurological symptoms. Epilepsy occurs in 20-33% of patients with CAA, but their association with cognitive function and survival remains incompletely defined."
+    ]
+   },
+   {
+    "h": "Methods",
+    "p": [
+     "We conducted a retrospective cohort study using the Mayo Clinic Platform, which contains multi-institutional de-identified longitudinal electronic health records. Adult patients (≥18 years) with CAA were identified using ICD-10 code I68.0 and natural language processing of clinical notes including Boston criteria 2.0. Epilepsy was defined per ILAE criteria with ICD-10 codes and documentation in clinical notes, and cognitive dysfunction diagnosis was confirmed using patient history. Propensity score matching (1:1) was performed at the date of CAA diagnosis. Time-to-event outcomes were estimated using Kaplan-Meier methods and Cox proportional hazards regression for 60 months follow-up."
+    ]
+   },
+   {
+    "h": "Results",
+    "p": [
+     "Among the 2,717 patients with CAA (mean age 74.5 years), 733 patients (27.0%) had epilepsy. 673 propensity score–matched pairs were included in the final analysis. Epilepsy was associated with a higher risk of cognitive dysfunction (HR 1.34, 95% CI 1.13-1.60). No statistically significant difference was noted in all-cause mortality between cohorts (HR 1.07, 95% CI 0.86-1.33)."
+    ]
+   },
+   {
+    "h": "Conclusions",
+    "p": [
+     "Epilepsy in patients with CAA was associated with higher risk of cognitive decline. There was no difference in all-cause mortality, but the confidence interval does not exclude a clinically meaningful effect in either direction. These findings highlight patients with epilepsy as a subgroup of CAA cases with increased risk for cognitive decline. Prospective studies with validated cognitive assessments are needed to confirm this association."
+    ]
+   }
+  ]
+ },
  "s1-10": {
   "affiliations": [
    "Neurosurgery, Mayo Clinic, Jacksonville, Florida"
@@ -536,7 +569,7 @@
    }
   ]
  },
- "s2-10": {
+ "s2-09": {
   "affiliations": [
    "Division of Vascular and Endovascular Surgery, Mayo Clinic, Jacksonville, Florida"
   ],
@@ -569,81 +602,7 @@
    }
   ]
  },
- "s2-11": {
-  "affiliations": [
-   "Department of Quantitative Health Sciences, Mayo Clinic, Jacksonville, Florida"
-  ],
-  "category": "Translational Sciences",
-  "keywords": "Cancer Clinical Trials; Health Communication; Artificial Intelligence; Patient Education; Patient-Provider Communication",
-  "sections": [
-   {
-    "h": "Introduction",
-    "p": [
-     "Facilitating patients’ ability to ask informed questions about clinical trials is a component of ethical recruitment and informed consent. Clear and accessible trial information can help patients and families understand complex concepts, prepare for communication with research teams, and build confidence to ask relevant questions. ALEX (Agents Leveraging Empathy for EXams) is an AI-enabled cancer clinical trial portal. We examined what questions participants identified during ALEX, their plans for follow-up, and whether participants could find ALEX easy to understand while also wanting additional communication."
-    ]
-   },
-   {
-    "h": "Methods",
-    "p": [
-     "We used a mixed-methods analysis of data from 136 adults across four sites (Mayo Clinic Jacksonville/UF Gainesville/UF Jacksonville/University of Miami). From November 2023 to April 2025, we conducted 34 focus group or think-aloud sessions. Participants completed pre/post questionnaires. Transcripts were coded by thought unit, a discrete participant utterance connecting a question or information need to a next step. Spearman correlations examined one ease-of-understanding item and three motivation items, with Holm adjustment."
-    ]
-   },
-   {
-    "h": "Results",
-    "p": [
-     "Perceived ease of understanding was positively associated with motivation to learn more, discuss clinical research with a doctor, and discuss with people who help make health care decisions (ρ=.308-.402, all Holm-adjusted p<.001). 89.3% found ALEX easy to understand, 87.8% wanted to learn more, 75.6% wanted to talk to a doctor, and 74.8% wanted to talk to those who help make health care decisions. Across 22 sessions, 34 thought units were identified. Question preparation was the most frequent communication strategy (n=12), followed by clarification (n=10). Participants identified questions about source credibility, personal relevance, study requirements, and safety. For follow-up, health care providers were identified in 13 thought units and research staff in 11. Participants described ALEX as useful for helping them formulate questions and identify sources of information."
-    ]
-   },
-   {
-    "h": "Conclusions",
-    "p": [
-     "Participants found ALEX easy to understand and reported motivation for further information seeking about clinical trials. Qualitative findings suggest that ALEX may support patients and families in preparing questions and identifying sources for follow-up. By facilitating question preparation and communication, ALEX may enhance the quality of patient-provider communication around cancer clinical trials."
-    ]
-   }
-  ]
- },
- "s2-09": {
-  "affiliations": [
-   "Department of Gastroenterology and Hepatology, Mayo Clinic, Jacksonville, Florida",
-   "Department of Radiology, Mayo Clinic, Jacksonville, Florida"
-  ],
-  "authorAffil": [
-   1,
-   1,
-   2,
-   2,
-   1
-  ],
-  "category": "Clinical Sciences",
-  "keywords": "",
-  "sections": [
-   {
-    "h": "Background",
-    "p": [
-     "Pancreatic ductal adenocarcinoma (PDAC) is frequently diagnosed at an advanced stage despite prior imaging examinations. We evaluated whether blinded review of prior low-dose computed tomography (LDCT) examinations identified pancreatic abnormalities more frequently in patients who subsequently developed PDAC than in matched controls."
-    ]
-   },
-   {
-    "h": "Methods",
-    "p": [
-     "We performed a retrospective descriptive study including 13 patients who subsequently developed PDAC and 52 comparison patients selected for similar age and sex. A board-certified radiologist, blinded to clinical outcomes, independently reviewed all prior low-dose chest computed tomography (LDCT) examinations using the RADPEER scoring system while documenting predefined pancreatic imaging findings. Continuous variables were compared using Student's t-test or the Mann-Whitney U test, as appropriate, and categorical variables using Fisher's exact test."
-    ]
-   },
-   {
-    "h": "Results",
-    "p": [
-     "Sixty-five patients (13 PDAC cases and 52 comparison patients) were included. Cases and comparison patients were similar in age and sex. The median interval from prior LDCT to PDAC diagnosis was 10 months (IQR, 6–26). Most PDACs arose in the pancreatic head (46%), and 70% of staged patients had stage IV disease at diagnosis. Blinded review of all 65 examinations classified the pancreas as normal in 69%, insufficiently visualized in 5%, and abnormal in 26%. Among evaluable examinations, RADPEER discrepancies (score ≥2) were more frequent in PDAC cases than the comparison group (50% vs. 2%, p = 0.0001). Abnormal pancreatic findings were also more common in cases (58% vs. 20%, p = 0.013), including pancreatic masses (25% vs. 0%, p = 0.006) and common bile duct dilation (17% vs. 0%, p = 0.035)."
-    ]
-   },
-   {
-    "h": "Conclusions",
-    "p": [
-     "Blinded review of prior LDCT examinations using RADPEER criteria identified significantly more interpretive discrepancies and pancreatic abnormalities in patients who subsequently developed PDAC than in the comparison group. These findings suggest that pancreatic abnormalities may be retrospectively identifiable on chest LDCT before PDAC diagnosis."
-    ]
-   }
-  ]
- },
- "s1-09": {
+ "s2-10": {
   "affiliations": [
    "Division of Radiology, Mayo Clinic Florida, Jacksonville, FL, USA",
    "Division of General Internal Medicine, Mayo Clinic Florida, Jacksonville, FL, USA",
@@ -684,6 +643,39 @@
     "h": "Conclusions",
     "p": [
      "In patients with obesity and HFrEF, semaglutide or tirzepatide was associated with significant improvements in LV systolic function and reverse remodeling over 1–2 years versus matched controls. Structural remodeling persisted after adjustment for weight loss and background GDMT, suggesting partially weight-independent cardioprotective effects, while the LVEF improvement was attenuated after accounting for weight change."
+    ]
+   }
+  ]
+ },
+ "s2-11": {
+  "affiliations": [
+   "Department of Quantitative Health Sciences, Mayo Clinic, Jacksonville, Florida"
+  ],
+  "category": "Translational Sciences",
+  "keywords": "Cancer Clinical Trials; Health Communication; Artificial Intelligence; Patient Education; Patient-Provider Communication",
+  "sections": [
+   {
+    "h": "Introduction",
+    "p": [
+     "Facilitating patients’ ability to ask informed questions about clinical trials is a component of ethical recruitment and informed consent. Clear and accessible trial information can help patients and families understand complex concepts, prepare for communication with research teams, and build confidence to ask relevant questions. ALEX (Agents Leveraging Empathy for EXams) is an AI-enabled cancer clinical trial portal. We examined what questions participants identified during ALEX, their plans for follow-up, and whether participants could find ALEX easy to understand while also wanting additional communication."
+    ]
+   },
+   {
+    "h": "Methods",
+    "p": [
+     "We used a mixed-methods analysis of data from 136 adults across four sites (Mayo Clinic Jacksonville/UF Gainesville/UF Jacksonville/University of Miami). From November 2023 to April 2025, we conducted 34 focus group or think-aloud sessions. Participants completed pre/post questionnaires. Transcripts were coded by thought unit, a discrete participant utterance connecting a question or information need to a next step. Spearman correlations examined one ease-of-understanding item and three motivation items, with Holm adjustment."
+    ]
+   },
+   {
+    "h": "Results",
+    "p": [
+     "Perceived ease of understanding was positively associated with motivation to learn more, discuss clinical research with a doctor, and discuss with people who help make health care decisions (ρ=.308-.402, all Holm-adjusted p<.001). 89.3% found ALEX easy to understand, 87.8% wanted to learn more, 75.6% wanted to talk to a doctor, and 74.8% wanted to talk to those who help make health care decisions. Across 22 sessions, 34 thought units were identified. Question preparation was the most frequent communication strategy (n=12), followed by clarification (n=10). Participants identified questions about source credibility, personal relevance, study requirements, and safety. For follow-up, health care providers were identified in 13 thought units and research staff in 11. Participants described ALEX as useful for helping them formulate questions and identify sources of information."
+    ]
+   },
+   {
+    "h": "Conclusions",
+    "p": [
+     "Participants found ALEX easy to understand and reported motivation for further information seeking about clinical trials. Qualitative findings suggest that ALEX may support patients and families in preparing questions and identifying sources for follow-up. By facilitating question preparation and communication, ALEX may enhance the quality of patient-provider communication around cancer clinical trials."
     ]
    }
   ]
