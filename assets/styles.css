@@ -132,7 +132,7 @@ a { color: var(--blue); }
 .chip[aria-pressed="true"] { background: var(--blue); color: var(--blue-ink); border-color: var(--blue); }
 .speakers { list-style: none; margin: 0; padding: 0; display: grid; gap: .75rem; }
 .speaker { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 1rem; display: grid; grid-template-columns: 3rem 1fr; gap: .9rem; }
-.initials { width: 3rem; height: 3rem; border-radius: 50%; display: grid; place-items: center; font-family: var(--display); font-weight: 700; background: var(--blue-tint); color: var(--blue); }
+.initials { position: relative; overflow: hidden; flex: none; width: 3rem; height: 3rem; border-radius: 50%; display: grid; place-items: center; font-family: var(--display); font-weight: 700; background: var(--blue-tint); color: var(--blue); }
 .speaker h3 { font-size: 1.1rem; margin: 0; }
 .speaker .aff { color: var(--muted); font-size: .92rem; margin: .1rem 0 .5rem; }
 .speaker .ttl { margin: 0 0 .4rem; line-height: 1.4; }
@@ -173,3 +173,6 @@ dialog::backdrop { background: rgba(7,26,54,.65); }
 .foot-logo { color: var(--ink); flex: none; }
 .foot p { margin: .15rem 0; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .foot-logo { filter: invert(1); } }
+.initials img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 25%; }
+.initials.sm { width: 2rem; height: 2rem; font-size: .75rem; }
+.who-row { display: flex; align-items: center; gap: .5rem; }

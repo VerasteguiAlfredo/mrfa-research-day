@@ -94,6 +94,9 @@
     makeQR($("site-qr"), location.href.split("#")[0].split("?")[0], 112);
   }
 
+  // Portrait if assets/img/speakers/<name>.jpg exists, otherwise initials.
+  const avatar = (t, cls = "") => `<div class="initials ${cls}" aria-hidden="true"><span>${esc(initials(t.presenter.replace(/\(.*?\)/g, "").replace(/,.*$/, "")))}</span>${
+    t.photo ? `<img src="${esc(t.photo)}" alt="" loading="lazy" onerror="this.remove()">` : ""}</div>`;
   const fmtClass = (f) => (/rapid/i.test(f || "") ? "rapid" : "full");
   function talkHTML(t) {
     return `<li><details class="talk" id="talk-${esc(t.id)}" data-start="${esc(t.start || "")}">
@@ -108,7 +111,7 @@
       </summary>
       <div class="talk-detail">
         <dl>
-          <dt>Presenter</dt><dd>${esc(t.presenter)}</dd>
+          <dt>Presenter</dt><dd class="who-row">${avatar(t, "sm")}${esc(t.presenter)}</dd>
           ${t.pi ? `<dt>PI / lab</dt><dd>${esc(t.pi)}</dd>` : ""}
           ${t.coauthors ? `<dt>Co-authors</dt><dd>${esc(t.coauthors)}</dd>` : ""}
         </dl>
@@ -121,7 +124,7 @@
     const list = (data.talks || []).filter((t) =>
       f === "all" || f === `s${t.session}` || (f === "full" && fmtClass(t.format) === "full") || (f === "rapid" && fmtClass(t.format) === "rapid"));
     $("speaker-list").innerHTML = list.map((t) => `<li class="speaker">
-      <div class="initials" aria-hidden="true">${esc(initials(t.presenter.replace(/,.*$/, "")))}</div>
+      ${avatar(t)}
       <div>
         <h3>${esc(t.presenter)}</h3>
         <p class="aff">${t.pi ? `PI: ${esc(t.pi)}` : ""}</p>

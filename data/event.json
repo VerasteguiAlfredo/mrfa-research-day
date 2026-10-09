@@ -22,7 +22,7 @@
       "timeLabel": "Morning",
       "type": "session",
       "title": "Session 1",
-      "moderator": "",
+      "moderator": "Regina Castaneda, MD",
       "talks": [
         "s1-01",
         "s1-02",
@@ -43,7 +43,7 @@
       "timeLabel": "To be announced",
       "type": "session",
       "title": "Session 2",
-      "moderator": "",
+      "moderator": "Regina Castaneda, MD",
       "talks": [
         "s2-01",
         "s2-02",
@@ -70,7 +70,8 @@
       "pi": "Tsuneya Ikezu",
       "title": "Targeting P2RX7 to Suppress Innate Immune Activation Induced by Extracellular Vesicles Carrying Mitochondrial Cargo in Tauopathy",
       "coauthors": "Arun Reddy Ravula, Yang You, Mohammad Abdullah, Zhi Ruan, Justice Ellison, Stephanie Radhakishun, Nibedita Basu Ray, Bridgette C. Melvin, Aishe Kurti, Zhewei Liang, Yuta Sakai, Daniel R. O'Brien, Son N. Nguyen, Scott A. Shaffer, Lindsey Fiddes, Oleg Butovsky, Wolfdieter Springer, Seiko Ikezu, Tsuneya Ikezu",
-      "questionUrl": ""
+      "questionUrl": "",
+      "photo": "assets/img/speakers/victor-bodart-santos.jpg"
     },
     {
       "id": "s1-02",
@@ -82,7 +83,8 @@
       "pi": "Yan Bi",
       "title": "Development of a Novel KrasFLEx-G12D Mouse Model for Kras-driven Cancer Research",
       "coauthors": "Muhammad Faheem, Justin R. Clark, Jiale Wang, Bin Wang, Yang Liu, Huijian Ma, Jiahui Zhao, Ying Wang, Baoan Ji, Yan Bi",
-      "questionUrl": ""
+      "questionUrl": "",
+      "photo": "assets/img/speakers/jie-hu.jpg"
     },
     {
       "id": "s1-03",
@@ -94,7 +96,8 @@
       "pi": "Na Zhao",
       "title": "APOE genotype modulates glial responses and myelin homeostasis during aging",
       "coauthors": "Tadafumi C. Ikezu, Huan Sun, Yixing Chen, Yuka A. Martens, Shuwen Zhang, Yingxue Ren, Allison Wetmore, Monica Castanedes-Casey, Ligia Bastea, Lindsay B. M. Nevalainen, Whitney I. Davis, Zonghua Li, Ellen L. Bradstock, Gisela Xhafkollari, Peter Storz, Trace A. Christensen, Dennis W. Dickson, Eduardo N. Chini, Junmin Peng, Guojun Bu, Na Zhao",
-      "questionUrl": ""
+      "questionUrl": "",
+      "photo": "assets/img/speakers/wenhui-qiao.jpg"
     },
     {
       "id": "s1-04",
@@ -106,7 +109,8 @@
       "pi": "Young Erben",
       "title": "Early Revascularization in Symptomatic Carotid Artery Disease Leads to Better Outcomes: A Ten-Year Multi-Center Cohort Analysis",
       "coauthors": "James F. Meschia, Gyanendra Kumar, Robert D. Brown Jr, Bernard R. Bendok, Kevin Barrett, W. Chris Fox, David A. Miller, Camilo Polania-Sandoval, Ekin Inal, Camila Esquetini-Vernon, Sukhwinder S. J. Sandhu, Richard D. Beegle, Houssam Farres, Giuseppe Lanzino, Young Erben",
-      "questionUrl": ""
+      "questionUrl": "",
+      "photo": "assets/img/speakers/diego-sanchez-calderin.jpg"
     },
     {
       "id": "s1-05",
@@ -118,7 +122,8 @@
       "pi": "LaTonya J. Hickson",
       "title": "Combining Mesenchymal Stromal Cell-Conditioned Media with Contemporary Pharmacotherapy Modulates Hyperglycemic Kidney Tubular Injury and Geroprotective Signaling In Vitro",
       "coauthors": "Caroline Zinn, Isabella Rueda, LaTonya J. Hickson",
-      "questionUrl": ""
+      "questionUrl": "",
+      "photo": "assets/img/speakers/maya-learmonth.jpg"
     },
     {
       "id": "s1-06",
@@ -130,7 +135,8 @@
       "pi": "Craig Horbinski",
       "title": "Prolonged Vorasidenib Treatment Accelerates Growth in a Subset of High-Grade IDH-Mutant Glioma Cultures",
       "coauthors": "Andrew Li, Craig M. Horbinski",
-      "questionUrl": ""
+      "questionUrl": "",
+      "photo": "assets/img/speakers/thomas-sears.jpg"
     },
     {
       "id": "s1-07",
@@ -142,7 +148,8 @@
       "pi": "Christine Hunt",
       "title": "Adverse Childhood Experiences and Functional Outcomes Following Interdisciplinary Pain Rehabilitation: A Retrospective Cohort Study",
       "coauthors": "Sebastian Encalada, Jordan Hoprich, Johanna Mosquera-Moscoso, Christopher Sletten",
-      "questionUrl": ""
+      "questionUrl": "",
+      "photo": "assets/img/speakers/fiorela-martinez.jpg"
     },
     {
       "id": "s1-08",
@@ -154,7 +161,8 @@
       "pi": "Robert Pagan Rosado",
       "title": "Wheelchair Propulsion Type and Musculoskeletal Burden After Spinal Cord Injury",
       "coauthors": "Muhammad Albaab Rehmat, Robert Pagan Rosado",
-      "questionUrl": ""
+      "questionUrl": "",
+      "photo": "assets/img/speakers/andres-monge-ferrin.jpg"
     },
     {
       "id": "s1-09",
@@ -162,11 +170,12 @@
       "order": 9,
       "start": "",
       "format": "Rapid-fire",
-      "presenter": "Alfredo Verastegui",
-      "pi": "",
+      "presenter": "Alfredo Verastegui, MD",
+      "pi": "Maria Daniela Hurtado Andrade, MD, PhD",
       "title": "Cardiac Structural Recovery with GLP-1 Receptor Agonist Therapy in Heart Failure: A Multicenter Propensity-Matched Study",
-      "coauthors": "",
-      "questionUrl": ""
+      "coauthors": "Regina Castaneda, MD; Diego Sepulveda, MD; Andres Acosta, MD, PhD; Demilade A. Adedinsewo, MBChB; Maria Daniela Hurtado Andrade, MD, PhD",
+      "questionUrl": "",
+      "photo": "assets/img/speakers/alfredo-verastegui.jpg"
     },
     {
       "id": "s1-10",
@@ -178,7 +187,8 @@
       "pi": "Alfredo Quiñones-Hinojosa (Brain Tumor Stem Cell Lab)",
       "title": "Single-cell spatial multi-omic mapping of glioblastoma reveals two targetable invasion programs and a margin invasion burden that predicts early progression",
       "coauthors": "Nicholas Dove, Yi Liu, Asha Nair, Paula Schiapparelli, Aleeshba Basil, Hussien Al Asi, Ian Dryden, Emily Norton, Beatriz Fernanadez-Gil, Brandy Edenfield, Jennifer Kachergus, Heather Kileen, Ji Shi, Mieu Brooks, Vanessa Jones, Aubrey Thompson, Yan Luo, Kaisorn L. Chaichana, Honggan Qin, Z. Akkus, Craig Horbinski, Yan W. Asmann, Alfredo Quinones-Hinojosa",
-      "questionUrl": ""
+      "questionUrl": "",
+      "photo": "assets/img/speakers/paola-suarez-meade.jpg"
     },
     {
       "id": "s1-11",
@@ -190,7 +200,8 @@
       "pi": "Women's Health",
       "title": "Network Analysis of Perimenopausal Symptoms",
       "coauthors": "",
-      "questionUrl": ""
+      "questionUrl": "",
+      "photo": "assets/img/speakers/jaime-i-castillo-silva.jpg"
     },
     {
       "id": "s2-01",
@@ -202,7 +213,8 @@
       "pi": "Seiko Ikezu",
       "title": "Therapeutic potential of antisense oligonucleotide targeting of Tau Tubulin Kinase 1 in models of Alzheimer's disease",
       "coauthors": "Justice Ellison, Jasmine Newington, Alejandro Preciado, Mariam Stein, Prakruthi Vadakattu, Christine Hong, Fredrik Kamme, Tsuneya Ikezu, Seiko Ikezu",
-      "questionUrl": ""
+      "questionUrl": "",
+      "photo": "assets/img/speakers/grace-samtani.jpg"
     },
     {
       "id": "s2-02",
@@ -214,7 +226,8 @@
       "pi": "Maria D. Hurtado Andrade",
       "title": "What Patients Want: Are Weight-Loss Goals Realistic Relative to the Strategies Patients Are Willing to Adopt?",
       "coauthors": "Alexia R. Maier, Pamela K. Bennett, Regina Castaneda, Tina Taaffe, Alvaro Cornejo Cobo, Kirsten E. Frederiksen, Andres Acosta, Maria D. Hurtado Andrade",
-      "questionUrl": ""
+      "questionUrl": "",
+      "photo": "assets/img/speakers/diego-sepulveda.jpg"
     },
     {
       "id": "s2-03",
@@ -226,7 +239,8 @@
       "pi": "Seiko Ikezu",
       "title": "Humanized MAPT and APP Increase Neuronal Excitability and Accelerate Phosphorylated Tau Propagation in a Novel Entorhinal Cortex Layer II–Targeted Mouse Model of Early Alzheimer's Disease",
       "coauthors": "Arun Reddy Ravula, Brendan Gibbs, Nibedita Basu Ray, Justice Ellison, Alejandro Longtree-Preciado, Seiko Ikezu, Tsuneya Ikezu",
-      "questionUrl": ""
+      "questionUrl": "",
+      "photo": "assets/img/speakers/ayaka-tatsumoto.jpg"
     },
     {
       "id": "s2-04",
@@ -238,7 +252,8 @@
       "pi": "Rohan Goswami",
       "title": "Optimal window for lactic acid clearance after Impella 5.5 placement in patients with cardiogenic shock",
       "coauthors": "Rebecca Klingbeil, Hans Mautong, Andrea Muniz, Parag Patel, Anna Shapiro, Rohan Goswami",
-      "questionUrl": ""
+      "questionUrl": "",
+      "photo": "assets/img/speakers/aarti-desai.jpg"
     },
     {
       "id": "s2-05",
@@ -250,7 +265,8 @@
       "pi": "Loic Deleyrolle",
       "title": "Metabolic modulations of CAR T cells to improve anti-tumor efficacy in Glioblastoma",
       "coauthors": "Adriana Yamaguchi, Anna Nulk, Emma Redmon, Shahin Hamzeh, Trevor Ruiz, Nagheme Thomas, Maryam Rahman, Duane A. Mitchell, Jianping Huang, Loic P. Deleyrolle",
-      "questionUrl": ""
+      "questionUrl": "",
+      "photo": "assets/img/speakers/srabasti-sengupta.jpg"
     },
     {
       "id": "s2-06",
@@ -262,7 +278,8 @@
       "pi": "Sanjay Chaudhary",
       "title": "Impact of Extracorporeal Membrane Oxygenation as a Bridge to Lung Transplantation on Perioperative Outcomes, Renal Trajectory and Resource Utilization",
       "coauthors": "Priyanka Poudel, Katherine Quiza, Suzit Bhusal, Ashlesha Chaudhary, Prasanth Balasubramanian, Remzi Bag, Brad A. White, Aashutosh Chaudhary, Pramod Guru, Sanjay Chaudhary",
-      "questionUrl": ""
+      "questionUrl": "",
+      "photo": "assets/img/speakers/rijan-kafle.jpg"
     },
     {
       "id": "s2-07",
@@ -274,7 +291,8 @@
       "pi": "Brin Freund",
       "title": "Risk of Incident Seizures and Epilepsy After a Diagnosis of Idiopathic Intracranial Hypertension: A Matched Retrospective Cohort Study",
       "coauthors": "Selim Tarabeah, Ahmed Saad, William Tatum, Brin Freund",
-      "questionUrl": ""
+      "questionUrl": "",
+      "photo": "assets/img/speakers/yugant-khand.jpg"
     },
     {
       "id": "s2-08",
@@ -286,7 +304,8 @@
       "pi": "Joan M. Irizarry Alvarado",
       "title": "The Predictive Value of SHAPE Test in Predicting Perioperative Major Adverse Cardiac Events: A Single-Center Retrospective Analysis",
       "coauthors": "Tachy V. Hernandez Romero, Zulma Sosa Carcamo, Ridwan Ahmad, Rafael A. Landeros Centeno, Juan C. Cardenas Rosales, Joan M. Irizarry Alvarado",
-      "questionUrl": ""
+      "questionUrl": "",
+      "photo": "assets/img/speakers/alexis-j-magana.jpg"
     },
     {
       "id": "s2-09",
@@ -298,7 +317,8 @@
       "pi": "Brin Freund",
       "title": "Epilepsy as a Marker of Cognitive Decline in Cerebral Amyloid Angiopathy: Evidence from a Large Multi-Institutional Cohort",
       "coauthors": "Yugant Khand, Sai Krishna Vallamchetla, Anshum Patel, Adrian Safa, Caroline P. Tatit, Gregory S. Day, Michelle P. Lin, Cady K. Block, William O. Tatum IV, Brin Freund",
-      "questionUrl": ""
+      "questionUrl": "",
+      "photo": "assets/img/speakers/ahmed-saad.jpg"
     },
     {
       "id": "s2-10",
@@ -310,7 +330,8 @@
       "pi": "Houssam Farres",
       "title": "MAP Score and Abdominal Aortic Calcium Score Capture Distinct Operative and Renal Risk in Partial Nephrectomy: A Single-Center Retrospective Study",
       "coauthors": "Young Erben, Nathalia Melo-Gonzalez, Neda Qosja, David Thiel, Christopher Jacobs, Houssam Farres",
-      "questionUrl": ""
+      "questionUrl": "",
+      "photo": "assets/img/speakers/ekin-inal.jpg"
     },
     {
       "id": "s2-11",
@@ -322,7 +343,8 @@
       "pi": "Janice L. Krieger",
       "title": "Information That Sparks Dialogue: Supporting Clinical Trial Communication Through an AI-Enabled Portal",
       "coauthors": "Andrew H. Maxim, Courtny Franco, Rashi Ghosh, Christopher You, Trevor Kauer, Stephen Anton, Elizabeth Flood-Grady, Trudy Gaillard, Thomas J. George, Benjamin Lok, Carolyn Tucker, Melissa Vilaro, Tuo Lin, Fern Webb, Diana Wilkie, Danyell Wilson-Howard, Olveen Carrasquillo, Janice L. Krieger",
-      "questionUrl": ""
+      "questionUrl": "",
+      "photo": "assets/img/speakers/fan-wang.jpg"
     }
   ],
   "posters": [],
