@@ -35,9 +35,11 @@
 
   function actionsHTML(t) {
     const url = questionUrl(t);
-    if (!url) return `<div class="actions"><span class="btn" aria-disabled="true">Questions open on the day</span></div>`;
+    const abs = t.abstract ? `<a class="btn ghost" href="abstract.html?talk=${esc(t.id)}">Read abstract</a>` : "";
+    if (!url) return `<div class="actions">${abs}<span class="btn" aria-disabled="true">Questions open on the day</span></div>`;
     return `<div class="actions">
       <a class="btn" href="${esc(url)}" target="_blank" rel="noopener">Ask a question</a>
+      ${abs}
       <button class="btn ghost" type="button" data-qr="${esc(t.id)}">Show QR code</button>
     </div>`;
   }

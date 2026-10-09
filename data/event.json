@@ -110,7 +110,8 @@
       "coauthors": "Arun Reddy Ravula, Yang You, Mohammad Abdullah, Zhi Ruan, Justice Ellison, Stephanie Radhakishun, Nibedita Basu Ray, Bridgette C. Melvin, Aishe Kurti, Zhewei Liang, Yuta Sakai, Daniel R. O'Brien, Son N. Nguyen, Scott A. Shaffer, Lindsey Fiddes, Oleg Butovsky, Wolfdieter Springer, Seiko Ikezu, Tsuneya Ikezu",
       "questionUrl": "",
       "photo": "assets/img/speakers/victor-bodart-santos.jpg",
-      "minutes": 10
+      "minutes": 10,
+      "abstract": true
     },
     {
       "id": "s1-02",
@@ -124,7 +125,8 @@
       "coauthors": "Muhammad Faheem, Justin R. Clark, Jiale Wang, Bin Wang, Yang Liu, Huijian Ma, Jiahui Zhao, Ying Wang, Baoan Ji, Yan Bi",
       "questionUrl": "",
       "photo": "assets/img/speakers/jie-hu.jpg",
-      "minutes": 5
+      "minutes": 5,
+      "abstract": true
     },
     {
       "id": "s1-03",
@@ -138,7 +140,8 @@
       "coauthors": "Tadafumi C. Ikezu, Huan Sun, Yixing Chen, Yuka A. Martens, Shuwen Zhang, Yingxue Ren, Allison Wetmore, Monica Castanedes-Casey, Ligia Bastea, Lindsay B. M. Nevalainen, Whitney I. Davis, Zonghua Li, Ellen L. Bradstock, Gisela Xhafkollari, Peter Storz, Trace A. Christensen, Dennis W. Dickson, Eduardo N. Chini, Junmin Peng, Guojun Bu, Na Zhao",
       "questionUrl": "",
       "photo": "assets/img/speakers/wenhui-qiao.jpg",
-      "minutes": 5
+      "minutes": 5,
+      "abstract": true
     },
     {
       "id": "s1-04",
@@ -152,7 +155,8 @@
       "coauthors": "James F. Meschia, Gyanendra Kumar, Robert D. Brown Jr, Bernard R. Bendok, Kevin Barrett, W. Chris Fox, David A. Miller, Camilo Polania-Sandoval, Ekin Inal, Camila Esquetini-Vernon, Sukhwinder S. J. Sandhu, Richard D. Beegle, Houssam Farres, Giuseppe Lanzino, Young Erben",
       "questionUrl": "",
       "photo": "assets/img/speakers/diego-sanchez-calderin.jpg",
-      "minutes": 10
+      "minutes": 10,
+      "abstract": true
     },
     {
       "id": "s1-05",
@@ -166,7 +170,8 @@
       "coauthors": "Caroline Zinn, Isabella Rueda, LaTonya J. Hickson",
       "questionUrl": "",
       "photo": "assets/img/speakers/maya-learmonth.jpg",
-      "minutes": 5
+      "minutes": 5,
+      "abstract": true
     },
     {
       "id": "s1-06",
@@ -180,7 +185,8 @@
       "coauthors": "Andrew Li, Craig M. Horbinski",
       "questionUrl": "",
       "photo": "assets/img/speakers/thomas-sears.jpg",
-      "minutes": 5
+      "minutes": 5,
+      "abstract": true
     },
     {
       "id": "s1-07",
@@ -194,7 +200,8 @@
       "coauthors": "Sebastian Encalada, Jordan Hoprich, Johanna Mosquera-Moscoso, Christopher Sletten",
       "questionUrl": "",
       "photo": "assets/img/speakers/fiorela-martinez.jpg",
-      "minutes": 10
+      "minutes": 10,
+      "abstract": true
     },
     {
       "id": "s1-08",
@@ -208,7 +215,8 @@
       "coauthors": "Muhammad Albaab Rehmat, Robert Pagan Rosado",
       "questionUrl": "",
       "photo": "assets/img/speakers/andres-monge-ferrin.jpg",
-      "minutes": 5
+      "minutes": 5,
+      "abstract": true
     },
     {
       "id": "s1-09",
@@ -222,7 +230,8 @@
       "coauthors": "Regina Castaneda, MD; Diego Sepulveda, MD; Andres Acosta, MD, PhD; Demilade A. Adedinsewo, MBChB; Maria Daniela Hurtado Andrade, MD, PhD",
       "questionUrl": "",
       "photo": "assets/img/speakers/alfredo-verastegui.jpg",
-      "minutes": 5
+      "minutes": 5,
+      "abstract": false
     },
     {
       "id": "s1-10",
@@ -236,7 +245,8 @@
       "coauthors": "Nicholas Dove, Yi Liu, Asha Nair, Paula Schiapparelli, Aleeshba Basil, Hussien Al Asi, Ian Dryden, Emily Norton, Beatriz Fernanadez-Gil, Brandy Edenfield, Jennifer Kachergus, Heather Kileen, Ji Shi, Mieu Brooks, Vanessa Jones, Aubrey Thompson, Yan Luo, Kaisorn L. Chaichana, Honggan Qin, Z. Akkus, Craig Horbinski, Yan W. Asmann, Alfredo Quinones-Hinojosa",
       "questionUrl": "",
       "photo": "assets/img/speakers/paola-suarez-meade.jpg",
-      "minutes": 10
+      "minutes": 10,
+      "abstract": true
     },
     {
       "id": "s1-11",
@@ -250,7 +260,8 @@
       "coauthors": "",
       "questionUrl": "",
       "photo": "assets/img/speakers/jaime-i-castillo-silva.jpg",
-      "minutes": 5
+      "minutes": 5,
+      "abstract": false
     },
     {
       "id": "s2-01",
@@ -264,7 +275,8 @@
       "coauthors": "Justice Ellison, Jasmine Newington, Alejandro Preciado, Mariam Stein, Prakruthi Vadakattu, Christine Hong, Fredrik Kamme, Tsuneya Ikezu, Seiko Ikezu",
       "questionUrl": "",
       "photo": "assets/img/speakers/grace-samtani.jpg",
-      "minutes": 10
+      "minutes": 10,
+      "abstract": true
     },
     {
       "id": "s2-02",
@@ -278,7 +290,8 @@
       "coauthors": "Alexia R. Maier, Pamela K. Bennett, Regina Castaneda, Tina Taaffe, Alvaro Cornejo Cobo, Kirsten E. Frederiksen, Andres Acosta, Maria D. Hurtado Andrade",
       "questionUrl": "",
       "photo": "assets/img/speakers/diego-sepulveda.jpg",
-      "minutes": 5
+      "minutes": 5,
+      "abstract": true
     },
     {
       "id": "s2-03",
@@ -292,7 +305,8 @@
       "coauthors": "Arun Reddy Ravula, Brendan Gibbs, Nibedita Basu Ray, Justice Ellison, Alejandro Longtree-Preciado, Seiko Ikezu, Tsuneya Ikezu",
       "questionUrl": "",
       "photo": "assets/img/speakers/ayaka-tatsumoto.jpg",
-      "minutes": 5
+      "minutes": 5,
+      "abstract": true
     },
     {
       "id": "s2-04",
@@ -306,7 +320,8 @@
       "coauthors": "Rebecca Klingbeil, Hans Mautong, Andrea Muniz, Parag Patel, Anna Shapiro, Rohan Goswami",
       "questionUrl": "",
       "photo": "assets/img/speakers/aarti-desai.jpg",
-      "minutes": 10
+      "minutes": 10,
+      "abstract": true
     },
     {
       "id": "s2-05",
@@ -320,7 +335,8 @@
       "coauthors": "Adriana Yamaguchi, Anna Nulk, Emma Redmon, Shahin Hamzeh, Trevor Ruiz, Nagheme Thomas, Maryam Rahman, Duane A. Mitchell, Jianping Huang, Loic P. Deleyrolle",
       "questionUrl": "",
       "photo": "assets/img/speakers/srabasti-sengupta.jpg",
-      "minutes": 5
+      "minutes": 5,
+      "abstract": true
     },
     {
       "id": "s2-06",
@@ -334,7 +350,8 @@
       "coauthors": "Priyanka Poudel, Katherine Quiza, Suzit Bhusal, Ashlesha Chaudhary, Prasanth Balasubramanian, Remzi Bag, Brad A. White, Aashutosh Chaudhary, Pramod Guru, Sanjay Chaudhary",
       "questionUrl": "",
       "photo": "assets/img/speakers/rijan-kafle.jpg",
-      "minutes": 5
+      "minutes": 5,
+      "abstract": true
     },
     {
       "id": "s2-07",
@@ -348,7 +365,8 @@
       "coauthors": "Selim Tarabeah, Ahmed Saad, William Tatum, Brin Freund",
       "questionUrl": "",
       "photo": "assets/img/speakers/yugant-khand.jpg",
-      "minutes": 10
+      "minutes": 10,
+      "abstract": true
     },
     {
       "id": "s2-08",
@@ -362,7 +380,8 @@
       "coauthors": "Tachy V. Hernandez Romero, Zulma Sosa Carcamo, Ridwan Ahmad, Rafael A. Landeros Centeno, Juan C. Cardenas Rosales, Joan M. Irizarry Alvarado",
       "questionUrl": "",
       "photo": "assets/img/speakers/alexis-j-magana.jpg",
-      "minutes": 5
+      "minutes": 5,
+      "abstract": true
     },
     {
       "id": "s2-09",
@@ -370,13 +389,14 @@
       "order": 9,
       "start": "12:55",
       "format": "Rapid-fire",
-      "presenter": "Ahmed Saad",
-      "pi": "Brin Freund",
-      "title": "Epilepsy as a Marker of Cognitive Decline in Cerebral Amyloid Angiopathy: Evidence from a Large Multi-Institutional Cohort",
-      "coauthors": "Yugant Khand, Sai Krishna Vallamchetla, Anshum Patel, Adrian Safa, Caroline P. Tatit, Gregory S. Day, Michelle P. Lin, Cady K. Block, William O. Tatum IV, Brin Freund",
+      "presenter": "Felix Lopez Dominici, MD",
+      "pi": "M. B. Wallace, MD, MPH",
+      "title": "Pancreatic Findings on Prior Low-Dose Chest CT Examinations Before Pancreatic Ductal Adenocarcinoma Diagnosis: A Blinded Review Using RADPEER Criteria",
+      "coauthors": "O. Osagiede, MBBS, MPH; J. LeGout, MD; C. Bolan, MD; M. B. Wallace, MD, MPH",
       "questionUrl": "",
-      "photo": "assets/img/speakers/ahmed-saad.jpg",
-      "minutes": 5
+      "photo": "assets/img/speakers/felix-lopez-dominici.jpg",
+      "minutes": 5,
+      "abstract": true
     },
     {
       "id": "s2-10",
@@ -390,7 +410,8 @@
       "coauthors": "Young Erben, Nathalia Melo-Gonzalez, Neda Qosja, David Thiel, Christopher Jacobs, Houssam Farres",
       "questionUrl": "",
       "photo": "assets/img/speakers/ekin-inal.jpg",
-      "minutes": 10
+      "minutes": 10,
+      "abstract": true
     },
     {
       "id": "s2-11",
@@ -404,7 +425,8 @@
       "coauthors": "Andrew H. Maxim, Courtny Franco, Rashi Ghosh, Christopher You, Trevor Kauer, Stephen Anton, Elizabeth Flood-Grady, Trudy Gaillard, Thomas J. George, Benjamin Lok, Carolyn Tucker, Melissa Vilaro, Tuo Lin, Fern Webb, Diana Wilkie, Danyell Wilson-Howard, Olveen Carrasquillo, Janice L. Krieger",
       "questionUrl": "",
       "photo": "assets/img/speakers/fan-wang.jpg",
-      "minutes": 5
+      "minutes": 5,
+      "abstract": true
     }
   ],
   "posters": [],

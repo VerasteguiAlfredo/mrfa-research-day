@@ -9,4 +9,4 @@ maya-learmonth.jpg, thomas-sears.jpg, fiorela-martinez.jpg, andres-monge-ferrin.
 alfredo-verastegui.jpg, paola-suarez-meade.jpg, jaime-i-castillo-silva.jpg,
 grace-samtani.jpg, diego-sepulveda.jpg, ayaka-tatsumoto.jpg, aarti-desai.jpg,
 srabasti-sengupta.jpg, rijan-kafle.jpg, yugant-khand.jpg, alexis-j-magana.jpg,
-ahmed-saad.jpg, ekin-inal.jpg, fan-wang.jpg
+felix-lopez-dominici.jpg, ekin-inal.jpg, fan-wang.jpg

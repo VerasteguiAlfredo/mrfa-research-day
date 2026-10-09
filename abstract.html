@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Abstract, MRFA Research Day Florida 2026</title>
+  <meta name="theme-color" content="#0a2d5c">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Familjen+Grotesk:wght@500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/abstract.css">
+  <link rel="icon" href="assets/img/mayo-clinic-logo.svg" type="image/svg+xml">
+</head>
+<body class="abs-page">
+  <header class="abs-bar">
+    <div class="wrap abs-bar-inner">
+      <a class="abs-home" href="./#program">
+        <img src="assets/img/mayo-clinic-logo-white.svg" alt="" width="34" height="34">
+        <span>MRFA Research Day<br><small>Florida 2026</small></span>
+      </a>
+      <a class="abs-back" href="./#program">Back to program</a>
+    </div>
+  </header>
+
+  <main class="wrap abs-main" id="abs">
+    <p class="empty">Loading abstract…</p>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot-inner">
+      <img src="assets/img/mayo-clinic-logo.svg" alt="" width="40" height="40" class="foot-logo">
+      <div>
+        <p>Mayo Clinic Research Fellow Association (MRFA) Research Day, Florida 2026</p>
+        <p class="updated">Abstracts are shown as submitted by the authors.</p>
+      </div>
+    </div>
+  </footer>
+
+  <dialog id="qr-dialog" aria-labelledby="qr-title">
+    <form method="dialog" class="qr-dialog-inner">
+      <h3 id="qr-title">Scan to ask a question</h3>
+      <p id="qr-sub"></p>
+      <div class="qr qr-large" id="qr-big"></div>
+      <button class="btn" value="close">Close</button>
+    </form>
+  </dialog>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="assets/abstract.js"></script>
+</body>
+</html>

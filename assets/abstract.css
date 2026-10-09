@@ -1,0 +1,44 @@
+.abs-page { --serif: "Source Serif 4", Georgia, serif; }
+.abs-bar { background: var(--navy); color: #fff; position: sticky; top: 0; z-index: 5; }
+.abs-bar-inner { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding-top: .6rem; padding-bottom: .6rem; }
+.abs-home { display: flex; align-items: center; gap: .6rem; color: #fff; text-decoration: none; font-family: var(--display); font-weight: 600; line-height: 1.1; }
+.abs-home small { font-weight: 500; color: var(--sunset); }
+.abs-back { color: #fff; font-size: .95rem; padding: .5rem .2rem; }
+
+.abs-main { padding-top: 2rem; padding-bottom: 2rem; max-width: 42rem; }
+.abs-meta { display: flex; flex-wrap: wrap; gap: .4rem .5rem; align-items: center; margin: 0 0 1rem; font-size: .9rem; color: var(--muted); }
+.abs-meta .fmt { margin: 0; }
+.abs-meta .sep { width: 4px; height: 4px; border-radius: 50%; background: var(--line); }
+.abs-title { font-family: var(--serif); font-weight: 700; font-size: clamp(1.55rem, 5.5vw, 2.1rem); line-height: 1.2; letter-spacing: -.005em; margin: 0 0 1.1rem; text-wrap: pretty; }
+.abs-authors { font-family: var(--serif); font-size: 1.05rem; line-height: 1.55; margin: 0 0 .5rem; }
+.abs-authors .presenting { text-decoration: underline; text-decoration-thickness: 1.5px; text-underline-offset: 3px; }
+.abs-authors sup, .abs-affil sup { font-size: .7em; color: var(--blue); }
+.abs-affil { list-style: none; padding: 0; margin: 0 0 .4rem; font-size: .9rem; color: var(--muted); }
+.abs-affil li { margin: .1rem 0; }
+.abs-note { font-size: .85rem; color: var(--muted); margin: .4rem 0 0; }
+
+.abs-presenter { display: flex; align-items: center; gap: .8rem; margin: 1.5rem 0; padding: .9rem 1rem; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
+.abs-presenter .initials { width: 3.25rem; height: 3.25rem; }
+.abs-presenter strong { display: block; }
+.abs-presenter span.small { color: var(--muted); font-size: .92rem; }
+
+.abs-body { border-top: 2px solid var(--blue); padding-top: 1.25rem; }
+.abs-body h2 { font-family: var(--display); font-size: 1rem; font-weight: 700; color: var(--blue); margin: 1.4rem 0 .35rem; letter-spacing: .01em; }
+.abs-body h2:first-child { margin-top: 0; }
+.abs-body p { font-family: var(--serif); font-size: 1.075rem; line-height: 1.7; margin: 0 0 .8rem; hyphens: auto; }
+.abs-kw { margin-top: 1.5rem; font-size: .92rem; color: var(--muted); }
+.abs-kw strong { color: var(--ink); }
+.abs-missing { padding: 1rem; background: var(--blue-tint); border-radius: 10px; }
+
+.abs-actions { display: flex; flex-wrap: wrap; gap: .5rem; margin: 2rem 0 1.5rem; }
+.abs-nav { display: grid; grid-template-columns: 1fr 1fr; gap: .75rem; border-top: 1px solid var(--line); padding-top: 1.25rem; }
+.abs-nav a { display: block; padding: .8rem 1rem; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); text-decoration: none; color: var(--ink); min-width: 0; }
+.abs-nav a small { display: block; color: var(--muted); font-size: .8rem; }
+.abs-nav a span { display: block; font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.abs-nav .next { text-align: right; grid-column: 2; }
+
+@media print {
+  .abs-bar, .abs-actions, .abs-nav, .foot, .abs-presenter { display: none !important; }
+  body { background: #fff; color: #000; }
+  .abs-main { padding: 0; max-width: none; }
+}
