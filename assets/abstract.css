@@ -42,3 +42,4 @@
   body { background: #fff; color: #000; }
   .abs-main { padding: 0; max-width: none; }
 }
+.fmt.poster { background: color-mix(in srgb, var(--sunset) 30%, var(--surface)); color: var(--ink); }

@@ -65,7 +65,9 @@
       "start": "10:30",
       "end": "11:30",
       "type": "posters",
-      "title": "Poster session I"
+      "title": "Poster session I",
+      "link": "#posters",
+      "who": "21 posters across basic, translational and clinical science"
     },
     {
       "start": "11:30",
@@ -98,7 +100,9 @@
       "start": "13:15",
       "end": "14:15",
       "type": "posters",
-      "title": "Poster session II"
+      "title": "Poster session II",
+      "link": "#posters",
+      "who": "21 posters across basic, translational and clinical science"
     },
     {
       "start": "14:15",
@@ -506,7 +510,260 @@
       "department": "Department of Quantitative Health Sciences"
     }
   ],
-  "posters": [],
+  "posters": [
+    {
+      "id": "p01",
+      "number": "P1",
+      "presenter": "Yugant Khand",
+      "degrees": "MBBS",
+      "role": "Research Trainee",
+      "department": "Department of Neurology",
+      "category": "Basic Sciences",
+      "title": "Cerebral Microbleeds and Risk of Cognitive Impairment and Mortality After Traumatic Brain Injury: A Real-World Retrospective Cohort Study",
+      "pi": "Kevin Barrett, M.D.",
+      "abstract": true
+    },
+    {
+      "id": "p02",
+      "number": "P2",
+      "presenter": "Anna Nulk",
+      "degrees": "PhD",
+      "role": "",
+      "department": "Department of Molecular Medicine",
+      "category": "Basic Sciences",
+      "title": "Atorvastatin-Mediated Targeting of Lipid Metabolic Reprogramming in Glioblastoma",
+      "pi": "Loic Deleyrolle",
+      "abstract": true
+    },
+    {
+      "id": "p03",
+      "number": "P3",
+      "presenter": "Ayman H. Faroqi",
+      "degrees": "",
+      "role": "",
+      "department": "Department of Neuroscience",
+      "category": "Translational Sciences",
+      "title": "Development and Validation of CRISPR Interference to Reduce Alpha-Synuclein Expression as a Therapeutic Strategy for Synucleinopathies",
+      "pi": "Pam J. McLean",
+      "abstract": true
+    },
+    {
+      "id": "p04",
+      "number": "P4",
+      "presenter": "Dhruva Kumar Lokesh",
+      "degrees": "",
+      "role": "",
+      "department": "Department of Surgery",
+      "category": "Translational Sciences",
+      "title": "Complex Wound Healing Using APLICOR 3D Printed Fat Graft: An Early Institutional Case Series",
+      "pi": "Dr. Thea Price",
+      "abstract": true
+    },
+    {
+      "id": "p05",
+      "number": "P5",
+      "presenter": "Dhruva Kumar Lokesh",
+      "degrees": "",
+      "role": "",
+      "department": "Department of Surgery",
+      "category": "Translational Sciences",
+      "title": "Filling the Gap: A Novel Approach to Crohn’s Perianal Fistula Closure Using APLICOR 3D Printed Stromal Vascular Fraction Graft",
+      "pi": "Dr. Thea Price",
+      "abstract": true
+    },
+    {
+      "id": "p06",
+      "number": "P6",
+      "presenter": "Shaina Matveev",
+      "degrees": "",
+      "role": "",
+      "department": "Department of Neuroscience",
+      "category": "Translational Sciences",
+      "title": "High Resolution In Situ Visualization of Astrocyte-Associated Nanoscale Structures Through Combined TurboID Labeling and Expansion Microscopy",
+      "pi": "Ikezu Lab / Tsuneya Ikezu",
+      "abstract": true
+    },
+    {
+      "id": "p07",
+      "number": "P7",
+      "presenter": "Faithlyn Moss",
+      "degrees": "",
+      "role": "",
+      "department": "Department of Quantitative Health Sciences",
+      "category": "Translational Sciences",
+      "title": "Aligning Expectations in Community Advisory Board - Research Team Partnerships: Recruitment as an Opportunity for Early Partnership Building",
+      "pi": "Dr. Janice Krieger",
+      "abstract": true
+    },
+    {
+      "id": "p08",
+      "number": "P8",
+      "presenter": "Aarti Desai",
+      "degrees": "MBBS",
+      "role": "Research Fellow",
+      "department": "Division of Heart Failure and Transplantation",
+      "category": "Clinical Sciences",
+      "title": "Health-Related Quality-of-Life Measures in Patients with Heart Failure Cardiogenic Shock Following Axillary Mechanical Circulatory Support",
+      "pi": "Rohan Goswami",
+      "abstract": true
+    },
+    {
+      "id": "p09",
+      "number": "P9",
+      "presenter": "Felix Lopez Dominici",
+      "degrees": "MD",
+      "role": "",
+      "department": "Department of Gastroenterology and Hepatology",
+      "category": "Clinical Sciences",
+      "title": "Pancreatic Findings on Prior Low-Dose Chest CT Examinations Before Pancreatic Ductal Adenocarcinoma Diagnosis: A Blinded Review Using RADPEER Criteria",
+      "pi": "M. B. Wallace",
+      "abstract": true
+    },
+    {
+      "id": "p10",
+      "number": "P10",
+      "presenter": "Harshvardhan G. Iyer",
+      "degrees": "MBBS",
+      "role": "",
+      "department": "Department of Neurosurgery",
+      "category": "Clinical Sciences",
+      "title": "Comparative Outcomes of En Bloc Resection, Definitive Radiotherapy, and Combined Modality Treatment for Sacral Chordomas: A Systematic Review and Meta-Analysis",
+      "pi": "Akinduro Spine Oncology Laboratory / Dr. Oluwaseun O. Akinduro",
+      "abstract": true
+    },
+    {
+      "id": "p11",
+      "number": "P11",
+      "presenter": "Harshvardhan G. Iyer",
+      "degrees": "MBBS",
+      "role": "",
+      "department": "Department of Neurosurgery",
+      "category": "Clinical Sciences",
+      "title": "Comparative Outcomes of Endonasal and Transoral Odontoidectomy: An Institutional Experience and Meta-Analysis",
+      "pi": "Akinduro Spine Oncology Laboratory / Dr. Oluwaseun O. Akinduro",
+      "abstract": true
+    },
+    {
+      "id": "p12",
+      "number": "P12",
+      "presenter": "Yugant Khand",
+      "degrees": "MBBS",
+      "role": "Research Trainee",
+      "department": "Department of Neurology",
+      "category": "Clinical Sciences",
+      "title": "EEG-Derived Brain Age as a Biomarker of Neurobiological Aging: A Longitudinal Multi-Pipeline Validation Study",
+      "pi": "Brin Freund",
+      "abstract": true
+    },
+    {
+      "id": "p13",
+      "number": "P13",
+      "presenter": "Dhruva Kumar Lokesh",
+      "degrees": "",
+      "role": "",
+      "department": "Department of Surgery",
+      "category": "Clinical Sciences",
+      "title": "Prevalence of Micronutrient Deficiencies in Patients with Chronic Wounds: A Descriptive Analysis of 344 Patients",
+      "pi": "Dr. Thea Price",
+      "abstract": true
+    },
+    {
+      "id": "p14",
+      "number": "P14",
+      "presenter": "Dhruva Kumar Lokesh",
+      "degrees": "",
+      "role": "",
+      "department": "Department of Surgery",
+      "category": "Clinical Sciences",
+      "title": "The effectiveness of Minimally Invasive Therapy for Hidradenitis Suppurative (MITHS) as a maintenance therapy in Hidradenitis Suppurativa: A novel treatment approach",
+      "pi": "Dr. Thea Price",
+      "abstract": true
+    },
+    {
+      "id": "p15",
+      "number": "P15",
+      "presenter": "Fiorela Martinez",
+      "degrees": "MD",
+      "role": "Research Trainee",
+      "department": "Department of Pain Medicine",
+      "category": "Clinical Sciences",
+      "title": "Early adoption of suzetrigine after FDA approval: inpatient and outpatient prescribing patterns at a large academic center",
+      "pi": "Christine Hunt",
+      "abstract": true
+    },
+    {
+      "id": "p16",
+      "number": "P16",
+      "presenter": "Andrea Muniz",
+      "degrees": "MD",
+      "role": "",
+      "department": "Division of Heart Failure and Transplantation",
+      "category": "Clinical Sciences",
+      "title": "Redefining heart transplant eligibility – Heart-After-Liver Transplant (HALT) as an immunologic desensitization strategy in highly sensitized patients",
+      "pi": "Rohan Goswami",
+      "abstract": true
+    },
+    {
+      "id": "p17",
+      "number": "P17",
+      "presenter": "Aaliya Rahman",
+      "degrees": "",
+      "role": "",
+      "department": "Department of Critical Care Medicine",
+      "category": "Clinical Sciences",
+      "title": "Association of ACP at ICU Admission with Outcomes and Clinical Interventions",
+      "pi": "Ricardo Diaz Milian",
+      "abstract": true
+    },
+    {
+      "id": "p18",
+      "number": "P18",
+      "presenter": "Taylor Rakauskas",
+      "degrees": "",
+      "role": "",
+      "department": "Department of Orthopedic Surgery",
+      "category": "Clinical Sciences",
+      "title": "Accuracy of Computer-Assisted-Navigation in Total Ankle Arthroplasty Surgery Using Computed Tomography",
+      "pi": "Edward Haupt",
+      "abstract": true
+    },
+    {
+      "id": "p19",
+      "number": "P19",
+      "presenter": "Taylor Rakauskas",
+      "degrees": "",
+      "role": "",
+      "department": "Department of Orthopedic Surgery",
+      "category": "Clinical Sciences",
+      "title": "Retrospective Review of Upper Extremity Acral and Nonacral Glomus Tumors",
+      "pi": "Edward Haupt",
+      "abstract": true
+    },
+    {
+      "id": "p20",
+      "number": "P20",
+      "presenter": "Anvi K. Reddy",
+      "degrees": "MBBS",
+      "role": "",
+      "department": "Department of Radiation Oncology",
+      "category": "Clinical Sciences",
+      "title": "Hypofractionated Radiotherapy in Glioblastoma: A Review of Comparative Effects on Safety, Tumor Control, and Survival",
+      "pi": "Daniel M. Trifiletti, MD",
+      "abstract": true
+    },
+    {
+      "id": "p21",
+      "number": "P21",
+      "presenter": "Jiakun Yu",
+      "degrees": "",
+      "role": "",
+      "department": "Division of Nephrology",
+      "category": "Clinical Sciences",
+      "title": "The Development and Pilot Testing of a Shared Decision-Making Encounter Aid for Weight Management Decisions",
+      "pi": "Dr. Abu Dabrh",
+      "abstract": true
+    }
+  ],
   "judges": [],
   "info": [
     {

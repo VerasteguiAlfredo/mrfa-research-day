@@ -231,3 +231,16 @@ dialog::backdrop { background: rgba(7,26,54,.65); }
 .award-card h3 { font-size: 1.25rem; margin-bottom: .5rem; }
 .award-card p { margin: 0 0 .6rem; }
 .award-row { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-top: .75rem; flex-wrap: wrap; }
+
+/* Posters */
+.pgroup { list-style: none; margin: 0 0 1.5rem; }
+.pgroup h3 { font-size: 1.05rem; color: var(--blue); padding-bottom: .4rem; border-bottom: 2px solid var(--blue); margin-bottom: 0; display: flex; justify-content: space-between; align-items: baseline; }
+.pgroup h3 span { font: 600 .85rem var(--body); color: var(--muted); }
+.pgroup > ul { list-style: none; margin: 0; padding: 0; }
+.poster .ttl a { color: var(--ink); text-decoration: none; }
+.poster .ttl a:hover { color: var(--blue); text-decoration: underline; }
+.poster .who strong { font-weight: 700; color: var(--ink); }
+.slot-meta .slot-link { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+.slot.posters .slot-head, .slot.plenary .slot-head { flex-wrap: wrap; }
+.slot.posters .slot-meta, .slot.plenary .slot-meta { flex-basis: 100%; margin-top: .15rem; font-size: .9rem; }
+.fmt { white-space: nowrap; }

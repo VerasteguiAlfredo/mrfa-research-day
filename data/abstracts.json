@@ -679,5 +679,916 @@
     ]
    }
   ]
+ },
+ "p01": {
+  "authors": [
+   "Yugant Khand",
+   "Mahmoud Afia",
+   "Kevin Barrett"
+  ],
+  "affiliations": [
+   "Department of Neurology, Mayo Clinic, Jacksonville, Florida"
+  ],
+  "category": "Basic Sciences",
+  "keywords": "Traumatic Brain Injury; Cerebral Microbleeds; Cognitive Impairment; Cox Proportional Hazards; Mayo Clinic Platform",
+  "sections": [
+   {
+    "h": "Introduction",
+    "p": [
+     "Cerebral microbleeds (CMBs) are a marker of traumatic and vascular microvascular injury visualized on susceptibility-weighted or gradient-recalled echo MRI. While CMBs are linked to cognitive decline in other neurological populations, their prognostic significance after traumatic brain injury (TBI) remains poorly defined. We used a large real-world data platform to test whether TBI patients with documented CMBs have higher risk of incident cognitive impairment and mortality than TBI patients without CMBs."
+    ]
+   },
+   {
+    "h": "Methods",
+    "p": [
+     "We performed a retrospective cohort study using de-identified structured and unstructured EHR data in Mayo Clinic Platform. Patients with a diagnosis of TBI were identified via ICD-10-CM codes. Natural language processing (NLP) of clinical and radiology notes was used to identify mentions of microhemorrhage, microbleeds, or cerebral microbleeds. Cohort A comprised TBI patients with NLP-identified CMB documentation (n=1,996); Cohort B comprised TBI patients without such documentation (n=54,031). The index event was first TBI diagnosis. Incident cognitive impairment and all-cause mortality were assessed using Kaplan-Meier analysis with log-rank testing, censored at 61 months."
+    ]
+   },
+   {
+    "h": "Results",
+    "p": [
+     "Cohort A patients were older (mean age 60.3 vs 55.6 years) and more frequently identified as White (91.8% vs 76.5%) than Cohort B, sex distribution was similar. CMB presence was associated with significantly higher mortality (60-month survival 86% vs 89%; log-rank=11.26, p=0.00079; HR 1.24, 95% CI 1.09–1.41). The association with cognitive impairment was substantially stronger: 60-month cognitive-impairment-free survival was 71.4% in Cohort A versus 91.8% in Cohort B (log-rank=944.37, p<0.005; HR 3.73, 95% CI 3.40–4.08), with divergence between curves apparent within the first month of follow-up."
+    ]
+   },
+   {
+    "h": "Conclusions",
+    "p": [
+     "In this large real-world cohort, TBI patients with CMBs had nearly a four-fold increased hazard of incident cognitive impairment and a modestly increased hazard of mortality compared with TBI patients without CMBs. These findings support CMBs as a clinically meaningful post-traumatic imaging biomarker and suggest a role for routine susceptibility-sensitive MRI screening and closer cognitive surveillance in TBI patients with CMBs. NLP-based phenotyping combined with ICD-10-CM diagnosis codes offers a scalable approach for identifying imaging biomarkers and longitudinal neurological outcomes in real-world datasets."
+    ]
+   }
+  ]
+ },
+ "p02": {
+  "authors": [
+   "Anna R. Nulk",
+   "Emma Redmon",
+   "Nyla Searl",
+   "Srabasti Sengupta",
+   "Adriana Yamaguchi",
+   "Loizos Michaelides",
+   "Mieu Brooks",
+   "Sydney Shultz",
+   "Ugur Sener",
+   "Alfredo Quiñones-Hinojosa",
+   "Loic P Deleyrolle"
+  ],
+  "affiliations": [
+   "Department of Molecular Medicine, Mayo Clinic, Jacksonville, Florida"
+  ],
+  "category": "Basic Sciences",
+  "keywords": "Glioblastoma; Lipid Metabolism; Drug Resistance, Neoplasm; Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+  "sections": [
+   {
+    "h": "Introduction",
+    "p": [
+     "Glioblastoma (GBM) is the most common malignant brain tumor in adults, affecting approximately 5 in every 100,000 individuals with median survival only reaching ~15 months. The standard-of-care regimen consists of maximal surgical resection, followed by radiation and chemotherapy using temozolomide (TMZ). Our lab has demonstrated that therapy-resistant stem cell-like tumor cells, termed treatment resistant persister cells (TRPCs), display a disproportionate ability to uptake, store, and utilize lipids compared to treatment susceptible cells (TSCs). Thus, adaptations in lipid metabolism provide a novel mechanism of chemoresistance in TRPCs that current therapies do not target. Here, we examine the use of atorvastatin (ATV) to disrupt this emergent lipid metabolic adaptation and driver of GBM recurrence."
+    ]
+   },
+   {
+    "h": "Methods",
+    "p": [
+     "Lipid dynamics and cell viability were assessed in the KR158 murine glioma model along with patient derived GBM cell lines (n=3) using Nanolive holotomagraphy (n=3-4/group). Cells were labeled with CellTrace Far Red to differentiate TSCs and TRPCs. Hourly imaging was performed following treatment with ATV for 24 hours. Cell growth was assessed using CellTiter-Glo (n=4/group) at 24, 48, and 72 hours. C57BL/6 mice were implanted with 50,000 luciferase-expressing KR158 cells. Mice were treated with vehicle or ATV (n=10/group) for 3 cycles of 5 days on, 2 days off."
+    ]
+   },
+   {
+    "h": "Results",
+    "p": [
+     "In the L0 and L2 patient-derived cell lines, TRPC survival and lipid abundance were significantly diminished in the context of ATV. This was observed to a limited extent in KR158 and L1 cells. However, KR158 cell growth was significantly decreased with ATV treatment using CellTiter-Glo at all time points examined. Preliminary in vivo experiments with KR158 cells in C57BL6 mice revealed a significant survival benefit in ATV-treated animals compared to control."
+    ]
+   },
+   {
+    "h": "Conclusions",
+    "p": [
+     "ATV prompted a decrease in KR158 tumor cell growth in vitro along with a survival advantage in vivo. Heterogeneity in the extent of lipid metabolic remodeling was observed between the three patient-derived cell lines, suggesting differences in the reliance on lipid metabolism and potential response to statin therapy. Future experiments will explore ATV and TMZ combination treatment with models of GBM established with L0 and L2 patient-derived cells."
+    ]
+   }
+  ]
+ },
+ "p03": {
+  "authors": [
+   "Ayman H. Faroqi",
+   "Danilyn Amerna",
+   "Destiny Regalia",
+   "Chih-Wei Tsai",
+   "Kenneth Davis",
+   "Whitney Davis",
+   "Monica Castanedes-Casey",
+   "Hiroaki Sekiya",
+   "Wilfried Rossoll",
+   "Pam J. McLean"
+  ],
+  "affiliations": [
+   "Department of Neuroscience, Mayo Clinic, Jacksonville, Florida"
+  ],
+  "category": "Translational Sciences",
+  "keywords": "gene therapy, AAV, CRISPRi, synucleinopathies, alpha-synuclein",
+  "sections": [
+   {
+    "h": "Introduction",
+    "p": [
+     "Synucleinopathies are progressive neurodegenerative disorders characterized by the aberrant accumulation of alpha-synuclein (αSyn). Elevated expression of αSyn, encoded by the SNCA gene, is central to pathogenesis; therefore, its downregulation represents a promising disease-modifying strategy."
+    ]
+   },
+   {
+    "h": "Methods",
+    "p": [
+     "A CRISPR interference (CRISPRi) system was developed and validated to repress SNCA transcription and decrease αSyn levels. Following the design and in vitro screening of guide RNAs, a lead candidate was integrated into a viral vector for in vivo assessment in a humanized transgenic mouse model of synucleinopathy across neonatal and adult stages."
+    ]
+   },
+   {
+    "h": "Results",
+    "p": [
+     "Neonatal CRISPRi intervention achieved robust transcriptional repression, significantly reducing total, pathologically associated, and oligomeric αSyn. However, intervention in adult mice triggered an adaptive immune response in the mature central nervous system, highlighting a critical translational barrier."
+    ]
+   },
+   {
+    "h": "Conclusions",
+    "p": [
+     "This work provides proof-of-concept that CRISPRi-mediated suppression can recalibrate the protein landscape and prevent pathology in a humanized model. While overcoming immunological barriers in mature hosts remains a challenge, these findings establish a foundational framework for developing targeted, disease-modifying gene therapies for synucleinopathies."
+    ]
+   }
+  ]
+ },
+ "p04": {
+  "authors": [
+   "Sibi Krishna Thiyagarajan",
+   "Sydney Garner",
+   "Dhruva Kumar Lokesh",
+   "Noah Clements",
+   "Thea Price"
+  ],
+  "affiliations": [
+   "Department of Surgery, Mayo Clinic, Jacksonville, Florida"
+  ],
+  "category": "Translational Sciences",
+  "keywords": "Fat grafting, 3D bioprinting, Chronic wounds, Mesenchymal Stem Cells, Wound healing",
+  "sections": [
+   {
+    "h": "Background",
+    "p": [
+     "Autologous fat grafting is a recent topic of interest in regenerative medicine, with its use being limited by processing speed and mode of delivery. APLICOR 3D system is an advancement in this field that processes autologous adipose tissue into customized grafts tailored to wound geometry."
+    ]
+   },
+   {
+    "h": "Methods",
+    "p": [
+     "We conducted a retrospective single center, single surgeon study between January 2025 and January 2026 of patients who underwent autologous fat grafting (AFG) using APLICOR 3D to create transplantable adipose graft. Image capture software was used to determine the required adipose volume to print a customized 3D graft. Adipose tissue was extracted using lipectomy, filtered with “adinizer” devices and washed with saline to isolate the 3% stromal vascular fraction (SVF) present in the supernatant, forming the “bioink.” Grafts were printed with bioink utilizing a freezing method or intermixing with fibrin and thrombin to reinforce mechanical integrity, malleability for enhanced wound cohesion, ease of use and application. Grafts were directly applied to surgically prepared wound beds in the clinic or the operating room with an overlying nonadherent primary dressing followed by an absorptive secondary dressing."
+    ]
+   },
+   {
+    "h": "Results",
+    "p": [
+     "Ten patients of which seven were male and three were female, with thirteen wounds underwent AFG using APLICOR. Wounds ranged from extremity, sacrum, scalp, and thoracotomy wounds. Seven wounds were completely/almost healed (>90% healed) the rest have healed partially (50-90% healing), minimally healed (<50%) with only 1 patient not healing."
+    ]
+   },
+   {
+    "h": "Conclusions",
+    "p": [
+     "Bio-printed AFGs using APLICOR 3D supplemented with standard wound care shows promising results for complex chronic wounds."
+    ]
+   }
+  ]
+ },
+ "p05": {
+  "authors": [
+   "Dhruva Kumar Lokesh",
+   "Michelle Deleon",
+   "Luca Stochhi",
+   "Thea Price"
+  ],
+  "affiliations": [
+   "Department of Surgery, Mayo Clinic, Jacksonville, Florida"
+  ],
+  "category": "Translational Sciences",
+  "keywords": "Mesenchymal Stem Cells, fat grafting, Crohn's disease, Perianal fistula, 3D bioprinting",
+  "sections": [
+   {
+    "h": "Introduction",
+    "p": [
+     "Perianal fistulas (including rectovaginal fistulas) are a severe manifestation of Crohn’s disease with 17-50% of patients suffering from it. Two thirds of these patients require surgery with a third of them having recurrence. A method of using adipose derived mesenchymal stem cells in healing fistulas was described by Garcia-Olmo et al. We describe a novel technique of using the APLICOR 3D printed adipose derived mesenchymal stem cell rich stromal vascular fraction graft to plug and heal a chronic Crohn’s rectovaginal fistula in a 23-year-old woman."
+    ]
+   },
+   {
+    "h": "Methods",
+    "p": [
+     "20 ml of adipose tissue was harvested via standard lipectomy and passed through “adinizers” and washed with saline. The supernatant was allowed to settle to isolate the stromal vascular fraction (SVF). After internal closure of the fistula, 1 ml of the SVF was injected at every centimeter into the subcutaneous tissue around the tunnel. Then, 1.3 ml of the SVF was mixed with 0.4 ml of fibrin to print a fat graft of 5 sq.cm using the APLICOR 3D bioprinter. This was placed within the fistula, followed by affixing the graft by suturing the skin."
+    ]
+   },
+   {
+    "h": "Results",
+    "p": [
+     "At the two-week clinic visit there was complete closure of the fistula with no leakage reported by the patient post-operatively. This remained true following the two-month visit as well."
+    ]
+   },
+   {
+    "h": "Conclusions",
+    "p": [
+     "Autologous fat grafting has been shown to accelerate healing in chronic wounds due to their paracrine properties that enable angiogenesis, differentiation potential and immunomodulatory effect. This study strengthens the use of cutting-edge technology of adipose derived mesenchymal stem cells in Crohn’s disease while advancing this concept with use of 3D printed SVF graft to plug and heal the fistula. Given the success of this treatment in a chronic rectovaginal fistula that was refractory to medical management, we aim to further refine this technique and conduct interventional clinical trials comparing outcomes with standard treatments."
+    ]
+   }
+  ]
+ },
+ "p06": {
+  "authors": [
+   "Shaina Matveev",
+   "Shoshin Akamine",
+   "James McQuaker-Kajiwara",
+   "Ayaka Hagita-Tatsumoto",
+   "Navinder Kumar",
+   "Alejandro Longtree-Preciado",
+   "Andre Viera",
+   "Maria Paz Gonzalez-Perez",
+   "Seiko Ikezu",
+   "Tsuneya Ikezu"
+  ],
+  "affiliations": [
+   "Department of Neuroscience, Mayo Clinic, Jacksonville, Florida"
+  ],
+  "category": "Translational Sciences",
+  "keywords": "Alzheimer's Disease, expansion microscopy, astrocytes, extracellular vesicles, high-resolution imaging",
+  "sections": [
+   {
+    "h": "Introduction",
+    "p": [
+     "Astrocyte-mediated intercellular communication, including interactions at tripartite synapses and extracellular vesicle (EV)-mediated signaling, may contribute to Alzheimer’s disease (AD) pathogenesis. However, the nanoscale structures underlying these processes remain difficult to resolve in situ by conventional fluorescence microscopy due to the diffraction limit of light."
+    ]
+   },
+   {
+    "h": "Methods",
+    "p": [
+     "An AAV vector carrying HA-TurboID-hCD9 under the astrocyte-specific GFAP promoter was injected into the hippocampal dentate gyrus of 3-month-old mice, whose brains were collected, fixed, and sectioned three weeks post-injection. These fixed sections then underwent expansion microscopy (ExM), which embeds tissue in a swell-able polymer and isotropically enlarges it, effectively increasing its spatial resolution. Expanded sections were then acquired as single-plane and z-stack confocal images, focusing on regions of interest including synaptic regions immunolabeled for VGLUT1 and Homer-1 as pre- and postsynaptic markers, and HA-CD9-positive structures representing astrocytic membranes. Three-dimensional Imaris reconstructions were generated to better examine their special relationships within surrounding neuronal architecture."
+    ]
+   },
+   {
+    "h": "Results",
+    "p": [
+     "ExM achieved a 7-8x tissue expansion, corresponding to an effective lateral resolution of around 25-30 nm compared with ~200 nm using conventional fluorescence microscopy, allowing for the visualization of EV-sized structures (~50–150 nm). Fine astrocytic processes and TurboID-CD9-positive structures could be visualized as structures with defined shapes and volumes rather than point-like signals, facilitating assessment of their three-dimensional spatial relationships within surrounding neuronal architecture. ExM improved the spatial resolution of VGLUT1 and Homer-1 labeling, allowing pre- and postsynaptic structures to be clearly resolved in close apposition. Spherical HA–TurboID–CD9-positive structures consistent with EV-like morphology were resolved in neuronal structures, including signals localized beyond clearly identifiable astrocytic processes."
+    ]
+   },
+   {
+    "h": "Conclusions",
+    "p": [
+     "ExM enables high-resolution, three-dimensional visualization of fine astrocytic and HA-positive structures in brain tissue using conventional fluorescence microscopy without specialized equipment. Combined with astrocyte-selective TurboID-CD9 labeling, this approach provides a framework for investigating the distribution and fate of astrocyte-derived EVs in the brain."
+    ]
+   }
+  ]
+ },
+ "p07": {
+  "authors": [
+   "Faithlyn Moss",
+   "Trevor Kauer",
+   "Fan Wang",
+   "Fern Webb",
+   "Caitlin Murphy",
+   "Sol Wynter",
+   "Travis Rockey",
+   "Dewey Painter",
+   "Lisa Shelar",
+   "Jeri Francoeur",
+   "Shelly McIntosh",
+   "Christopher Stokes",
+   "Cassandra White",
+   "Rita Cianfrocco",
+   "Alicia Kissinger-Knox",
+   "Courtny Franco",
+   "Anjali Yedavalli",
+   "Janice L. Krieger"
+  ],
+  "affiliations": [
+   "Department of Quantitative Health Sciences, Mayo Clinic, Jacksonville, Florida"
+  ],
+  "category": "Translational Sciences",
+  "keywords": "Community engaged research, Community advisory boards",
+  "sections": [
+   {
+    "h": "Background",
+    "p": [
+     "Community advisory boards (CABs) strengthen community-engaged research by incorporating community perspectives. However, little is known about how recruitment framing shapes expectations before participation. This study compared CAB and research team perspectives to identify expectation mismatches and opportunities for early alignment."
+    ]
+   },
+   {
+    "h": "Methods",
+    "p": [
+     "We conducted a comparative qualitative analysis within a seven-year CAB–research team partnership focused on developing and reviewing a website providing cancer clinical trial information and research opportunities to diverse populations. Data included four semi-structured CAB member interviews, a focus group with five CAB members, and open-ended questionnaires completed by three research team members. Data was analyzed to identify areas of variation across participant perspectives."
+    ]
+   },
+   {
+    "h": "Results",
+    "p": [
+     "Four dimensions of expectation mismatch emerged: role, power, impact, and workflow. In defining their role, CAB members described themselves primarily as advocates for their communities and expected broader involvement across the research process, while the research team viewed the CAB’s role more specifically as providing feedback on research endeavors. Differences in power centered on CAB members’ expectations that they should provide meaningful influence over research decisions, while the research team viewed decision-making as constrained by funding, staffing, and regulatory requirements. Expectations around impact also differed, as CAB members emphasized immediate and visible community benefits, while the research team understood impact more broadly through longer-term sustainability and reach. Finally, differences in workflow reflected CAB members’ expectations that recurring meetings would provide opportunities to understand how their contributions were incorporated into ongoing work, while the research team described CAB engagement within the constraints of competing research responsibilities."
+    ]
+   },
+   {
+    "h": "Conclusions",
+    "p": [
+     "Differences in expectations about roles and influence may arise even within sustained community-engaged research partnerships. Finding highlight recruitment as a potentially important and understudied opportunity for developing shared expectations. Three potential strategies emerged for strengthening this process: tailored recruitment messaging that clearly describes the CAB role, community-informed development of recruitment materials, and transparent communication about the scope of CAB participation."
+    ]
+   }
+  ]
+ },
+ "p08": {
+  "authors": [
+   "Aarti Desai",
+   "Hans Mautong",
+   "Shriya Sharma",
+   "Jose Ruiz",
+   "Juan Leoni",
+   "Rohan Goswami"
+  ],
+  "affiliations": [
+   "Division of Heart Failure and Transplantation, Mayo Clinic, Jacksonville, Florida"
+  ],
+  "category": "Clinical Sciences",
+  "keywords": "quality of life, KCCQ, Impella, heart failure, transplantation",
+  "sections": [
+   {
+    "h": "Background",
+    "p": [
+     "Patients with end-stage heart failure-related cardiogenic shock (HF-CS) are conclusively associated with a poor health-related quality of life (HRQL). Axillary mechanical circulatory support (aMCS), such as the Impella 5.5, is increasingly used in this population and may improve HRQL during hospitalization by providing enhanced left ventricular unloading. We aimed to assess changes in HRQL between admission and two weeks after Impella 5.5 placement in patients with HF-CS, using the Kansas City Cardiomyopathy Questionnaire (KCCQ)."
+    ]
+   },
+   {
+    "h": "Methods",
+    "p": [
+     "We conducted a prospective longitudinal analysis on patients with the Impella 5.5 between May 2023 and July 2023. Participants completed the condensed KCCQ-12 at admission and again two weeks post-implantation. Changes in the scores were evaluated using the Wilcoxon signed-rank test."
+    ]
+   },
+   {
+    "h": "Results",
+    "p": [
+     "Fifteen patients were enrolled. The median age was 59 years (50–63), and the median ejection fraction at implantation was 20% (15–30). On admission, most patients reported an overall HRQL of poor-to-fair (46.7%) according to the summary KCCQ-12 score. The median overall summary score increased significantly after Impella 5.5 support (50.52 vs. 28.13, p = 0.005). Symptom frequency (70.83 vs. 43.75, p = 0.009) and quality-of-life (50.00 vs. 12.50, p = 0.023) domains improved significantly, while physical limitation showed a positive trend and social limitation remained unchanged. These HRQL improvements occurred alongside a significant shift toward lower SCAI shock stages, marked increases in cardiac output and cardiac index, and no escalation in vasoactive-inotropic requirements."
+    ]
+   },
+   {
+    "h": "Conclusions",
+    "p": [
+     "Impella 5.5 support in HF-CS patients was associated with early and clinically meaningful improvements in HRQL, particularly in symptom frequency and quality of life, during the critical pre-transplant or recovery period. These findings suggest that the Impella 5.5 may provide both physiological and patient-perceived benefits in this high-risk population."
+    ]
+   }
+  ]
+ },
+ "p09": {
+  "authors": [
+   "Felix Lopez Dominici",
+   "O. Osagiede",
+   "J. LeGout",
+   "C. Bolan",
+   "M. B. Wallace"
+  ],
+  "affiliations": [
+   "Department of Gastroenterology and Hepatology, Mayo Clinic, Jacksonville, Florida",
+   "Department of Radiology, Mayo Clinic, Jacksonville, Florida"
+  ],
+  "category": "Clinical Sciences",
+  "keywords": "",
+  "sections": [
+   {
+    "h": "Background",
+    "p": [
+     "Pancreatic ductal adenocarcinoma (PDAC) is frequently diagnosed at an advanced stage despite prior imaging examinations. We evaluated whether blinded review of prior low-dose computed tomography (LDCT) examinations identified pancreatic abnormalities more frequently in patients who subsequently developed PDAC than in matched controls."
+    ]
+   },
+   {
+    "h": "Methods",
+    "p": [
+     "We performed a retrospective descriptive study including 13 patients who subsequently developed PDAC and 52 comparison patients selected for similar age and sex. A board-certified radiologist, blinded to clinical outcomes, independently reviewed all prior low-dose chest computed tomography (LDCT) examinations using the RADPEER scoring system while documenting predefined pancreatic imaging findings. Continuous variables were compared using Student's t-test or the Mann-Whitney U test, as appropriate, and categorical variables using Fisher's exact test."
+    ]
+   },
+   {
+    "h": "Results",
+    "p": [
+     "Sixty-five patients (13 PDAC cases and 52 comparison patients) were included. Cases and comparison patients were similar in age and sex. The median interval from prior LDCT to PDAC diagnosis was 10 months (IQR, 6–26). Most PDACs arose in the pancreatic head (46%), and 70% of staged patients had stage IV disease at diagnosis. Blinded review of all 65 examinations classified the pancreas as normal in 69%, insufficiently visualized in 5%, and abnormal in 26%. Among evaluable examinations, RADPEER discrepancies (score ≥2) were more frequent in PDAC cases than the comparison group (50% vs. 2%, p = 0.0001). Abnormal pancreatic findings were also more common in cases (58% vs. 20%, p = 0.013), including pancreatic masses (25% vs. 0%, p = 0.006) and common bile duct dilation (17% vs. 0%, p = 0.035)."
+    ]
+   },
+   {
+    "h": "Conclusions",
+    "p": [
+     "Blinded review of prior LDCT examinations using RADPEER criteria identified significantly more interpretive discrepancies and pancreatic abnormalities in patients who subsequently developed PDAC than in the comparison group. These findings suggest that pancreatic abnormalities may be retrospectively identifiable on chest LDCT before PDAC diagnosis."
+    ]
+   }
+  ],
+  "authorAffil": [
+   1,
+   1,
+   2,
+   2,
+   1
+  ]
+ },
+ "p10": {
+  "authors": [
+   "Harshvardhan G. Iyer",
+   "Pablo Andrés Vega-Medina",
+   "Salar Ghaderi",
+   "Baher Boktor",
+   "Walter R. Johnson IV",
+   "Oluwaseun O. Akinduro"
+  ],
+  "affiliations": [
+   "Department of Neurosurgery, Mayo Clinic, Jacksonville, Florida"
+  ],
+  "category": "Clinical Sciences",
+  "keywords": "Sacral Chordoma, en bloc resection, definitive radiotherapy, local recurrence, metastases",
+  "sections": [
+   {
+    "h": "Introduction",
+    "p": [
+     "Sacral chordomas are rare, locally aggressive notochordal tumors with an undefined optimal treatment strategy. En bloc resection with negative margins is the established first line approach, but local recurrence (LR) is common even after complete resection, and the role of definitive radiotherapy (RT) and combined modality remains unclear. We evaluated LR and metastatic outcomes in sacral chordomas across three treatment groups: surgery, definitive RT, and surgery with RT."
+    ]
+   },
+   {
+    "h": "Methods",
+    "p": [
+     "A systematic review and single-arm meta-analysis of proportions was performed per PRISMA guidelines (PROSPERO-registered). Studies of primary sacral chordoma were included if they reported extractable LR or metastatic outcomes for en bloc surgery with negative margins, definitive RT, or en bloc surgery plus RT. Pooled proportions were estimated using random-effects inverse-variance models with logit-transformed proportions. Long-term analyses included patients with 5 and 10-year follow-up"
+    ]
+   },
+   {
+    "h": "Results",
+    "p": [
+     "Seventeen studies (479 patients and 150 LR events) were included in the analysis. Pooled LR proportion was 32.8% (95% CI, 23.3%–44.0%; I² = 68.7%). By treatment subgroup, LR was 41.4% (95% CI, 26.8%–57.7%) for en bloc surgery, 24.8% (95% CI, 16.6%–35.4%) for definitive RT, and 17.6% (95% CI, 6.7%–39.0%) for en bloc surgery + RT, without a significant subgroup difference (p = 0.096). Metastatic disease was analyzed in 13 studies (364 patients, 78 events); the pooled metastasis proportion was 21.6% (95% CI, 15.4%–29.5%; I² = 19.2%). By subgroup, metastasis was 22.3% (95% CI, 14.0%–33.6%) for en bloc surgery, 21.4% (95% CI, 11.7%–35.9%) for definitive RT, and 13.7% (95% CI, 2.8%–47.0%) for en bloc surgery + RT, without significant subgroup difference (p = 0.813). 5-year, pooled LR and metastasis proportions were 45.8% (95% CI, 27.4%–65.5%) and 28.5% (95% CI, 16.9%–43.9%) respectively, without significant differences. Ten-year, pooled LR and metastasis proportions were 62.7% (95% CI, 26.2%–88.9%) and 50.0% (95% CI, 14.8%–85.2%), respectively, without significant differences."
+    ]
+   },
+   {
+    "h": "Conclusions",
+    "p": [
+     "Despite en bloc surgery remaining the standard of care, definitive RT was associated with a numerically lower local recurrence rate than surgery alone (24.8% vs. 41.4%), with comparable metastasis rates between the two approaches. These differences did not reach statistical significance, and larger, prospective studies are needed to clarify the comparative efficacy between the treatment types."
+    ]
+   }
+  ]
+ },
+ "p11": {
+  "authors": [
+   "Harshvardhan G. Iyer",
+   "Pablo Andrés Vega-Medina",
+   "Salar Ghaderi",
+   "Brian Carlson",
+   "Baher Boktor",
+   "Walter R. Johnson IV",
+   "William E. Krauss",
+   "Jan L. Kasperbauer",
+   "Kingsley O. Abode-Iyamah",
+   "Ian Buchanan",
+   "Kaisorn L. Chaichana",
+   "Oluwaseun O. Akinduro"
+  ],
+  "affiliations": [
+   "Department of Neurosurgery, Mayo Clinic, Jacksonville, Florida"
+  ],
+  "category": "Clinical Sciences",
+  "keywords": "Odontoidectomy, Endoscopic Endonasal approach, Transoral approach, basillar invagination",
+  "sections": [
+   {
+    "h": "Introduction",
+    "p": [
+     "Irreducible ventral compression of the craniovertebral junction typically requires anterior decompression via odontoidectomy often with posterior stabilization. The transoral approach (TOA) has long been the standard, but the endoscopic endonasal approach (EEA) has more recently emerged as a less invasive alternative. We combined an institutional cohort with a systematic review and meta-analysis comparing perioperative and neurological outcomes between approaches."
+    ]
+   },
+   {
+    "h": "Methods",
+    "p": [
+     "We performed a retrospective cohort study of odontoidectomy with posterior stabilization at the 3 Mayo Clinic sites, combined with a systematic review and meta-analysis comparing baseline, operative, and postoperative variables. Pooled proportions were analyzed by approach using logit-transformed data and generalized linear mixed models, with subgroup comparisons and direct pairwise meta-analysis."
+    ]
+   },
+   {
+    "h": "Results",
+    "p": [
+     "The institutional cohort comprised 36 patients (10 EEA, 26 TOA). EEA patients were younger (p=0.023) and had higher rates of diabetes (p=0.039) and sleep apnea (p=0.010), while preoperative sensory deficit was more common in the transoral group (p=0.011). Complete odontoidectomy was achieved in 32 patients. Patient undergoing EEA had more posterior levels fused and had greater blood loss.",
+     "The meta-analysis included 23 unique studies comprising 549 patients including our cohort. Pooled neurological improvement was 95.5% for EEA and 91.1% for TOA, and adequate decompression was 99.2% and 98.4%, respectively. CSF leak was more frequent after EEA (6.3% vs 1.5%), while dysphagia was more frequent after TOA (12.0% vs 0.8%). Heterogeneity was low-to-moderate for neurological improvement (I²=29.9%) and moderate for transoral dysphagia (I²=48.4%) in the TOA group. Subgroup differences were non-significant for all outcomes, though CSF leak approached significance (Q=3.46, p=0.063). Pairwise meta-analysis, feasible only for neurological improvement and CSF leak, suggested lower odds of neurological improvement with endonasal surgery (OR 0.57, 95% CI 0.42–0.78) based on only two informative studies, and an imprecise CSF leak estimate (OR 2.64, 95% CI 0.02–328)"
+    ]
+   },
+   {
+    "h": "Conclusions",
+    "p": [
+     "EEA and TOA odontoidectomy showed similar rates of decompression and neurological improvement, with no significant differences between approaches. The observed differences were mainly associated with corridor-specific morbidity. These findings may reflect a role for anatomy and comorbidity in corridor selection."
+    ]
+   }
+  ]
+ },
+ "p12": {
+  "authors": [
+   "Yugant Khand",
+   "Filippo Emanuele Colella",
+   "Ahmed Abdelhameed",
+   "Caroline Tatit",
+   "Ahmed Saad",
+   "William Tatum",
+   "Brin Freund"
+  ],
+  "affiliations": [
+   "Department of Neurology, Mayo Clinic, Jacksonville, Florida"
+  ],
+  "category": "Clinical Sciences",
+  "keywords": "EEG-Based Brain Age Prediction, Brain Aging Biomarkers, Electroencephalography, Aperiodic Neural Activity",
+  "sections": [
+   {
+    "h": "Introduction",
+    "p": [
+     "Resting electroencephalography (EEG) offers a practical approach to quantifying brain aging, but its predictive performance and physiological interpretation require systematic evaluation. We benchmarked complementary modelling approaches and examined whether EEG derived brain age reflects oscillatory and aperiodic signatures of ageing."
+    ]
+   },
+   {
+    "h": "Methods",
+    "p": [
+     "We analysed baseline recordings from 608 adults in the Dortmund Vital Study, aged 20 to 70 years (61.8% women). EEG from 64 channels, recorded with eyes open and closed, underwent automated preprocessing. Models included spectral ridge regression, Riemannian covariance regression, convolutional networks, self supervised representations, pretrained EEG models, and stacked ensembles. Performance was assessed using participant level 10-fold cross validation and bootstrap confidence intervals. Spectral parameterisation separated oscillatory activity from the aperiodic background, and brain age gaps were adjusted for chronological age."
+    ]
+   },
+   {
+    "h": "Results",
+    "p": [
+     "The final ensemble achieved an uncorrected mean absolute error (MAE) of 6.53 years (95% CI 6.14 to 6.93), R² of 0.68, and correlation of 0.83 with chronological age. This represented approximately 49% lower error than the mean age baseline (12.76 years). The interpretable Riemannian model combining both recording conditions achieved an MAE of 7.16 years, outperforming the convolutional network (7.64 years) and frozen pretrained model (11.10 years). Predictions showed high agreement between recording half in 150 participants, with an intraclass correlation of 0.957. Spectral model permutation testing supported an EEG association with age (p = 0.002). Older adults showed flatter aperiodic spectra and reduced oscillatory alpha activity. Central aperiodic exponent differences between younger and older groups reached a mean absolute Cohen’s d of 0.91. A larger brain age gap was associated with a lower central aperiodic exponent after controlling for chronological age (partial r = −0.343). Age restricted analyses detected predictive signal among adults aged 20 to 40 years (p = 0.005), while prediction within ages 60 to 70 did not outperform chance."
+    ]
+   },
+   {
+    "h": "Conclusions",
+    "p": [
+     "These findings support resting EEG as a candidate measure of brain ageing, combining useful age prediction with interpretable spectral correlates. External validation and longitudinal studies are needed to establish whether the brain age gap captures clinically meaningful differences beyond chronological age."
+    ]
+   }
+  ]
+ },
+ "p13": {
+  "authors": [
+   "Dhruva Kumar Lokesh",
+   "Andrea Muniz",
+   "Thea Price"
+  ],
+  "affiliations": [
+   "Department of Surgery, Mayo Clinic, Jacksonville, Florida"
+  ],
+  "category": "Clinical Sciences",
+  "keywords": "Nutrition, Chronic wounds, Diabetic foot ulcer, Micronutrient",
+  "sections": [
+   {
+    "h": "Introduction",
+    "p": [
+     "The role of nutrition in wound healing has been the subject of extensive research. Patients with chronic wounds are especially vulnerable to nutrient and micronutrient deficiencies due to the increased nutritional demands of their nonhealing tissues. Despite the increasing literature focusing on specific nutrients and their effects on wound healing, there is a notable lack of large-scale studies that assess the prevalence of micronutrient deficiencies across a wide-ranging chronic wound population."
+    ]
+   },
+   {
+    "h": "Methods",
+    "p": [
+     "We conducted a retrospective review on patients evaluated for chronic wounds with varied etiologies such as diabetic foot ulcers, pressure ulcers, post-operative wounds etc. from August 2024 to May 2026 at Mayo Clinic Florida. Micronutrient panels were obtained for zinc, magnesium, iron, ferritin, copper, folate, ceruloplasmin, ascorbic acid, vitamin D, selenium, vitamin A, vitamin B12, vitamin K, vitamin E, and pyridoxal-5-phosphate (vitamin B6) under the guidance of a physician nutritionist. Mean values and the proportion of patients meeting laboratory criteria for deficiency were calculated."
+    ]
+   },
+   {
+    "h": "Results",
+    "p": [
+     "Our cohorts median age was 64 years old (IQR 56,76), with 53% male (n=181) and 47% female patients (n=162), overall, predominantly Caucasian (89%). Magnesium deficiency was the most prevalent finding, present in 133 of 344 patients (38.7%), followed by iron deficiency in 104 patients (30.2%). Vitamin D deficiency was identified in 49 patients (14.2%) and zinc deficiency in 39 patients (11.3%). Ascorbic acid and selenium deficiencies were each present in approximately 8% of the cohort (27/344, 7.8%, and 26/344, 7.6%, respectively). Vitamin B12 deficiency was identified in 15 patients (4.4%). Deficiencies in ferritin, copper, folate, ceruloplasmin, vitamin A, vitamin K, vitamin E, and vitamin B6 were each identified in 7 or fewer patients (≤2.0%)."
+    ]
+   },
+   {
+    "h": "Discussion",
+    "p": [
+     "In our study, magnesium and iron deficiencies were found to be highly prevalent, and a significant number of patients had deficiencies in vitamin D, zinc, vitamin C, and selenium; micronutrients with established roles in wound healing. These findings suggest that micronutrient deficiencies are common in this population and support consideration of routine micronutrient screening as part of chronic wound evaluation with repletion and ongoing surveillance. Further research is needed to determine whether identifying and correcting these deficiencies improves healing outcomes."
+    ]
+   }
+  ]
+ },
+ "p14": {
+  "authors": [
+   "Dhruva Kumar Lokesh",
+   "Andrea Muniz",
+   "Thea Price"
+  ],
+  "affiliations": [
+   "Department of Surgery, Mayo Clinic, Jacksonville, Florida"
+  ],
+  "category": "Clinical Sciences",
+  "keywords": "Hidradenitis Suppurativa, minimally invasive therapy, Chronic disease, Outcomes research, Quality of Life",
+  "sections": [
+   {
+    "h": "Introduction",
+    "p": [
+     "Hidradenitis Suppurativa (HS) is a chronic, inflammatory skin condition affecting nearly 81 million people that is notorious for significant pain, tunneling, scarring, malodorous discharge adversely affecting the patients’ work, social and sexual life. Due to its recurrence and refractory nature to medical treatment, radical excisions that leave large skin defects are the final resort. We present our experience with using a hydro-surgical minimally invasive treatment as a maintenance therapy in this condition."
+    ]
+   },
+   {
+    "h": "Methods",
+    "p": [
+     "MITHS involves debridement of the tunnels with VersajetTM hydro-surgical tool supplemented with laser ablation, botox and steroid injections as needed. We retrospectively analyzed the effectiveness of this therapy in all patients that received it in the time frame ranging from 18 months ago to 1 month ago. The subjective effectiveness was recorded via a verbal questionnaire answered by the patients on a phone call."
+    ]
+   },
+   {
+    "h": "Results",
+    "p": [
+     "A total of 51 patients received the minimally invasive therapy of which 33 (4 with Hurley’s Stage II and 29 with Hurley’s Stage III) patients answered the questionnaire. The average age of the cohort was 37.96 with majority having symptoms starting in the first two decades of life, the average number of years between symptom onset and diagnosis was 6.12 years. The average pain score before the procedure was 6.21 which was reduced to 3.13 after the procedure, with patients reporting an average of 73% resolution of symptoms and average remission period of 74 days."
+    ]
+   },
+   {
+    "h": "Conclusions",
+    "p": [
+     "Surgical excision which is the gold standard for management of HS often results in massive open wounds requiring weeks of extensive wound care, necessitating admission to wound care facilities or deployment of home health services and could still recur. This treatment protocol supplemented with medical management will help downstage Hidradenitis Suppurativa, resulting in longer remission periods, reduced frequency and severity of symptoms, improved quality of life, preventing radical excision and need for reconstructive surgeries. We found this technique to be non-inferior compared to deroofing as it excises the tunnels, followed by scarring leading to decrease in overlying sebaceous gland and hair follicle growth."
+    ]
+   }
+  ]
+ },
+ "p15": {
+  "authors": [
+   "Matthew M. Colontonio",
+   "Tugba Yavuz Kivanc",
+   "Benjamin F. Gruenbaum",
+   "Fiorela Martinez",
+   "Sareidenn Ancayan",
+   "Ilana I. Logvinov",
+   "Christine Hunt"
+  ],
+  "affiliations": [
+   "Department of Pain Medicine, Mayo Clinic, Jacksonville, Florida"
+  ],
+  "category": "Clinical Sciences",
+  "keywords": "Acute pain, Multimodal Analgesia, sodium channel blockers, non-opioid medication, postsurgical pain",
+  "sections": [
+   {
+    "h": "Background",
+    "p": [
+     "Suzetrigine is a first-in-class, non-opioid oral analgesic that selectively blocks NaV1.8 voltage-gated sodium channels and was approved by the Food and Drug Administration (FDA) in January 2025 for moderate-to-severe acute pain in adults. Early prescribing patterns remain poorly described."
+    ]
+   },
+   {
+    "h": "Purpose",
+    "p": [
+     "To evaluate early inpatient and outpatient suzetrigine prescribing patterns at a large academic medical center."
+    ]
+   },
+   {
+    "h": "Methods",
+    "p": [
+     "We performed a retrospective chart review of all patients prescribed suzetrigine at Mayo Clinic from April-December 2025. Demographic and clinical characteristics, prescribing department, dosing regimen, multimodal analgesia (MMA) co-prescribing, refill patterns, and adverse events were analyzed separately for inpatient and outpatient groups. MMA was defined as suzetrigine prescribed with at least 2 additional analgesics of different mechanisms within the same encounter. Continuous variables were compared using Mann-Whitney U tests and categorical variables using Pearson chi-square tests; p<0.05 was significant."
+    ]
+   },
+   {
+    "h": "Findings",
+    "p": [
+     "A total of 1,280 prescriptions were reviewed (821 inpatient, 458 outpatient). Multimodal analgesia co-prescribing was more common inpatient, including opioids, acetaminophen, gabapentin, ketamine, and local anesthetics (all p<0.001), whereas NSAID use was slightly higher in outpatient population (p=0.048). Colorectal surgery was the most frequent inpatient prescriber, while otorhinolaryngology led outpatient use. FDA-labeled loading doses were more common inpatient, while outpatient prescriptions often omitted loading. Indications differed by setting (inpatient: predominantly acute surgical pain; outpatient: mixed acute surgical and chronic pain; p<0.001). Refills were rare inpatient, but occurred regularly in outpatient. Adverse events were uncommon (2.9%) and did not differ by care setting."
+    ]
+   },
+   {
+    "h": "Conclusions",
+    "p": [
+     "Early suzetrigine prescribing differed between inpatient and outpatient settings in specialty use, MMA co-prescribing, dosing, indication, and refill patterns. These data provide an early benchmark for clinical integration."
+    ]
+   }
+  ]
+ },
+ "p16": {
+  "authors": [
+   "Andrea Muniz",
+   "Jose Ruiz",
+   "Rohan Goswami",
+   "Laxmi Raj Bangari",
+   "Surbhi Dadwal",
+   "Aarti Desai",
+   "Piotr Wlodkowski",
+   "Andrew Keaveny",
+   "Mohamed Erefai",
+   "Jose Nativi-Nicolau",
+   "Basar Sarreyupoglu",
+   "Shennen Mao",
+   "Parag Patel"
+  ],
+  "affiliations": [
+   "Division of Heart Failure and Transplantation, Mayo Clinic, Jacksonville, Florida"
+  ],
+  "category": "Clinical Sciences",
+  "keywords": "heart failure, heart-after-liver transplant, desensitization",
+  "sections": [
+   {
+    "h": "Background",
+    "p": [
+     "Heart transplant candidates face limited donor availability and even more so in highly sensitized patients. This can be further complicated due to current desensitization strategies being frequently ineffective, expensive, and risky. The liver possesses unique immunologic properties that may facilitate antibody reduction in these high-risk individuals. We present a case series of heart-after-liver transplant (HALT) as an innovative desensitization strategy."
+    ]
+   },
+   {
+    "h": "Methods",
+    "p": [
+     "We conducted a single-center retrospective case series of consecutive adult patients with end-stage heart failure and high allosensitization who underwent HALT as a desensitization strategy."
+    ]
+   },
+   {
+    "h": "Discussion",
+    "p": [
+     "HALT may represent a feasible desensitization strategy for highly sensitized heart transplant candidates with otherwise limited donor access. The immunomodulatory properties of the liver allograft, combined with aggressive peri-operative desensitization and immunosuppressive therapy, may help overcome significant immunologic barriers and facilitate successful transplantation"
+    ]
+   },
+   {
+    "h": "Conclusions",
+    "p": [
+     "Three highly sensitized heart transplant candidates (cPRA >99%) underwent successful transplantation with rapid DSA suppression and no AMR with moderate-term follow-up despite immunologic profiles that would traditionally be considered nearly prohibitive. Our experience demonstrates the potential for successful transplantation in patients traditionally considered prohibitively high risk. Larger multicenter studies are needed to validate these findings and define long-term outcomes."
+    ]
+   }
+  ]
+ },
+ "p17": {
+  "authors": [
+   "Aaliya Rahman",
+   "Ricardo Diaz Milian",
+   "Shalmali Borkar",
+   "Terri Menser",
+   "Pramod Guru"
+  ],
+  "affiliations": [
+   "Department of Critical Care Medicine, Mayo Clinic, Jacksonville, Florida"
+  ],
+  "category": "Clinical Sciences",
+  "keywords": "Advance care planning, Intensive care unit, Goals of care, End of life care, Life saving intervention",
+  "sections": [
+   {
+    "h": "Objective",
+    "p": [
+     "To assess the difference in 30-day mortality between patients who completed advanced care planning documentation prior to needing care in the intensive care unit (ICU) Secondary objectives included evaluating the utilization of life saving interventions (dialysis and inotropes) and code status changes."
+    ]
+   },
+   {
+    "h": "Methods",
+    "p": [
+     "This was a retrospective cohort study using electronic health record (EHR) data for adult ICU admissions between 2019 and 2024. For patients with more than one encounter during this period meeting the inclusion criteria of having had part of their care receipt in the ICU, only the first encounter was included. Multivariable logistic regression was used to evaluate the association between ACP and 30-day mortality, adjusting for age, sex, marital status, race, ethnicity, DNR/DNI status, code status changes, Charlson Comorbidity Index, dialysis initiation, and inotrope use. Separate models evaluated the association between dialysis and inotrope use, respectively, controlling ACP documentation in addition to the above listed covariates. Analyses were performed using R."
+    ]
+   },
+   {
+    "h": "Results",
+    "p": [
+     "This study included 14,310 patient encounters, of which 3226 (22.5%) had documented ACP prior to ICU admission. Patients with ACP were more likely than those without ACP to receive dialysis (12.7% vs 8.8%, p < .001) and inotropes (44.2% vs 33.2%, p < .001) after ICU admission. Controlling for age, sex, marital status, race, ethnicity, and Charlson Comorbidity Index, pre-ICU ACP documentation remained independently associated with higher odds of receiving both dialysis (aOR 1.17, 95% CI 1.02–1.34, p = .021) and inotropes (aOR 1.37, 95% CI 1.25–1.49, p < .001)."
+    ]
+   },
+   {
+    "h": "Conclusions",
+    "p": [
+     "ACP before ICU admission was not associated with 30-day mortality but was linked to a greater likelihood of receiving dialysis and inotropic support; an association not explained by the comorbidity burden alone. These findings challenge the common assumption that ACP is associated with less aggressive end-of-life care and highlight the need for further research into the mechanisms underlying this relationship."
+    ]
+   }
+  ]
+ },
+ "p18": {
+  "authors": [
+   "Taylor Rakauskas",
+   "Seif El Masry",
+   "Cyril Hamad",
+   "Francois Boux De Casson",
+   "Edward Haupt"
+  ],
+  "affiliations": [
+   "Department of Orthopedic Surgery, Mayo Clinic, Jacksonville, Florida"
+  ],
+  "category": "Clinical Sciences",
+  "keywords": "navigation, ankle, arthroplasty, accuracy",
+  "sections": [
+   {
+    "h": "Introduction",
+    "p": [
+     "Computer-assisted navigation (CAN) offers dynamic intra-operative guidance in total ankle arthroplasty (TAA). While laboratory data suggests superior precision, in vivo evidence is lacking. This study used weight-bearing computed tomography (WBCT) to evaluate CAN accuracy of post-operative TAA implant position relative to the plan. We hypothesized that absolute discrepancies would be <3 mm or degrees."
+    ]
+   },
+   {
+    "h": "Methods",
+    "p": [
+     "Thirteen consecutive patients (Nov 2024–Nov 2025) underwent TAA using CAN. Pre-operative CT-based 3D models were used for templating. Post-operative WBCT scans were used to measure final implant seating, and computerized measurements were used to identify implant placement discrepancy. We analyzed absolute discrepancies between planned vs. final post-operative positions."
+    ]
+   },
+   {
+    "h": "Results",
+    "p": [
+     "Tibial absolute discrepancies were within desired limits for varus/valgus (1.65 ± 1.43 degrees), slope (1.87 ± 1.34 degrees), and cut height (0.68 ± 0.20 mm), but not for axial rotation (3.97 ±192.64). For the talus, varus/valgus (2.93 ± 1.86 degrees) and cut height (0.66 ± 0.71 mm) absolute20discrepancies were within desired limits. The increased talar slope deviation (3.90 ± 2.89) in the final position may be due to non-navigated implant impaction. Reduced standard deviations (SD) across all measurements underscore that CAN has potential to reduce procedural variability despite the surgeon’s initial learning curve."
+    ]
+   },
+   {
+    "h": "Conclusions",
+    "p": [
+     "While discrepancies persisted in tibial rotational alignment and talar positioning, the low variability across measurements suggests that CAN may improve surgical consistency. These short-term positioning accuracy findings support the utility of CAN as a potential tool for enhancing implant positioning reproducibility in TAA."
+    ]
+   }
+  ]
+ },
+ "p19": {
+  "authors": [
+   "Taylor Rakauskas",
+   "Carla Tarrat Guadalupe",
+   "Courtney Sherman",
+   "Keith Aziz"
+  ],
+  "affiliations": [
+   "Department of Orthopedic Surgery, Mayo Clinic, Jacksonville, Florida"
+  ],
+  "category": "Clinical Sciences",
+  "keywords": "glomus tumor, upper extremity, hand",
+  "sections": [
+   {
+    "h": "Introduction",
+    "p": [
+     "Glomus tumors are benign mesenchymal tumors composed of modified smooth muscle cells of the glomus body. Acral glomus tumors are commonly found in the upper extremities, specifically in the subungual area of the digits. Upper extremity nonacral glomus tumors are considerably less common and remain inadequately explored in the literature. The aim of this study was to further characterize and compare the clinical presentation and treatment outcomes for upper extremity acral and nonacral glomus tumors."
+    ]
+   },
+   {
+    "h": "Methods",
+    "p": [
+     "A retrospective review was performed on patients diagnosed with upper extremity glomus tumors across multiple tertiary referral centers from 1994-2026. Patients were categorized as having acral or nonacral tumors. Primary outcomes of interest included demographic variables, tumor size, tumor location, treatment pathways, and history of recurrence."
+    ]
+   },
+   {
+    "h": "Results",
+    "p": [
+     "A total of 159 patients were identified, including 98 acral (61.6%) and 61 nonacral (38.4%). Acral tumors were more common in women (65.3%), whereas nonacral tumors predominated in men (82.0%; p,0.001). Acral lesions most frequently involved the ring finger (25.5%), middle finger (20.4%), and thumb (16.3%) while nonacral tumors were most common in the forearm (44.3%), arm (19.7%), and elbow (16.4%) (all p<0.001). Surgical excision was performed in 90.8% of acral and 65.6% of nonacral cases, with recurrence rates of 15.7% and 32.5%, respectively (p=0.038)."
+    ]
+   },
+   {
+    "h": "Conclusions",
+    "p": [
+     "This study represents one of the largest analyses of acral and nonacral upper extremity glomus tumors. Acral tumors are more likely to be found in patients with a history of neurofibromatosis, while nonacral tumors were significantly more common in males. While age at diagnosis was similar between groups, recurrence rates following surgical excision were significantly higher in nonacral tumors."
+    ]
+   }
+  ]
+ },
+ "p20": {
+  "authors": [
+   "Anvi K. Reddy",
+   "Daniel M. Trifiletti",
+   "Eric Lehrer",
+   "William G. Breen",
+   "Kevin Zhang",
+   "Sujay Vora",
+   "Paul Brown",
+   "Joshua Palmer",
+   "Jennifer Peterson"
+  ],
+  "affiliations": [
+   "Department of Radiation Oncology, Mayo Clinic, Jacksonville, Florida"
+  ],
+  "category": "Clinical Sciences",
+  "keywords": "GBM, glioma, sbrt, radiotherapy, review",
+  "sections": [
+   {
+    "h": "Introduction",
+    "p": [
+     "Glioblastoma (GBM) is the most common malignant primary central nervous system tumor and remains associated with poor outcomes despite advances in surgery, radiotherapy, and systemic therapy. Hypofractionated radiotherapy (HFRT) has emerged as an alternative strategy to shorten treatment duration while maintaining efficacy. More recently, dose-escalated and ultra-hypofractionated regimens have been investigated, raising important questions regarding optimal patient selection and the future role of treatment acceleration. We reviewed the existing literature to evaluate current evidence supporting HFRT, identify limitations of available studies, and assess the rationale for ongoing and future clinical trials."
+    ]
+   },
+   {
+    "h": "Methods",
+    "p": [
+     "Relevant English-language publications evaluating HFRT in newly diagnosed GBM were reviewed."
+    ]
+   },
+   {
+    "h": "Results",
+    "p": [
+     "Randomized studies consistently demonstrate that HFRT provides survival outcomes comparable to CFRT in elderly and poor-performance-status patients while substantially reducing treatment burden. Preclinical and clinical evidence suggests that hypofractionation may enhance antitumor immune responses through increased antigen release and immune modulation, supporting investigation of HFRT in combination with immune checkpoint inhibitors, vaccine therapies, targeted agents, and tumor-treating fields. However, evidence supporting HFRT in younger and fitter patients remains limited. The phase III GOLD trial failed to demonstrate non-inferiority of ultra-hypofractionated chemoradiation, reporting inferior overall survival and increased treatment-related toxicity compared with standard therapy. In contrast, ongoing trials such as SAGA and COmpACT are evaluating modern HFRT approaches incorporating advanced treatment planning, dose escalation, and broader patient inclusion criteria. Future research is expected to focus on biomarker-driven patient selection, advanced imaging-guided target delineation, radiobiologically optimized schedules, and integration with novel systemic therapies."
+    ]
+   },
+   {
+    "h": "Conclusions",
+    "p": [
+     "HFRT is an established treatment option for selected elderly and frail patients with GBM, providing comparable outcomes while reducing treatment burden. Ongoing randomized studies will determine whether accelerated and dose-escalated HFRT approaches can safely expand to broader patient populations while maintaining efficacy, minimizing toxicity, and improving patient-centered outcomes."
+    ]
+   }
+  ]
+ },
+ "p21": {
+  "authors": [
+   "Abd Moain Abu Dabrh",
+   "Khushboo S. Gala",
+   "Jiakun Yu",
+   "Emily T. Najlis",
+   "Max Plebani",
+   "Maria Daniela Hurtado Andrade",
+   "Iris G. Hargraves",
+   "Jennifer E. Clark",
+   "Michael L. Ganz",
+   "Gretchen E. Ames",
+   "Enrique F. Elli",
+   "Richard O. White",
+   "Sally-Ann L. Pantin",
+   "Andres Acosta",
+   "Juan P. Brito"
+  ],
+  "affiliations": [
+   "Division of Nephrology, Mayo Clinic, Jacksonville, Florida"
+  ],
+  "category": "Clinical Sciences",
+  "keywords": "Weight Management, Obesity, Decision Aid, Endocrinology, Pilot Testing",
+  "sections": [
+   {
+    "h": "Background",
+    "p": [
+     "Obesity management involves multiple treatment options with differing benefits, risks, costs, and burdens, making these decisions highly preference sensitive. Shared decision-making (SDM) is recommended in obesity care, and yet practical tools to support real-time SDM during clinical encounters remain limited. We developed and pilot-tested a point-of-care decision aid, Weight Management Choice, to support structured discussions about weight management options."
+    ]
+   },
+   {
+    "h": "Methods",
+    "p": [
+     "This was a two-phase study combining a human-centered design process with a subsequent single-arm observational pilot study conducted in outpatient clinics at two Mayo Clinic sites. The design phase involved evidence review, observation of clinical encounters, iterative prototyping, and stakeholder-informed field testing. The pilot phase then evaluated the resulting tool in routine encounters between adults considering weight management options and participating clinicians. Post-encounter assessments included the SURE test, the 9-item Shared Decision Making Questionnaire (SDM-Q-9), and technology acceptance instrument assessing perceived usefulness (PU) and perceived ease of use (PEOU)."
+    ]
+   },
+   {
+    "h": "Results",
+    "p": [
+     "Five clinicians were enrolled, four completed at least one assessment. Of 40 patients enrolled, 29 completed at least one patient-reported assessment (median age, 43 years; 75.9% female). Among patients completing the SURE test (n=27), the mean score was 3.81 (SD 0.77) on a 0–4 scale. Among those completing the SDM-Q-9 (n=29), the mean score was 75.0 (SD 18.2) on a 0–100 scale. Patients completing the technology acceptance instrument (n=26) reported mean PU and PEOU scores of 27.2 (SD 4.52) and 27.8 (SD 3.93), respectively. Across 33 clinician encounter-level assessments, corresponding mean scores were 27.5 (SD 2.74) and 29.1 (SD 2.74) on 5–35 scales."
+    ]
+   },
+   {
+    "h": "Conclusions",
+    "p": [
+     "The Weight Management Choice aid was perceived as feasible and had favorable immediate post-encounter ratings of shared decision-making, decisional conflict, and perceived usability. Future research should evaluate its impact on longer-term decision quality, treatment adherence, and clinical outcomes across diverse care settings."
+    ]
+   }
+  ]
  }
 }

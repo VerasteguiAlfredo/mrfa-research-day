@@ -70,7 +70,7 @@
     $("run").innerHTML = (data.agenda || []).map((s, i) => {
       const talks = (s.talks || []).map((id) => talksById[id]).filter(Boolean);
       const when = s.start ? `${fmt(s.start)}${s.end ? ` – ${fmt(s.end)}` : ""}` : esc(s.timeLabel || "");
-      const meta = [s.moderator ? `<span class="who-row">${s.moderatorPhoto ? avatar({ presenter: s.moderator, photo: s.moderatorPhoto }, "sm") : ""}Moderator: ${esc(s.moderator)}</span>` : "", esc(s.who || "")].filter(Boolean).join("<br>");
+      const meta = [s.moderator ? `<span class="who-row">${s.moderatorPhoto ? avatar({ presenter: s.moderator, photo: s.moderatorPhoto }, "sm") : ""}Moderator: ${esc(s.moderator)}</span>` : "", s.who ? (s.link ? `<a class="slot-link" href="${esc(s.link)}">${esc(s.who)}</a>` : esc(s.who)) : ""].filter(Boolean).join("<br>");
       const counts = talks.length ? `${talks.filter((t) => /full/i.test(t.format)).length} full talks, ${talks.filter((t) => /rapid/i.test(t.format)).length} rapid-fire` : "";
       return `<li class="slot ${esc(s.type || "")}" data-start="${esc(s.start || "")}" data-end="${esc(s.end || "")}">
         <div class="slot-head">
@@ -158,11 +158,20 @@
 
   function renderPosters(q) {
     q = q.trim().toLowerCase();
-    const list = (data.posters || []).filter((p) => !q || [p.number, p.presenter, p.title, p.category].join(" ").toLowerCase().includes(q));
-    $("poster-list").innerHTML = list.map((p) => `<li class="poster">
-      <span class="pnum">${esc(p.number)}</span>
-      <div><div class="ttl">${esc(p.title)}</div><div class="who">${esc(p.presenter)}${p.category ? `, ${esc(p.category)}` : ""}</div></div>
-    </li>`).join("");
+    const all = data.posters || [];
+    const list = all.filter((p) => !q || [p.number, p.presenter, p.title, p.category, p.department].join(" ").toLowerCase().includes(q));
+    const groups = [...new Set(all.map((p) => p.category))];
+    $("poster-list").innerHTML = groups.map((g) => {
+      const items = list.filter((p) => p.category === g);
+      if (!items.length) return "";
+      return `<li class="pgroup"><h3>${esc(g)} <span>${items.length}</span></h3><ul>${items.map((p) => `<li class="poster">
+        <span class="pnum">${esc(p.number)}</span>
+        <div>
+          <div class="ttl">${p.abstract ? `<a href="abstract.html?poster=${esc(p.id)}">${esc(p.title)}</a>` : esc(p.title)}</div>
+          <div class="who"><strong>${esc(fullName(p))}</strong>${p.department ? `, ${esc(p.department)}` : ""}</div>
+        </div>
+      </li>`).join("")}</ul></li>`;
+    }).join("");
     $("poster-empty").hidden = list.length > 0;
   }
 
