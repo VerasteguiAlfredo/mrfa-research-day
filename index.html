@@ -93,6 +93,14 @@
         <ul class="judges" id="judge-list"></ul>
       </div>
       <dl class="faq" id="faq"></dl>
+      <div class="award-card" id="award-card" hidden>
+        <h3 id="award-title">Audience Choice Award</h3>
+        <div id="award-text"></div>
+        <div class="award-row">
+          <a class="btn rate-btn" id="award-open" data-start="09:15" data-open-label="Rate a talk" target="_blank" rel="noopener" aria-disabled="true">Rate this talk</a>
+          <div class="qr" id="award-qr" aria-label="QR code for the rating form"></div>
+        </div>
+      </div>
       <div class="share qa-card" id="qa-card" hidden>
         <div class="share-text">
           <h3>Ask a question</h3>
@@ -131,6 +139,7 @@
   </dialog>
 
   <script src="assets/qrcode-generator.js"></script>
+  <script src="assets/rating.js"></script>
   <script src="assets/app.js"></script>
 </body>
 </html>

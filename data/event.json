@@ -15,7 +15,17 @@
     "defaultQuestionUrl": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=nP9fomM_sk-aitm90DIfmt6hjfGQVi1NnuZVQD2XtwFUOFIwOEFJRU9CNVZFRzZGR0E1REQ1VDJNOS4u",
     "notice": "",
     "fullName": "Mayo Clinic Research Fellow Association (MRFA) Research Day, Florida 2026",
-    "tagline": "Discovery, collaboration, impact"
+    "tagline": "Discovery, collaboration, impact",
+    "ratingUrl": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=nP9fomM_sk-aitm90DIfmt6hjfGQVi1NnuZVQD2XtwFURFNNRUVIRURIVlFXQzVMS1k2VUc4QjZRUi4u",
+    "ratingCloses": "13:30",
+    "award": {
+      "title": "Audience Choice Award",
+      "text": [
+        "In addition to the awards determined by the judging panel, MRFA Research Day recognizes one presentation with the Audience Choice Award, selected by the attendees in Kinne Auditorium.",
+        "After each talk, select “Rate this talk” in the program or scan the code below, choose the presentation, and rate it from one to five stars. Each talk becomes available for rating when it begins.",
+        "To keep the results fair, ratings require a Mayo Clinic sign-in, only one rating per attendee per presentation is counted, and ratings by a presentation’s own authors are excluded. Voting closes at 1:30 PM, and the recipient will be announced at the Awards Ceremony at 2:15 PM. Audience ratings are separate from the judges’ evaluations."
+      ]
+    }
   },
   "agenda": [
     {
@@ -94,7 +104,8 @@
       "start": "14:15",
       "end": "14:30",
       "type": "plenary",
-      "title": "Awards ceremony and closing remarks"
+      "title": "Awards ceremony and closing remarks",
+      "who": "Including the Audience Choice Award"
     }
   ],
   "talks": [

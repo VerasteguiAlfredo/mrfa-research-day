@@ -68,14 +68,16 @@
       </article>
 
       <div class="abs-actions">
-        ${q ? `<p class="pick">In the form, choose <strong>${esc(pick)}</strong></p>
+        ${q ? `<p class="pick">In the forms, choose <strong>${esc(pick)}</strong></p>
                <a class="btn" href="${esc(q)}" target="_blank" rel="noopener">Ask a question</a>
+               ${window.MRFARating ? MRFARating.button(t, data.event) : ""}
                <button class="btn ghost" type="button" id="show-qr">Show QR code</button>`
             : `<span class="btn" aria-disabled="true">Questions open on the day</span>`}
         <button class="btn ghost" type="button" onclick="window.print()">Print</button>
       </div>
       <nav class="abs-nav" aria-label="Other abstracts">${navLink(prev, "prev", "Previous")}${navLink(next, "next", "Next")}</nav>`;
 
+    if (window.MRFARating) MRFARating.init(data.event);
     const qrBtn = $("show-qr");
     if (qrBtn) qrBtn.addEventListener("click", () => {
       $("qr-sub").innerHTML = `Then choose <strong>${esc(pick)}</strong> in the form.`;

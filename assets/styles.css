@@ -221,3 +221,13 @@ dialog::backdrop { background: rgba(7,26,54,.65); }
 .role { color: var(--muted); font-size: .88rem; line-height: 1.35; display: inline-block; margin-top: .1rem; }
 .abs-presenter span.small { display: block; }
 .talk-detail .who-row { align-items: flex-start; } .talk-detail .who-row .initials.sm { margin-top: .1rem; }
+
+/* Rating + Audience Choice Award */
+.btn.rate-btn { background: var(--surface); color: var(--blue); }
+.btn.rate-btn:not([aria-disabled])::before { content: "★"; color: #e0a100; }
+.btn.rate-btn[aria-disabled="true"] { background: transparent; border-color: var(--line); color: var(--muted); cursor: default; }
+.award-card { margin: 0 0 1rem; padding: 1.1rem 1rem; border-radius: 12px; border: 1px solid color-mix(in srgb, var(--sunset) 55%, var(--line)); background: color-mix(in srgb, var(--sunset) 14%, var(--surface)); }
+.award-card[hidden] { display: none; }
+.award-card h3 { font-size: 1.25rem; margin-bottom: .5rem; }
+.award-card p { margin: 0 0 .6rem; }
+.award-row { display: flex; align-items: center; justify-content: space-between; gap: 1rem; margin-top: .75rem; flex-wrap: wrap; }

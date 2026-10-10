@@ -26,7 +26,7 @@
 
   fetch(`data/event.json?v=${Date.now()}`, { cache: "no-store" })
     .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
-    .then((d) => { data = d; render(); tick(); setInterval(tick, 30000); })
+    .then((d) => { data = d; render(); tick(); setInterval(tick, 30000); if (window.MRFARating) MRFARating.init(d.event); })
     .catch(() => {
       $("run").innerHTML = `<li class="empty">The program couldn’t load. Check that data/event.json is valid JSON (a missing comma is the usual cause), then refresh.</li>`;
     });
@@ -41,8 +41,9 @@
     const url = questionUrl(t);
     const abs = t.abstract ? `<a class="btn ghost" href="abstract.html?talk=${esc(t.id)}">Read abstract</a>` : "";
     if (!url) return `<div class="actions">${abs}<span class="btn" aria-disabled="true">Questions open on the day</span></div>`;
-    return `<p class="pick">In the form, choose <strong>${esc(pickLabel(t))}</strong></p><div class="actions">
+    return `<p class="pick">In the forms, choose <strong>${esc(pickLabel(t))}</strong></p><div class="actions">
       <a class="btn" href="${esc(url)}" target="_blank" rel="noopener">Ask a question</a>
+      ${window.MRFARating ? MRFARating.button(t, data.event) : ""}
       ${abs}
       <button class="btn ghost" type="button" data-qr="${esc(t.id)}">Show QR code</button>
     </div>`;
@@ -99,6 +100,13 @@
     $("faq").innerHTML = (data.info || []).map((f) => `<dt>${esc(f.q)}</dt><dd>${esc(f.a)}</dd>`).join("");
     if (e.contactEmail) $("faq").innerHTML += `<dt>Email</dt><dd><a href="mailto:${esc(e.contactEmail)}">${esc(e.contactEmail)}</a></dd>`;
     makeQR($("site-qr"), location.href.split("#")[0].split("?")[0], 112);
+    if (e.award && e.ratingUrl) {
+      $("award-card").hidden = false;
+      $("award-title").textContent = e.award.title;
+      $("award-text").innerHTML = e.award.text.map((p) => `<p>${esc(p)}</p>`).join("");
+      $("award-open").dataset.url = e.ratingUrl;
+      makeQR($("award-qr"), e.ratingUrl);
+    }
     if (e.defaultQuestionUrl) {
       $("qa-card").hidden = false;
       $("qa-open").href = e.defaultQuestionUrl;
@@ -210,6 +218,7 @@
     if (chip) {
       document.querySelectorAll(".chip").forEach((c) => c.setAttribute("aria-pressed", c === chip));
       renderSpeakers(chip.dataset.f);
+      if (window.MRFARating) MRFARating.refresh();
       return;
     }
     const qrBtn = ev.target.closest("[data-qr]");
